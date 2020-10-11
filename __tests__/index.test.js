@@ -9,3 +9,11 @@ test('renders hello world', () => {
   )
   expect(textElement).toBeInTheDocument()
 })
+
+test('renders the footer', () => {
+  const { getByText } = render(<Index />)
+  const textElement = getByText(
+    /Copyright © Kevin Mitchell, 2020/
+  )
+  expect(textElement).toBeInTheDocument()
+})
