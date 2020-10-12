@@ -1,7 +1,8 @@
 import Head from 'next/head'
+import Button from '../components/button'
 import Footer from '../components/footer'
 
-export default function Home() {
+export default function Home () {
   return (
     <>
       <Head>
@@ -14,6 +15,10 @@ export default function Home() {
       </Head>
       <main>
         Hello World
+        <Button
+          route={'/menu'}
+          label={'Menu'}
+        />
       </main>
       <Footer />
     </>

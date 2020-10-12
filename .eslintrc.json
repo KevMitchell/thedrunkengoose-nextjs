@@ -6,7 +6,7 @@
         "node": true
     },
     "extends": [
-        "eslint:recommended",
+        "standard",
         "plugin:react/recommended"
     ],
     "parserOptions": {

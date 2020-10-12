@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import PropTypes from "prop-types"
+import PropTypes from 'prop-types'
 
-export default function Button({ route, label }) {
+export default function Button ({ route, label }) {
   return (
     <>
       <Link href={route}>

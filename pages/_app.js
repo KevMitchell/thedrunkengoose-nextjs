@@ -1,7 +1,7 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 import '../styles.css'
 
-export default function App({ Component, pageProps }) {
+export default function App ({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
