@@ -9,7 +9,7 @@ export default function Button ({ route, label }) {
       </Link>
 
       <style jsx>{`
-        div {
+        a {
           display: block;
           width: 150px;
           height: 40px;

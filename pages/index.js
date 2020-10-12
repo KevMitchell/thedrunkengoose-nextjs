@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Button from '../components/button'
+import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 
 export default function Home () {
@@ -14,11 +14,7 @@ export default function Home () {
         />
       </Head>
       <main>
-        Hello World
-        <Button
-          route={'/menu'}
-          label={'Menu'}
-        />
+        <Navigation />
       </main>
       <Footer />
     </>

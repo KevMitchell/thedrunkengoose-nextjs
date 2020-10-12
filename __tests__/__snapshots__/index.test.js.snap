@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders navigation 1`] = `
+Array [
+  <a
+    class="jsx-1730214407"
+    href="/About"
+  >
+    About us
+  </a>,
+  <a
+    class="jsx-1730214407"
+    href="/menu"
+  >
+    Alcoholic
+  </a>,
+  <a
+    class="jsx-1730214407"
+    href="/menu"
+  >
+    Virgin
+  </a>,
+]
+`;

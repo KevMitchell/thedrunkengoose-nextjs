@@ -1,12 +1,12 @@
 import { render } from '@testing-library/react'
 import Index from '../pages/index'
 
-test('renders hello world', () => {
-  const { getByText } = render(<Index />)
-  const textElement = getByText(
-    /Hello World/
+test('renders navigation', () => {
+  const { getAllByRole } = render(<Index />)
+  const navigationLinks = getAllByRole(
+    /link/
   )
-  expect(textElement).toBeInTheDocument()
+  expect(navigationLinks).toMatchSnapshot()
 })
 
 test('renders the footer', () => {
