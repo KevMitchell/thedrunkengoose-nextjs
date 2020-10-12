@@ -3,7 +3,7 @@ import Button from './button'
 
 export default function Navigation () {
   return (
-    <>
+    <div>
       <Link href={'/'}>
         <img
           src='./img/full-logo.png'
@@ -21,10 +21,14 @@ export default function Navigation () {
       />
 
       <style jsx>{`
+        div {
+          float: left;
+          margin-right: 20px;
+        }
         img {
           cursor: pointer;
         }
       `}</style>
-    </>
+    </div>
   )
 }

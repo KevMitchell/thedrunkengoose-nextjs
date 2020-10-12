@@ -15,11 +15,23 @@ export default function App ({ Component, pageProps = {} }) {
           content="The Drunken Goose Website"
         />
       </Head>
+      <Navigation />
       <main>
-        <Navigation />
         <Component {...pageProps} />
       </main>
       <Footer />
+
+      <style jsx>{`
+        main {
+          position: relative;
+          top: 0;
+          right: 0;
+          text-align: center;
+          width: calc(95% - 320px);
+          height: 100%;
+          margin: 30px auto;
+        }
+      `}</style>
     </>
   )
 }
