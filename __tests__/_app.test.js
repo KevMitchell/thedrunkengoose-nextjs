@@ -1,8 +1,10 @@
 import { render } from '@testing-library/react'
-import Index from '../pages/index'
+import App from '../pages/_app'
+
+const component = () => <div />
 
 test('renders navigation', () => {
-  const { getAllByRole } = render(<Index />)
+  const { getAllByRole } = render(<App Component={component} />)
   const navigationLinks = getAllByRole(
     /link/
   )
@@ -10,7 +12,7 @@ test('renders navigation', () => {
 })
 
 test('renders the footer', () => {
-  const { getByText } = render(<Index />)
+  const { getByText } = render(<App Component={component} />)
   const textElement = getByText(
     /Copyright © Kevin Mitchell, 2020/
   )

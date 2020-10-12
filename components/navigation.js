@@ -1,23 +1,30 @@
+import Link from 'next/link'
 import Button from './button'
 
 export default function Navigation () {
   return (
     <>
-      <div>
-        <img src='./img/full-logo.png' className='goose-title' alt='The Drunken Goose' />
-      </div>
+      <Link href={'/'}>
+        <img
+          src='./img/full-logo.png'
+          className='goose-title'
+          alt='The Drunken Goose'
+        />
+      </Link>
       <Button
-        route={'/About'}
+        route={'/about'}
         label={'About us'}
       />
       <Button
         route={'/menu'}
-        label={'Alcoholic'}
+        label={'Menu'}
       />
-      <Button
-        route={'/menu'}
-        label={'Virgin'}
-      />
+
+      <style jsx>{`
+        img {
+          cursor: pointer;
+        }
+      `}</style>
     </>
   )
 }
