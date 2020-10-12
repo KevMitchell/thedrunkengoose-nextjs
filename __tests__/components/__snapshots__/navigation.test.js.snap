@@ -5,6 +5,13 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div>
+        <img
+          alt="The Drunken Goose"
+          class="goose-title"
+          src="./img/full-logo.png"
+        />
+      </div>
       <a
         class="jsx-1730214407"
         href="/About"
@@ -26,6 +33,13 @@ Object {
     </div>
   </body>,
   "container": <div>
+    <div>
+      <img
+        alt="The Drunken Goose"
+        class="goose-title"
+        src="./img/full-logo.png"
+      />
+    </div>
     <a
       class="jsx-1730214407"
       href="/About"
