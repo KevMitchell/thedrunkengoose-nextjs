@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the menu displays drinks and selection items 1`] = `
+<div>
+  <span
+    class="jsx-1998843798 selected"
+  >
+    Alcoholic
+  </span>
+  <span
+    class="jsx-1998843798 "
+  >
+    Virgin
+  </span>
+  <div
+    class="jsx-2198787177 drinkList"
+  >
+    <div
+      class="jsx-2198787177"
+    >
+      Test Drink1
+    </div>
+    <div
+      class="jsx-2198787177"
+    >
+      Test Drink2
+    </div>
+  </div>
+</div>
+`;

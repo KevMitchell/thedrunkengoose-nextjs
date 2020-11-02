@@ -1,0 +1,598 @@
+[
+  {
+    "name": "Amber wave",
+    "image": "AmberWave.jpg",
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 50 },
+      { "name": "Lemon juice", "quantity": 15 },
+      { "name": "Maple syrup", "quantity": 15 },
+      { "name": "Ginger beer", "quantity": 90 }
+    ]
+  },
+  {
+    "name": "Arnold Palmer",
+    "image": "Arnold.jpg",
+    "virgin": true,
+    "ingredients": [
+      { "name": "Iced tea", "quantity": 180 },
+      { "name": "Lemonade", "quantity": 90 },
+      { "name": "Grenadine", "quantity": 15, "optional": true },
+      { "name": "Flavoured syrup", "quantity": 15, "optional": true }
+    ]
+  },
+  {
+    "name": "Bahama mama",
+    "image": "BahamaMama.jpg",
+    "ingredients": [
+      { "name": "Kahlua", "quantity": 15 },
+      { "name": "Rum (dark)", "quantity": 30 },
+      { "name": "Coconut liqueur", "quantity": 30 },
+      { "name": "Rum (overproof)", "quantity": 15 },
+      { "name": "Lemon juice", "quantity": 30 },
+      { "name": "Pineapple juice", "quantity": 240 },
+      { "name": "Grenadine", "quantity": 15, "optional": true },
+      { "name": "Orange juice", "quantity": 120, "optional": true }
+    ]
+  },
+  {
+    "name": "Botanist",
+    "image": "Botanist.jpg",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 15 },
+      { "name": "Rum (white)", "quantity": 15 },
+      { "name": "Elderflower liqueur", "quantity": 15 },
+      { "name": "Jasmine syrup", "quantity": 15 },
+      { "name": "Lime juice", "quantity": 22 },
+      { "name": "Lemonade", "quantity": 50 }
+    ]
+  },
+  {
+    "name": "Cherry Cola Smash",
+    "image": "BourbonCherry.jpg",
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 60 },
+      { "name": "Cherry brandy", "quantity": 30 },
+      { "name": "Lime juice", "quantity": 15 },
+      { "name": "Coke", "quantity": 15, "alternative": "Ginger beer" },
+      { "name": "Cherries", "quantity": 6 }
+    ]
+  },
+  {
+    "name": "Bramble",
+    "image": "Bramble.jpg",
+    "ingredients": [
+      { "name": "Gin", "quantity": 50 },
+      { "name": "Lemon juice", "quantity": 25 },
+      { "name": "Sugar syrup", "quantity": 12 },
+      { "name": "Blackberry liqueuer", "quantity": 12 }
+    ]
+  },
+  {
+    "name": "Brandy Alexander",
+    "image": "BrandyAlexander.jpg",
+    "ingredients": [
+      { "name": "Brandy", "quantity": 50 },
+      { "name": "Creme de cacao", "quantity": 30 },
+      { "name": "Ice cream", "quantity": 30 },
+      { "name": "Blender", "optional": true }
+    ]
+  },
+  {
+    "name": "Claremont",
+    "image": "Claremont.jpg",
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 50 },
+      { "name": "Soda water", "quantity": 35 },
+      { "name": "Orange curacao", "quantity": 25 },
+      { "name": "Orange bitters", "quantity": 3, "dashes": true },
+      { "name": "Orange" },
+      { "name": "Cherry" }
+    ]
+  },
+  {
+    "name": "Coctel Nacional",
+    "image": "CoctelNacional.jpg",
+    "ingredients": [
+      { "name": "Apricot brandy", "quantity": 10 },
+      { "name": "Rum (white)", "quantity": 60 },
+      { "name": "Lemon juice", "quantity": 10 },
+      { "name": "Pineapple juice", "quantity": 60 }
+    ]
+  },
+  {
+    "name": "Cucumber Elderflower",
+    "image": "CucumberElderflower.jpg",
+    "virgin": true,
+    "ingredients": [
+      { "name": "Cucumber", "quantity": 1 },
+      { "name": "Elderflower cordial", "quantity": 60 },
+      { "name": "Lime juice", "quantity": 30 },
+      { "name": "Soda water", "quantity": 150 },
+      { "name": "Mint", "quantity": 1 }
+    ]
+  },
+  {
+    "name": "Daiquiri",
+    "image": "Daiquiri.jpg",
+    "ingredients": [
+      { "name": "Rum (white)", "quantity": 50 },
+      { "name": "Lime", "quantity": 25 },
+      { "name": "Sugar syrup", "quantity": 25 }
+    ]
+  },
+  {
+    "name": "Dark and Stormy",
+    "image": "DarkAndStormy.jpg",
+    "ingredients": [
+      { "name": "Ginger beer", "quantity": 80 },
+      { "name": "Rum (dark)", "quantity": 50 },
+      { "name": "Lime", "quantity": 20 },
+      { "name": "Angostura bitters", "dashes": true, "optional": true }
+    ]
+  },
+  {
+    "name": "Dragon's Breath",
+    "image": "DragonsBreath.jpg",
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 50 },
+      { "name": "Sugar syrup (JD)", "quantity": 10 },
+      { "name": "Cointreau", "quantity": 10 },
+      { "name": "St Germain", "quantity": 10 },
+      { "name": "Smoke machine" }
+    ]
+  },
+  {
+    "name": "Dr Pepper",
+    "image": "DrPepper.jpg",
+    "ingredients": [
+      { "name": "Cherry brandy", "quantity": 25 },
+      { "name": "Disaronno", "quantity": 25 },
+      { "name": "Lime juice", "quantity": 10 },
+      { "name": "Coke" }
+    ]
+  },
+  {
+    "name": "Emerald Isle",
+    "image": "EmeraldIsle.jpg",
+    "ingredients": [
+      { "name": "Gin", "quantity": 50 },
+      { "name": "Creme de menthe", "quantity": 5 },
+      { "name": "Angostura bitters", "quantity": 2, "dashes": true }
+    ]
+  },
+  {
+    "name": "Espresso Martini",
+    "image": "EspressoMartini.jpg",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 40 },
+      { "name": "Kahlua", "quantity": 30 },
+      { "name": "Espresso", "quantity": 40 }
+    ]
+  },
+  {
+    "name": "French Connection",
+    "image": "FrenchConnection.jpg",
+    "ingredients": [
+      { "name": "Brandy", "quantity": 50 },
+      { "name": "Disaronno", "quantity": 25 }
+    ]
+  },
+  {
+    "name": "Frozen Daiquiri",
+    "image": "FrozenDaiquiri.jpg",
+    "ingredients": [
+      { "name": "Rum (white)", "quantity": 50 },
+      { "name": "Lime", "quantity": 25 },
+      { "name": "Sugar syrup", "quantity": 25 },
+      { "name": "Blender" }
+    ]
+  },
+  {
+    "name": "Generosidad",
+    "image": "Generosidad.jpg",
+    "ingredients": [
+      { "name": "Coconut liqueur", "quantity": 30 },
+      { "name": "Espresso", "quantity": 40 },
+      { "name": "Patron XO", "quantity": 25 },
+      { "name": "Coconut milk", "quantity": 25 },
+      { "name": "Sugar syrup", "quantity": 15 }
+    ]
+  },
+  {
+    "name": "Godfather",
+    "image": "Godfather.jpg",
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 50 },
+      { "name": "Disaronno", "quantity": 25 }
+    ]
+  },
+  {
+    "name": "Grasshopper",
+    "image": "Grasshopper.jpg",
+    "ingredients": [
+      { "name": "Creme de menthe", "quantity": 30 },
+      { "name": "Creme de cacao", "quantity": 30 },
+      { "name": "Ice cream", "quantity": 30 }
+    ]
+  },
+  {
+    "name": "Hawksmoor Marmalade",
+    "image": "Hawksmoor.jpg",
+    "ingredients": [
+      { "name": "Gin", "quantity": 50 },
+      { "name": "Marmalade", "quantity": 1 },
+      { "name": "Campari", "quantity": 5 },
+      { "name": "Lemon juice", "quantity": 15 },
+      { "name": "Orange bitters", "quantity": 1, "dashes": true }
+    ]
+  },
+  {
+    "name": "Hemingway Daiquiri",
+    "image": "HemingwayDaiquiri.jpg",
+    "ingredients": [
+      { "name": "Rum (white)", "quantity": 60 },
+      { "name": "Cointreau", "quantity": 15 },
+      { "name": "Maraschino liqueur", "quantity": 15 },
+      { "name": "Lime juice", "quantity": 45 },
+      { "name": "Grapefruit juice", "quantity": 30 },
+      { "name": "Sugar syrup", "quantity": 10 }
+    ]
+  },
+  {
+    "name": "Heralds Blood",
+    "image": "HeraldsBlood.jpg",
+    "ingredients": [
+      { "name": "Rum (white)", "quantity": 60 },
+      { "name": "Raspberry and Tyme syrup", "quantity": 40 },
+      { "name": "Lemon juice", "quantity": 20 },
+      { "name": "Overproof rum", "quantity": 5 },
+      { "name": "Blowtorch" }
+    ]
+  },
+  {
+    "name": "Jackhammer",
+    "image": "Jackhammer.jpg",
+    "ingredients": [
+      { "name": "Gin", "quantity": 30 },
+      { "name": "Campari", "quantity": 30 },
+      { "name": "Vermouth (sweet)", "quantity": 30 },
+      { "name": "Blender", "optional": true }
+    ]
+  },
+  {
+    "name": "Kentucky mule",
+    "image": "Mule.jpg",
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 50 },
+      { "name": "Lime", "quantity": 20 },
+      { "name": "Ginger beer", "quantity": 120 }
+    ]
+  },
+  {
+    "name": "Long island iced tea",
+    "image": "liit.jpg",
+    "ingredients": [
+      { "name": "Gin", "quantity": 15 },
+      { "name": "Vodka", "quantity": 15 },
+      { "name": "Triple sec", "quantity": 15 },
+      { "name": "Rum (white)", "quantity": 15 },
+      { "name": "Tequila", "quantity": 15 },
+      { "name": "Lemon", "quantity": 25 },
+      { "name": "Sugar syrup", "quantity": 25 },
+      { "name": "Coke", "quantity": 20 }
+    ]
+  },
+  {
+    "name": "Martini",
+    "image": "Martini.jpg",
+    "ingredients": [
+      { "name": "Gin", "quantity": 50 },
+      { "name": "Vermouth (dry)", "quantity": 1 }
+    ]
+  },
+  {
+    "name": "Mai tai",
+    "image": "MaiTai.jpg",
+    "ingredients": [
+      { "name": "Rum (white)", "quantity": 40 },
+      { "name": "Rum (dark)", "quantity": 20 },
+      { "name": "Orange curacao", "quantity": 15 },
+      { "name": "Orgeat syrup", "quantity": 15 },
+      { "name": "Lime", "quantity": 10 }
+    ]
+  },
+  {
+    "name": "Man O' War",
+    "image": "ManOWar.jpg",
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 60 },
+      { "name": "Cointreau", "quantity": 30 },
+      { "name": "Vermouth (sweet)", "quantity": 15 },
+      { "name": "Lemon", "quantity": 15 },
+      { "name": "Sugar syrup", "quantity": 10 }
+    ]
+  },
+  {
+    "name": "Margarita",
+    "image": "Margarita.jpg",
+    "ingredients": [
+      { "name": "Tequila", "quantity": 50 },
+      { "name": "Cointreau", "quantity": 25 },
+      { "name": "Lime", "quantity": 25 }
+    ]
+  },
+  {
+    "name": "Mary Pickford",
+    "image": "Mary.jpg",
+    "ingredients": [
+      { "name": "Rum (white)", "quantity": 60 },
+      { "name": "Pineapple juice", "quantity": 45 },
+      { "name": "Maraschino liqueur", "quantity": 5 },
+      { "name": "Grenadine", "quantity": 5 }
+    ]
+  },
+  {
+    "name": "Moscow mule",
+    "image": "Mule.jpg",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 50 },
+      { "name": "Lime", "quantity": 20 },
+      { "name": "Ginger beer", "quantity": 120 }
+    ]
+  },
+  {
+    "name": "Multiple orgasms",
+    "image": "MultipleOrgasms.jpg",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 30 },
+      { "name": "Disaronno", "quantity": 30 },
+      { "name": "Kahlua", "quantity": 30 },
+      { "name": "Baileys", "quantity": 30 }
+    ]
+  },
+  {
+    "name": "Negroni",
+    "image": "Negroni.jpg",
+    "ingredients": [
+      { "name": "Gin", "quantity": 40 },
+      { "name": "Campari", "quantity": 30 },
+      { "name": "Vermouth (sweet)", "quantity": 30 },
+      { "name": "Elderflower liqueur", "quantity": 15, "optional": true }
+    ]
+  },
+  {
+    "name": "Cherry Smoked Negroni",
+    "image": "Negroni.jpg",
+    "ingredients": [
+      { "name": "Tequila", "quantity": 40 },
+      { "name": "Campari", "quantity": 30 },
+      { "name": "Vermouth (sweet)", "quantity": 30 },
+      { "name": "Angostura bitters", "quantity": 1, "dashes": true },
+      { "name": "Smoke machine" }
+    ]
+  },
+  {
+    "name": "New England Sour",
+    "image": "NewEnglandSour.jpg",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 60 },
+      { "name": "Maple syrup", "quantity": 20 },
+      { "name": "Grapefruit juice", "quantity": 120 },
+      { "name": "Angostura bitters", "quantity": 2 }
+    ]
+  },
+  {
+    "name": "Nice and sloe",
+    "image": "NiceAndSloe.jpg",
+    "ingredients": [
+      { "name": "Rum (white)", "quantity": 40 },
+      { "name": "Sloe gin", "quantity": 20 },
+      { "name": "Lemon juice", "quantity": 20 },
+      { "name": "Sugar syrup", "quantity": 5 },
+      { "name": "Mint leaves" }
+    ]
+  },
+  {
+    "name": "Old Fashioned",
+    "image": "OldFashioned.jpg",
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 50 },
+      { "name": "Angostura bitters", "quantity": 2, "dashes": true },
+      { "name": "Sugar syrup", "quantity": 10 },
+      { "name": "Soda water", "quantity": 5 }
+    ]
+  },
+  {
+    "name": "Altos Old Fashioned",
+    "image": "AOF.jpg",
+    "ingredients": [
+      { "name": "Tequila", "quantity": 60 },
+      { "name": "Walnut bitters", "quantity": 6, "dashes": true },
+      { "name": "Coffee bitters", "quantity": 2, "dashes": true },
+      { "name": "Agave syrup", "quantity": 10 }
+    ]
+  },
+  {
+    "name": "Pink Lady",
+    "image": "PinkLady.jpg",
+    "ingredients": [
+      { "name": "Gin", "quantity": 40 },
+      { "name": "Applejack", "quantity": 20 },
+      { "name": "Aquafaba", "quantity": 15 },
+      { "name": "Lemon juice", "quantity": 15 },
+      { "name": "Grenadine", "quantity": 15 },
+      { "name": "Cherry" }
+    ]
+  },
+  {
+    "name": "Plumb Fashioned",
+    "image": "OldFashioned.jpg",
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 50 },
+      { "name": "Angostura bitters", "quantity": 1, "dashes": true },
+      { "name": "Rhubarb bitters", "quantity": 1, "dashes": true },
+      { "name": "Sugar syrup", "quantity": 10 },
+      { "name": "Plumb sake", "quantity": 10 }
+    ]
+  },
+  {
+    "name": "Rhubarb and Custard",
+    "image": "RhubarbAndCustard.jpg",
+    "ingredients": [
+      { "name": "Rhubarb and Ginger Gin", "quantity": 50 },
+      { "name": "Rhubarb bitters", "quantity": 4, "dashes": true },
+      { "name": "Apple juice", "quantity": 100 },
+      { "name": "Brandy", "quantity": 20 },
+      { "name": "Vanilla extract", "quantity": 10 },
+      { "name": "Lemon juice", "quantity": 15 },
+      { "name": "Grenadine", "quantity": 10 }
+    ]
+  },
+  {
+    "name": "Root Beer",
+    "image": "RootBeer.jpg",
+    "ingredients": [
+      { "name": "Galliano", "quantity": 30 },
+      { "name": "Kahlua", "quantity": 15 },
+      { "name": "Lime juice", "quantity": 5 },
+      { "name": "Coke", "quantity": 120 }
+    ]
+  },
+  {
+    "name": "Sezerac",
+    "image": "Sezerac.jpg",
+    "ingredients": [
+      { "name": "Absinthe", "quantity": 5 },
+      { "name": "Whiskey (rye)", "quantity": 50, "alternative": "Brandy" },
+      { "name": "Peychaud bitters", "quantity": 3, "dashes": true },
+      { "name": "Sugar syrup", "quantity": 10 },
+      { "name": "Lemon" }
+    ]
+  },
+  {
+    "name": "Shirley Temple",
+    "image": "ShirleyTemple.jpg",
+    "virgin": true,
+    "ingredients": [
+      { "name": "Grenadine", "quantity": 10 },
+      { "name": "Lime", "quantity": 10 },
+      { "name": "Ginger beer", "quantity": 70 },
+      { "name": "Strawberries", "quantity": 2 }
+    ]
+  },
+  {
+    "name": "Sidecar Mocktail",
+    "image": "SidecarMocktail.jpg",
+    "virgin": true,
+    "ingredients": [
+      { "name": "Lapsang Souchong Tea", "quantity": 50 },
+      { "name": "Lemon Juice", "quantity": 50 },
+      { "name": "Marmalade", "quantity": 10 },
+      { "name": "Agave nectar", "quantity": 2 }
+    ]
+  },
+  {
+    "name": "Sidecar",
+    "image": "Sidecar.jpg",
+    "ingredients": [
+      { "name": "Cognac", "quantity": 60 },
+      { "name": "Cointreau", "quantity": 25 },
+      { "name": "Lemon juice", "quantity": 25 },
+      { "name": "Sugar syrup", "quantity": 10},
+      { "name": "Sugar" }
+    ]
+  },
+  {
+    "name": "Smoking in the sidecar",
+    "image": "SmokingInTheSidecar.jpg",
+    "ingredients": [
+      { "name": "Cognac", "quantity": 60 },
+      { "name": "Cointreau", "quantity": 25 },
+      { "name": "Lemon juice", "quantity": 25 },
+      { "name": "Sugar syrup", "quantity": 10},
+      { "name": "Smoke machine" },
+      { "name": "Sugar" }
+    ]
+  },
+  {
+    "name": "Tahiti Jungle Juice",
+    "image": "Tahiti.jpg",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 30 },
+      { "name": "Malibu", "quantity": 30 },
+      { "name": "Run (white)", "quantity": 30 },
+      { "name": "Midori", "quantity": 30},
+      { "name": "Apple juice", "quantity": 60},
+      { "name": "Pineapple juice", "quantity": 60}
+    ]
+  },
+  {
+    "name": "Tennessee mule",
+    "image": "Mule.jpg",
+    "ingredients": [
+      { "name": "Whiskey (tennessee)", "quantity": 50 },
+      { "name": "Lime", "quantity": 20 },
+      { "name": "Ginger beer", "quantity": 120 }
+    ]
+  },
+  {
+    "name": "Trees of Liathaven",
+    "image": "TreesOfLiathaven.jpg",
+    "ingredients": [
+      { "name": "Vodka", "quantity": 40 },
+      { "name": "Triple sec", "quantity": 20 },
+      { "name": "Midori", "quantity": 20 },
+      { "name": "Ginger beer", "quantity": 120 },
+      { "name": "Grenadine", "quantity": 10 },
+      { "name": "Lime slice", "quantity": 1 },
+      { "name": "Rum (overproof)", "quantity": 5 },
+      { "name": "Blowtorch" }
+    ]
+  },
+  {
+    "name": "Vanderbilt",
+    "image": "Vanderbilt.jpg",
+    "ingredients": [
+      { "name": "Cognac", "quantity": 60 },
+      { "name": "Cherry brandy", "quantity": 20 },
+      { "name": "Sugar syrup", "quantity": 5 },
+      { "name": "Angostura bitters", "dashes": true }
+    ]
+  },
+  {
+    "name": "Walk in the Garden",
+    "image": "WalkInTheGarden.jpg",
+    "ingredients": [
+      { "name": "Gin", "quantity": 50 },
+      { "name": "Rhubarb liqueuer", "quantity": 30 },
+      { "name": "Lemon juice", "quantity": 20 },
+      { "name": "Sugar syrup", "quantity": 10 },
+      { "name": "Apple juice", "quantity": 90 },
+      { "name": "Mint" },
+      { "name": "Cucumber" }
+    ]
+  },
+  {
+    "name": "Watermelon Margarita",
+    "image": "WatermelonMargarita.jpg",
+    "ingredients": [
+      { "name": "Tequila", "quantity": 40 },
+      { "name": "Passoa", "quantity": 30 },
+      { "name": "Lemon juice", "quantity": 10 },
+      { "name": "Lime juice", "quantity": 10 },
+      { "name": "Sugar syrup", "quantity": 10 },
+      { "name": "Watermelon liqueur", "quantity": 20 },
+      { "name": "Grenadine" }
+    ]
+  },
+  {
+    "name": "Whisky Smash",
+    "image": "WhiskySmash.jpg",
+    "ingredients": [
+      { "name": "Whisky (bourbon)", "quantity": 60 },
+      { "name": "Lemon (quarter)", "quantity": 1 },
+      { "name": "Sugar syrup", "quantity": 10 },
+      { "name": "Mint leaves", "quantity": 7 }
+    ]
+  }
+]

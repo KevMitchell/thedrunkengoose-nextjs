@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "test": "npm run lint && jest .",
-    "test:watch": "npm run lint && jest . --watch"
+    "test": "jest .",
+    "test:watch": "jest . --watch"
   },
   "pre-commit": [
     "test"

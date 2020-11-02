@@ -24,6 +24,7 @@ export default function Navigation () {
         div {
           float: left;
           margin-right: 20px;
+          position: absolute;
         }
         img {
           cursor: pointer;

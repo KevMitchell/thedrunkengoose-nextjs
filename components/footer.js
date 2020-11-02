@@ -6,12 +6,12 @@ export default function Footer () {
       </footer>
       <style jsx>{`
         footer {
-          position: absolute;
+          position: fixed;
           bottom: 0;
           left: 0;
           opacity: 0.6;
           font-size: 10px;
-          margin: 10px 0;
+          margin: 10px;
         }
       `}</style>
     </>

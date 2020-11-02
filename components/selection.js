@@ -1,23 +1,22 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import PropTypes from 'prop-types'
 
 export default function Selection ({ options, initialValue, changeListener }) {
   const [selectedItem, setSelectedItem] = useState(initialValue)
 
-  useEffect(() => {
-    changeListener(selectedItem)
-  })
-
   return (
     <>
-      {options.map(o => {
+      {options.map(option => {
         return (
           <span
-            key={o}
-            onClick={() => setSelectedItem(o)}
-            className={o === selectedItem ? 'selected' : ''}
+            key={option}
+            onClick={() => {
+              setSelectedItem(option)
+              changeListener(option)
+            }}
+            className={option === selectedItem ? 'selected' : ''}
           >
-            {o}
+            {option}
           </span>
         )
       })}
@@ -25,7 +24,8 @@ export default function Selection ({ options, initialValue, changeListener }) {
       <style jsx>{`
         span {
           margin: 10px;
-          opacity: 1
+          opacity: 1;
+          cursor: pointer;
         }
         span.selected {
           opacity: 0.6
