@@ -227,18 +227,6 @@
     ]
   },
   {
-    "name": "Hemingway Daiquiri",
-    "image": "HemingwayDaiquiri.jpg",
-    "ingredients": [
-      { "name": "Rum (white)", "quantity": 60 },
-      { "name": "Cointreau", "quantity": 15 },
-      { "name": "Maraschino liqueur", "quantity": 15 },
-      { "name": "Lime juice", "quantity": 45 },
-      { "name": "Grapefruit juice", "quantity": 30 },
-      { "name": "Sugar syrup", "quantity": 10 }
-    ]
-  },
-  {
     "name": "Heralds Blood",
     "image": "HeraldsBlood.jpg",
     "ingredients": [
