@@ -7,6 +7,7 @@ import '../styles.css'
 export default function App ({ Component, pageProps = {} }) {
   return (
     <>
+      <div className='background'></div>
       <Head>
         <title>The Drunken Goose</title>
         <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'></link>
@@ -21,7 +22,24 @@ export default function App ({ Component, pageProps = {} }) {
       </main>
       <Footer />
 
+      <style jsx global>{`
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: black;
+        }
+      `}</style>
+
       <style jsx>{`
+        .background {
+          position: fixed;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          background-image: url('./img/background.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
         main {
           position: relative;
           top: 0;

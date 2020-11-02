@@ -12,6 +12,7 @@ export default function Footer () {
           opacity: 0.6;
           font-size: 10px;
           margin: 10px;
+          color: white;
         }
       `}</style>
     </>
