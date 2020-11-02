@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { DrinkEntry } from '../components/drink-entry'
 import Selection from '../components/selection'
 import drinksFile from '../public/data/drinks.json'
 
@@ -25,16 +26,26 @@ export default function Menu () {
       />
       <div className='drinkList'>
         {drinks.map(drink => (
-          <div key={drink.name}>
-            {drink.name}
-          </div>
+          <DrinkEntry
+            key={drink.name}
+            name={drink.name}
+            image={drink.image}
+            ingredients={drink.ingredients}
+          />
         ))}
       </div>
 
       <style jsx>{`
-        drinkList {
+        .drinkList {
           margin: 10px;
         }
+        @media (max-width: 690px) {
+          .drinkList {
+            width: 100%;
+            left: 0;
+            text-align: center;
+            margin-left: 0;
+          }
       `}</style>
     </>
   )

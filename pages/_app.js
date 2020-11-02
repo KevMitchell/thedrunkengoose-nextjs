@@ -26,6 +26,7 @@ export default function App ({ Component, pageProps = {} }) {
           position: relative;
           top: 0;
           right: 0;
+          left: 150px;
           text-align: center;
           width: calc(95% - 320px);
           height: 100%;
