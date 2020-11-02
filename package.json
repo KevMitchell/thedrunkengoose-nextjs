@@ -12,6 +12,7 @@
     "test:watch": "jest . --watch"
   },
   "pre-commit": [
+    "lint",
     "test"
   ],
   "dependencies": {
