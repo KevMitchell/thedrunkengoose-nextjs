@@ -39,13 +39,14 @@ export default function Menu () {
         .drinkList {
           margin: 10px;
         }
-        @media (max-width: 690px) {
+        @media (max-width: 780px) {
           .drinkList {
             width: 100%;
             left: 0;
             text-align: center;
             margin-left: 0;
           }
+        }
       `}</style>
     </>
   )

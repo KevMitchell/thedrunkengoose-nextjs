@@ -5,7 +5,7 @@ export default function Selection ({ options, initialValue, changeListener }) {
   const [selectedItem, setSelectedItem] = useState(initialValue)
 
   return (
-    <>
+    <div>
       {options.map(option => {
         return (
           <span
@@ -22,6 +22,10 @@ export default function Selection ({ options, initialValue, changeListener }) {
       })}
 
       <style jsx>{`
+        div {
+          width: 100%;
+          display: inline-block;
+        }
         span {
           display: inline-block;
           width: 150px;
@@ -45,7 +49,7 @@ export default function Selection ({ options, initialValue, changeListener }) {
           opacity: 1;
         }
       `}</style>
-    </>
+    </div>
   )
 }
 

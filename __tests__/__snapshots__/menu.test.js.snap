@@ -2,18 +2,22 @@
 
 exports[`the menu displays drinks and selection items 1`] = `
 <div>
-  <span
-    class="jsx-4048178988 selected"
-  >
-    Alcoholic
-  </span>
-  <span
-    class="jsx-4048178988 "
-  >
-    Virgin
-  </span>
   <div
-    class="jsx-2660153506 drinkList"
+    class="jsx-2657862061"
+  >
+    <span
+      class="jsx-2657862061 selected"
+    >
+      Alcoholic
+    </span>
+    <span
+      class="jsx-2657862061 "
+    >
+      Virgin
+    </span>
+  </div>
+  <div
+    class="jsx-1499698495 drinkList"
   >
     <div
       class="jsx-2343412649 drinkItem"

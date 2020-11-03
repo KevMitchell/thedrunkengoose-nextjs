@@ -25,9 +25,15 @@ export default function Navigation () {
           float: left;
           margin-right: 20px;
           position: absolute;
+          z-index: 2;
         }
         img {
           cursor: pointer;
+        }
+        @media (max-width: 780px) {
+          div {
+            position: relative;
+          }
         }
       `}</style>
     </div>

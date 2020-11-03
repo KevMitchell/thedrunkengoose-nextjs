@@ -3,11 +3,11 @@
 exports[`button renders with correct label 1`] = `
 <div>
   <div
-    class="jsx-3407900810"
+    class="jsx-443837931"
   >
     <img
       alt="The Drunken Goose"
-      class="jsx-3407900810 goose-title"
+      class="jsx-443837931 goose-title"
       src="./img/full-logo.png"
     />
     <a

@@ -51,6 +51,15 @@ export default function App ({ Component, pageProps = {} }) {
           height: 100%;
           margin: 30px auto;
         }
+
+        @media (max-width: 780px) {
+          main {
+            width: 95%;
+            left: 0;
+            text-align: center;
+            margin-left: 0;
+          }
+        }
       `}</style>
     </>
   )
