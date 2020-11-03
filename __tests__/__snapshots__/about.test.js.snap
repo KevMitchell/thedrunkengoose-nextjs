@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders navigation 1`] = `
+<div>
+  <div
+    class="jsx-423633127 about"
+  >
+    <div
+      class="jsx-423633127 text"
+    >
+      <div
+        class="jsx-423633127"
+      >
+        The Drunken Goose is a cocktail bar serving the very best in drinks and company.
+      </div>
+      <div
+        class="jsx-423633127"
+      >
+        We can be found in LARP events around the UK; all are welcome to come sit by the fire, drink, eat, gossip, and sing.
+      </div>
+      <div
+        class="jsx-423633127"
+      >
+        Private tables are available on request.
+      </div>
+    </div>
+    <img
+      alt="Drunken Goose Crew"
+      class="jsx-423633127"
+      src="./img/crew1.jpg"
+    />
+    <img
+      alt="Drunken Goose"
+      class="jsx-423633127"
+      src="./img/goose1.jpg"
+    />
+    <div
+      class="jsx-423633127 text"
+    >
+      <div
+        class="jsx-423633127"
+      >
+        <a
+          alt="Profound Decisions: Empire"
+          class="jsx-423633127"
+          href="https://www.profounddecisions.co.uk/empire"
+        >
+          Profound Decisions: Empire
+        </a>
+      </div>
+      <div
+        class="jsx-423633127"
+      >
+        The staff of The Drunken Goose are part of the Nation of Navarr at Empire events. The Goose can be found in the Navarr woods at the intersection between the main camp path and Murder Alley leading to the Wintermark camp.
+      </div>
+    </div>
+    <img
+      alt="Drunken Goose Crew"
+      class="jsx-423633127"
+      src="./img/crew2.jpg"
+    />
+    <img
+      alt="Drunken Goose Crew"
+      class="jsx-423633127"
+      src="./img/goose2.jpg"
+    />
+    <img
+      alt="Drunken Goose Crew"
+      class="jsx-423633127"
+      src="./img/goose3.jpg"
+    />
+    <div
+      class="jsx-423633127 text last"
+    >
+      <div
+        class="jsx-423633127"
+      >
+        For queries we can be contacted at 
+        <a
+          class="jsx-423633127"
+          href="mailto:contact@thedrunkengoose.com"
+        >
+          contact@thedrunkengoose.com
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
