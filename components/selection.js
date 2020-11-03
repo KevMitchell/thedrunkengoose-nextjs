@@ -23,12 +23,26 @@ export default function Selection ({ options, initialValue, changeListener }) {
 
       <style jsx>{`
         span {
+          display: inline-block;
+          width: 150px;
+          height: 40px;
           margin: 10px;
-          opacity: 1;
+          text-align: center;
           cursor: pointer;
+          color: white;
+          background: inherit;
+          background-image: url(/img/smear.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-blend-mode: difference;
+          padding-top: 14px;
+          text-decoration: none;
+          cursor: pointer;
+          color: black;
+          opacity: 0.7;
         }
         span.selected {
-          opacity: 0.6
+          opacity: 1;
         }
       `}</style>
     </>

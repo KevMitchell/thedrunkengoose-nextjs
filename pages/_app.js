@@ -39,6 +39,7 @@ export default function App ({ Component, pageProps = {} }) {
           background-image: url('./img/background.jpg');
           background-repeat: no-repeat;
           background-size: cover;
+          opacity: 0.6;
         }
         main {
           position: relative;

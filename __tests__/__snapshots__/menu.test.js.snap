@@ -3,12 +3,12 @@
 exports[`the menu displays drinks and selection items 1`] = `
 <div>
   <span
-    class="jsx-1998843798 selected"
+    class="jsx-4048178988 selected"
   >
     Alcoholic
   </span>
   <span
-    class="jsx-1998843798 "
+    class="jsx-4048178988 "
   >
     Virgin
   </span>
