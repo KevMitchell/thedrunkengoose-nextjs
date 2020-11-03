@@ -15,10 +15,8 @@ test('selection renders with correct options', () => {
       changeListener={(value) => testListener(value)}
     />
   )
-  const selection1 = getByText(/testOption1/)
-  expect(selection1).toBeInTheDocument()
-  const selection2 = getByText(/testOption2/)
-  expect(selection2).toBeInTheDocument()
+  expect(getByText(/testOption1/)).toBeInTheDocument()
+  expect(getByText(/testOption2/)).toBeInTheDocument()
 })
 
 test('selection sets the correct initial value', () => {
