@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react'
+import { render, fireEvent } from '@testing-library/react'
 import Menu from '../pages/menu'
 
 jest.mock('../public/data/drinks.json', () => ([
@@ -29,6 +29,13 @@ jest.mock('../public/data/drinks.json', () => ([
   }
 ]))
 
+jest.mock('../public/data/instructions.json', () => ({
+  'Test Drink1': [
+    'Instruction 1',
+    'Instruction 2'
+  ]
+}))
+
 test('the menu displays drinks and selection items', () => {
   const { container } = render(<Menu />)
   expect(container).toMatchSnapshot()
@@ -55,4 +62,23 @@ test('the menu shows virgin drinks when virgin is selected', () => {
   expect(alcoholicDrink1).toBeNull()
   expect(alcoholicDrink2).toBeNull()
   expect(virginDrink).toBeInTheDocument()
+})
+
+test('the menu shows the instructions panel for a clicked on drink', () => {
+  const { getByText, getByTestId } = render(<Menu />)
+  const drinkButton = getByText(/Test Drink1/)
+  drinkButton.click()
+
+  expect(getByTestId('instructionPanel')).toHaveStyle('opacity: 1')
+  expect(getByText(/Instruction 1/)).toBeInTheDocument()
+  expect(getByText(/Instruction 2/)).toBeInTheDocument()
+})
+
+test('the instructions panel is removed when the escape key is pressed', () => {
+  const { getByText, getByTestId } = render(<Menu />)
+  const drinkButton = getByText(/Test Drink1/)
+  drinkButton.click()
+  fireEvent.keyDown(document, { key: 'Escape', code: 'Escape' })
+
+  expect(getByTestId('instructionPanel')).toHaveStyle('opacity: 0')
 })

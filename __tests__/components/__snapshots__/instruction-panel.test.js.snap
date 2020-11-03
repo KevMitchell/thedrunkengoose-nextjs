@@ -4,6 +4,7 @@ exports[`creates the instructions panel component 1`] = `
 <div>
   <div
     class="jsx-2656356009 instructionPanel"
+    data-testid="instructionPanel"
   >
     <div
       class="jsx-2656356009 title"

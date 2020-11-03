@@ -17,6 +17,38 @@ exports[`the menu displays drinks and selection items 1`] = `
     </span>
   </div>
   <div
+    class="jsx-2656356009 instructionPanel"
+    data-testid="instructionPanel"
+  >
+    <div
+      class="jsx-2656356009 title"
+    >
+      Instructions
+    </div>
+    <div
+      class="jsx-2656356009 close"
+    >
+      X
+    </div>
+    <div
+      class="jsx-2656356009 titleBar"
+    >
+      <div
+        class="jsx-2656356009 titleBarText"
+      >
+        <div
+          class="jsx-2656356009 name"
+        />
+        <div
+          class="jsx-2656356009 ingredients"
+        />
+      </div>
+    </div>
+    <div
+      class="jsx-2656356009 instructions"
+    />
+  </div>
+  <div
     class="jsx-1499698495 drinkList"
   >
     <div

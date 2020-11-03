@@ -21,7 +21,10 @@ export function InstructionPanel ({
   }
 
   return (
-    <div className={visible ? 'instructionPanel visible' : 'instructionPanel'}>
+    <div
+      className={visible ? 'instructionPanel visible' : 'instructionPanel'}
+      data-testid='instructionPanel'
+    >
       <div className='title'>
         Instructions
       </div>
