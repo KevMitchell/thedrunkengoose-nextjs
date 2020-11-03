@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`button renders with correct label 1`] = `
+exports[`navigation renders with all links 1`] = `
 <div>
   <div
     class="jsx-443837931"
