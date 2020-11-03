@@ -35,7 +35,7 @@ export default function Selection ({ options, initialValue, changeListener }) {
           cursor: pointer;
           color: white;
           background: inherit;
-          background-image: url(/img/smear.png);
+          background-image: url(./img/smear.png);
           background-repeat: no-repeat;
           background-size: contain;
           background-blend-mode: difference;

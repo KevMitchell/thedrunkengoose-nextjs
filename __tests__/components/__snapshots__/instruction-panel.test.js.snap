@@ -25,7 +25,7 @@ exports[`creates the instructions panel component 1`] = `
         <img
           alt="test drink name"
           class="jsx-2656356009 image"
-          src="img/drinks/testimage.jpg"
+          src="./img/drinks/testimage.jpg"
         />
       </div>
       <div

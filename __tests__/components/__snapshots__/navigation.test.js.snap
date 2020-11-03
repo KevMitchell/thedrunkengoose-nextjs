@@ -11,13 +11,13 @@ exports[`navigation renders with all links 1`] = `
       src="./img/full-logo.png"
     />
     <a
-      class="jsx-1730214407"
+      class="jsx-4272074681"
       href="/about"
     >
       About us
     </a>
     <a
-      class="jsx-1730214407"
+      class="jsx-4272074681"
       href="/menu"
     >
       Menu

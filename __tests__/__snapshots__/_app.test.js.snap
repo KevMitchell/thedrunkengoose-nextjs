@@ -3,13 +3,13 @@
 exports[`renders navigation 1`] = `
 Array [
   <a
-    class="jsx-1730214407"
+    class="jsx-4272074681"
     href="/about"
   >
     About us
   </a>,
   <a
-    class="jsx-1730214407"
+    class="jsx-4272074681"
     href="/menu"
   >
     Menu

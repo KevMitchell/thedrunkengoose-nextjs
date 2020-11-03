@@ -13,7 +13,7 @@ export default function Button ({ route, label }) {
           display: block;
           width: 150px;
           height: 40px;
-          background-image: url(/img/smear.png);
+          background-image: url(./img/smear.png);
           background-repeat: no-repeat;
           background-size: contain;
           text-align: center;

@@ -39,7 +39,7 @@ export function InstructionPanel ({
           <div className='imageContainer'>
             <img
               className='image'
-              src={`img/drinks/${image}`}
+              src={`./img/drinks/${image}`}
               alt={name}
             />
           </div>
