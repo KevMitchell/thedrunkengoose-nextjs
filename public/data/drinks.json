@@ -10,6 +10,16 @@
     ]
   },
   {
+    "name": "Apple Business",
+    "image": "AppleBusiness.jpg",
+    "ingredients": [
+      { "name": "Gin", "quantity": 60 },
+      { "name": "Apple juice", "quantity": 30 },
+      { "name": "Lime juice", "quantity": 15 },
+      { "name": "Agave nectar", "quantity": 15 }
+    ]
+  },
+  {
     "name": "Arnold Palmer",
     "image": "Arnold.jpg",
     "virgin": true,
