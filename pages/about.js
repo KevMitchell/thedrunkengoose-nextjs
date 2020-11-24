@@ -81,6 +81,11 @@ export default function About () {
             left: 0;
             text-align: center;
             width: 90%;
+            margin-left: 0;
+          }
+
+          a {
+            font-size: 18px;
           }
         }
       `}</style>
