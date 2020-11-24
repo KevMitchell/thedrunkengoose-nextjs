@@ -35,12 +35,18 @@ export default function App ({ Component, pageProps = {} }) {
         .background {
           position: fixed;
           width: 100%;
-          height: 100%;
+          height: 100vh;
+          min-height: 100%;
           top: 0;
           background-image: url('./img/background.jpg');
           background-repeat: no-repeat;
           background-size: cover;
+          -webkit-background-size: cover;
           opacity: 0.6;
+        }
+        html {
+          height: 100vh;
+          min-height: 100%;
         }
         main {
           position: relative;
