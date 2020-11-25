@@ -30,6 +30,11 @@ export default function Navigation () {
         img {
           cursor: pointer;
         }
+        @media (max-width: 400px) {
+          img {
+            width: 100%;
+          }
+        }
         @media (max-width: 780px) {
           div {
             position: relative;

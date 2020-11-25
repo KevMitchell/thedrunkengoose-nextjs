@@ -3,11 +3,11 @@
 exports[`navigation renders with all links 1`] = `
 <div>
   <div
-    class="jsx-443837931"
+    class="jsx-1327997600"
   >
     <img
       alt="The Drunken Goose"
-      class="jsx-443837931 goose-title"
+      class="jsx-1327997600 goose-title"
       src="./img/full-logo.png"
     />
     <a
