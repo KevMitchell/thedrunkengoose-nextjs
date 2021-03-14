@@ -20,6 +20,16 @@
     ]
   },
   {
+    "name": "Apple Smoked Boulevardier",
+    "image": "AppleBoulevardier.jpg",
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 30 },
+      { "name": "Vermouth (sweet)", "quantity": 30 },
+      { "name": "Campari", "quantity": 30 },
+      { "name": "Smoke machine" }
+    ]
+  },
+  {
     "name": "Arnold Palmer",
     "image": "Arnold.jpg",
     "virgin": true,
