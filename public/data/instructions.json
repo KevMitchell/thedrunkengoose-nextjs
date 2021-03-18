@@ -31,21 +31,6 @@
     "Shake and pour over ice",
     "Garnish with strawberry or cherry"
   ],
-  "Botanist": [
-    "Build the alcoholic ingredients in a tall glass",
-    "Part fill with crushed ice (cubes will do)",
-    "Add lemonade",
-    "Stir",
-    "Fill rest of the way with ice",
-    "The grass and plants in the picture are optional garnish, show off"
-  ],
-  "Cherry Cola Smash": [
-    "Put cherries, bourbon, cherry brandy, and lime in a shaker",
-    "Muddle the cherries",
-    "Shake with ice",
-    "Fill rocks glasses with ice and strain cocktail over",
-    "Top up with coke or ginger beer"
-  ],
   "Bramble": [
     "Pour the Gin, Lemon Juice and sugar syrup into your shaker, half-fill with ice, and shake until ice cold",
     "Strain into an old fashioned rock glass filled with crushed ice",
@@ -59,6 +44,13 @@
     "If using milk shake the ingredients with ice",
     "Pour into a glass",
     "Garnish with ground nutmeg"
+  ],
+  "Cherry Cola Smash": [
+    "Put cherries, bourbon, cherry brandy, and lime in a shaker",
+    "Muddle the cherries",
+    "Shake with ice",
+    "Fill rocks glasses with ice and strain cocktail over",
+    "Top up with coke or ginger beer"
   ],
   "Claremont": [
     "Muddle orange bitters, orange and cherry in a rocks glass",
@@ -295,6 +287,14 @@
     "Add the whiskey and stir again",
     "Add the plum sake and stir again",
     "Add a couple of ice cubes and serve"
+  ],
+  "Refreshing Lemonade": [
+    "Build the alcoholic ingredients in a tall glass",
+    "Part fill with crushed ice (cubes will do)",
+    "Add lemonade",
+    "Stir",
+    "Fill rest of the way with ice",
+    "The grass and plants in the picture are optional garnish, show off"
   ],
   "Rhubarb and Custard": [
     "Mix contents except the grenadine in a shaker with ice",

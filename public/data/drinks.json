@@ -2,6 +2,9 @@
   {
     "name": "Amber wave",
     "image": "AmberWave.jpg",
+    "difficulty": "Easy",
+    "base": "Whiskey",
+    "flavour": ["Strong", "Ginger"],
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
       { "name": "Lemon juice", "quantity": 15 },
@@ -12,6 +15,9 @@
   {
     "name": "Apple Business",
     "image": "AppleBusiness.jpg",
+    "difficulty": "Easy",
+    "base": "Gin",
+    "flavour": ["Apple", "Fruity"],
     "ingredients": [
       { "name": "Gin", "quantity": 60 },
       { "name": "Apple juice", "quantity": 30 },
@@ -22,6 +28,9 @@
   {
     "name": "Apple Smoked Boulevardier",
     "image": "AppleBoulevardier.jpg",
+    "difficulty": "Medium",
+    "base": "Whiskey",
+    "flavour": ["Strong", "Smokey"],
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 30 },
       { "name": "Vermouth (sweet)", "quantity": 30 },
@@ -32,6 +41,9 @@
   {
     "name": "Arnold Palmer",
     "image": "Arnold.jpg",
+    "difficulty": "Easy",
+    "base": "Iced tea",
+    "flavour": ["Tea", "Sweet"],
     "virgin": true,
     "ingredients": [
       { "name": "Iced tea", "quantity": 180 },
@@ -43,6 +55,9 @@
   {
     "name": "Bahama mama",
     "image": "BahamaMama.jpg",
+    "difficulty": "Medium",
+    "base": "Rum",
+    "flavour": ["Tropical"],
     "ingredients": [
       { "name": "Kahlua", "quantity": 15 },
       { "name": "Rum (dark)", "quantity": 30 },
@@ -55,31 +70,11 @@
     ]
   },
   {
-    "name": "Botanist",
-    "image": "Botanist.jpg",
-    "ingredients": [
-      { "name": "Vodka", "quantity": 15 },
-      { "name": "Rum (white)", "quantity": 15 },
-      { "name": "Elderflower liqueur", "quantity": 15 },
-      { "name": "Jasmine syrup", "quantity": 15 },
-      { "name": "Lime juice", "quantity": 22 },
-      { "name": "Lemonade", "quantity": 50 }
-    ]
-  },
-  {
-    "name": "Cherry Cola Smash",
-    "image": "BourbonCherry.jpg",
-    "ingredients": [
-      { "name": "Whiskey (bourbon)", "quantity": 60 },
-      { "name": "Cherry brandy", "quantity": 30 },
-      { "name": "Lime juice", "quantity": 15 },
-      { "name": "Coke", "quantity": 15, "alternative": "Ginger beer" },
-      { "name": "Cherries", "quantity": 6 }
-    ]
-  },
-  {
     "name": "Bramble",
     "image": "Bramble.jpg",
+    "difficulty": "Easy",
+    "base": "Gin",
+    "flavour": ["Fruity"],
     "ingredients": [
       { "name": "Gin", "quantity": 50 },
       { "name": "Lemon juice", "quantity": 25 },
@@ -90,6 +85,9 @@
   {
     "name": "Brandy Alexander",
     "image": "BrandyAlexander.jpg",
+    "difficulty": "Medium",
+    "base": "Brandy",
+    "flavour": ["Strong", "Creamy"],
     "ingredients": [
       { "name": "Brandy", "quantity": 50 },
       { "name": "Creme de cacao", "quantity": 30 },
@@ -98,8 +96,25 @@
     ]
   },
   {
+    "name": "Cherry Cola Smash",
+    "image": "BourbonCherry.jpg",
+    "difficulty": "Medium",
+    "base": "Whiskey",
+    "flavour": ["Cherry", "Coke"],
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 60 },
+      { "name": "Cherry brandy", "quantity": 30 },
+      { "name": "Lime juice", "quantity": 15 },
+      { "name": "Coke", "quantity": 15, "alternative": "Ginger beer" },
+      { "name": "Cherries", "quantity": 6 }
+    ]
+  },
+  {
     "name": "Claremont",
     "image": "Claremont.jpg",
+    "difficulty": "Medium",
+    "base": "Whiskey",
+    "flavour": ["Strong", "Orange"],
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
       { "name": "Soda water", "quantity": 35 },
@@ -112,9 +127,12 @@
   {
     "name": "Coctel Nacional",
     "image": "CoctelNacional.jpg",
+    "difficulty": "Easy",
+    "base": "Rum",
+    "flavour": ["Tropical"],
     "ingredients": [
-      { "name": "Apricot brandy", "quantity": 10 },
       { "name": "Rum (white)", "quantity": 60 },
+      { "name": "Apricot brandy", "quantity": 10 },
       { "name": "Lemon juice", "quantity": 10 },
       { "name": "Pineapple juice", "quantity": 60 }
     ]
@@ -122,6 +140,9 @@
   {
     "name": "Cucumber Elderflower",
     "image": "CucumberElderflower.jpg",
+    "difficulty": "Medium",
+    "base": "Elderflower",
+    "flavour": ["Refreshing"],
     "virgin": true,
     "ingredients": [
       { "name": "Cucumber", "quantity": 1 },
@@ -134,6 +155,9 @@
   {
     "name": "Daiquiri",
     "image": "Daiquiri.jpg",
+    "difficulty": "Easy",
+    "base": "Rum",
+    "flavour": ["Strong", "Fruity"],
     "ingredients": [
       { "name": "Rum (white)", "quantity": 50 },
       { "name": "Lime", "quantity": 25 },
@@ -143,6 +167,9 @@
   {
     "name": "Dark and Stormy",
     "image": "DarkAndStormy.jpg",
+    "difficulty": "Easy",
+    "base": "Rum",
+    "flavour": ["Ginger"],
     "ingredients": [
       { "name": "Ginger beer", "quantity": 80 },
       { "name": "Rum (dark)", "quantity": 50 },
@@ -153,6 +180,9 @@
   {
     "name": "Dragon's Breath",
     "image": "DragonsBreath.jpg",
+    "difficulty": "Medium",
+    "base": "Whiskey",
+    "flavour": ["Strong", "Smokey"],
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
       { "name": "Sugar syrup (JD)", "quantity": 10 },
@@ -164,9 +194,12 @@
   {
     "name": "Dr Pepper",
     "image": "DrPepper.jpg",
+    "difficulty": "Easy",
+    "base": "Cherry brandy",
+    "flavour": ["Coke"],
     "ingredients": [
       { "name": "Cherry brandy", "quantity": 25 },
-      { "name": "Disaronno", "quantity": 25 },
+      { "name": "Almond liqueur", "quantity": 25 },
       { "name": "Lime juice", "quantity": 10 },
       { "name": "Coke" }
     ]
@@ -174,6 +207,9 @@
   {
     "name": "Emerald Isle",
     "image": "EmeraldIsle.jpg",
+    "difficulty": "Easy",
+    "base": "Gin",
+    "flavour": ["Strong", "Menthe"],
     "ingredients": [
       { "name": "Gin", "quantity": 50 },
       { "name": "Creme de menthe", "quantity": 5 },
@@ -183,6 +219,9 @@
   {
     "name": "Espresso Martini",
     "image": "EspressoMartini.jpg",
+    "difficulty": "Easy",
+    "base": "Vodka",
+    "flavour": ["Coffee"],
     "ingredients": [
       { "name": "Vodka", "quantity": 40 },
       { "name": "Kahlua", "quantity": 30 },
@@ -192,14 +231,20 @@
   {
     "name": "French Connection",
     "image": "FrenchConnection.jpg",
+    "difficulty": "Easy",
+    "base": "Brandy",
+    "flavour": ["Strong"],
     "ingredients": [
       { "name": "Brandy", "quantity": 50 },
-      { "name": "Disaronno", "quantity": 25 }
+      { "name": "Almond liqueur", "quantity": 25 }
     ]
   },
   {
     "name": "Frozen Daiquiri",
     "image": "FrozenDaiquiri.jpg",
+    "difficulty": "Medium",
+    "base": "Rum",
+    "flavour": ["Strong", "Frozen"],
     "ingredients": [
       { "name": "Rum (white)", "quantity": 50 },
       { "name": "Lime", "quantity": 25 },
@@ -210,6 +255,9 @@
   {
     "name": "Generosidad",
     "image": "Generosidad.jpg",
+    "difficulty": "Medium",
+    "base": "Coconut liqueur",
+    "flavour": ["Coconut", "Coffee"],
     "ingredients": [
       { "name": "Coconut liqueur", "quantity": 30 },
       { "name": "Espresso", "quantity": 40 },
@@ -221,14 +269,20 @@
   {
     "name": "Godfather",
     "image": "Godfather.jpg",
+    "difficulty": "Easy",
+    "base": "Whiskey",
+    "flavour": ["Strong"],
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
-      { "name": "Disaronno", "quantity": 25 }
+      { "name": "Almond liqueur", "quantity": 25 }
     ]
   },
   {
     "name": "Grasshopper",
     "image": "Grasshopper.jpg",
+    "difficulty": "Medium",
+    "base": "Creme de menthe",
+    "flavour": ["Menthe", "Ice cream"],
     "ingredients": [
       { "name": "Creme de menthe", "quantity": 30 },
       { "name": "Creme de cacao", "quantity": 30 },
@@ -238,6 +292,9 @@
   {
     "name": "Hawksmoor Marmalade",
     "image": "Hawksmoor.jpg",
+    "difficulty": "Medium",
+    "base": "Gin",
+    "flavour": ["Strong", "Orange"],
     "ingredients": [
       { "name": "Gin", "quantity": 50 },
       { "name": "Marmalade", "quantity": 1 },
@@ -249,6 +306,9 @@
   {
     "name": "Heralds Blood",
     "image": "HeraldsBlood.jpg",
+    "difficulty": "Hard",
+    "base": "Rum",
+    "flavour": ["Botanical"],
     "ingredients": [
       { "name": "Rum (white)", "quantity": 60 },
       { "name": "Raspberry and Tyme syrup", "quantity": 40 },
@@ -260,6 +320,9 @@
   {
     "name": "Jackhammer",
     "image": "Jackhammer.jpg",
+    "difficulty": "Medium",
+    "base": "Gin",
+    "flavour": ["Strong", "Strong", "Strong"],
     "ingredients": [
       { "name": "Gin", "quantity": 30 },
       { "name": "Campari", "quantity": 30 },
@@ -270,6 +333,9 @@
   {
     "name": "Kentucky mule",
     "image": "Mule.jpg",
+    "difficulty": "Easy",
+    "base": "Whiskey",
+    "flavour": ["Ginger"],
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
       { "name": "Lime", "quantity": 20 },
@@ -279,6 +345,9 @@
   {
     "name": "Long island iced tea",
     "image": "liit.jpg",
+    "difficulty": "Easy",
+    "base": "Gin",
+    "flavour": ["Strong", "Coke"],
     "ingredients": [
       { "name": "Gin", "quantity": 15 },
       { "name": "Vodka", "quantity": 15 },
@@ -293,6 +362,9 @@
   {
     "name": "Martini",
     "image": "Martini.jpg",
+    "difficulty": "Easy",
+    "base": "Gin",
+    "flavour": ["Strong"],
     "ingredients": [
       { "name": "Gin", "quantity": 50 },
       { "name": "Vermouth (dry)", "quantity": 1 }
@@ -301,6 +373,9 @@
   {
     "name": "Mai tai",
     "image": "MaiTai.jpg",
+    "difficulty": "Easy",
+    "base": "Rum",
+    "flavour": ["Strong", "Orange"],
     "ingredients": [
       { "name": "Rum (white)", "quantity": 40 },
       { "name": "Rum (dark)", "quantity": 20 },
@@ -312,6 +387,9 @@
   {
     "name": "Man O' War",
     "image": "ManOWar.jpg",
+    "difficulty": "Easy",
+    "base": "Whiskey",
+    "flavour": ["Strong", "Orange"],
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 60 },
       { "name": "Cointreau", "quantity": 30 },
@@ -323,6 +401,9 @@
   {
     "name": "Margarita",
     "image": "Margarita.jpg",
+    "difficulty": "Medium",
+    "base": "Tequila",
+    "flavour": ["Strong", "Citrus"],
     "ingredients": [
       { "name": "Tequila", "quantity": 50 },
       { "name": "Cointreau", "quantity": 25 },
@@ -332,6 +413,9 @@
   {
     "name": "Mary Pickford",
     "image": "Mary.jpg",
+    "difficulty": "Easy",
+    "base": "Rum",
+    "flavour": ["Tropical"],
     "ingredients": [
       { "name": "Rum (white)", "quantity": 60 },
       { "name": "Pineapple juice", "quantity": 45 },
@@ -342,6 +426,9 @@
   {
     "name": "Moscow mule",
     "image": "Mule.jpg",
+    "difficulty": "Easy",
+    "base": "Vodka",
+    "flavour": ["Ginger"],
     "ingredients": [
       { "name": "Vodka", "quantity": 50 },
       { "name": "Lime", "quantity": 20 },
@@ -351,9 +438,12 @@
   {
     "name": "Multiple orgasms",
     "image": "MultipleOrgasms.jpg",
+    "difficulty": "Easy",
+    "base": "Baileys",
+    "flavour": ["Creamy"],
     "ingredients": [
       { "name": "Vodka", "quantity": 30 },
-      { "name": "Disaronno", "quantity": 30 },
+      { "name": "Almond liqueur", "quantity": 30 },
       { "name": "Kahlua", "quantity": 30 },
       { "name": "Baileys", "quantity": 30 }
     ]
@@ -361,6 +451,9 @@
   {
     "name": "Negroni",
     "image": "Negroni.jpg",
+    "difficulty": "Easy",
+    "base": "Gin",
+    "flavour": ["Strong", "Bitter"],
     "ingredients": [
       { "name": "Gin", "quantity": 40 },
       { "name": "Campari", "quantity": 30 },
@@ -371,6 +464,9 @@
   {
     "name": "Cherry Smoked Negroni",
     "image": "Negroni.jpg",
+    "difficulty": "Medium",
+    "base": "Tequila",
+    "flavour": ["Strong", "Bitter", "Smokey"],
     "ingredients": [
       { "name": "Tequila", "quantity": 40 },
       { "name": "Campari", "quantity": 30 },
@@ -382,6 +478,9 @@
   {
     "name": "New England Sour",
     "image": "NewEnglandSour.jpg",
+    "difficulty": "Easy",
+    "base": "Vodka",
+    "flavour": ["Sour"],
     "ingredients": [
       { "name": "Vodka", "quantity": 60 },
       { "name": "Maple syrup", "quantity": 20 },
@@ -392,6 +491,9 @@
   {
     "name": "Nice and sloe",
     "image": "NiceAndSloe.jpg",
+    "difficulty": "Medium",
+    "base": "Gin",
+    "flavour": ["Strong", "Mint"],
     "ingredients": [
       { "name": "Rum (white)", "quantity": 40 },
       { "name": "Sloe gin", "quantity": 20 },
@@ -403,6 +505,9 @@
   {
     "name": "Old Fashioned",
     "image": "OldFashioned.jpg",
+    "difficulty": "Medium",
+    "base": "Whiskey",
+    "flavour": ["Strong"],
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
       { "name": "Angostura bitters", "quantity": 2, "dashes": true },
@@ -413,6 +518,9 @@
   {
     "name": "Altos Old Fashioned",
     "image": "AOF.jpg",
+    "difficulty": "Medium",
+    "base": "Tequila",
+    "flavour": ["Strong"],
     "ingredients": [
       { "name": "Tequila", "quantity": 60 },
       { "name": "Walnut bitters", "quantity": 6, "dashes": true },
@@ -423,6 +531,9 @@
   {
     "name": "Pink Lady",
     "image": "PinkLady.jpg",
+    "difficulty": "Hard",
+    "base": "Gin",
+    "flavour": ["Fruity"],
     "ingredients": [
       { "name": "Gin", "quantity": 40 },
       { "name": "Applejack", "quantity": 20 },
@@ -435,6 +546,9 @@
   {
     "name": "Plumb Fashioned",
     "image": "OldFashioned.jpg",
+    "difficulty": "Medium",
+    "base": "Whiskey",
+    "flavour": ["Strong"],
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
       { "name": "Angostura bitters", "quantity": 1, "dashes": true },
@@ -444,8 +558,26 @@
     ]
   },
   {
+    "name": "Refreshing Lemonade",
+    "image": "RefreshingLemonade.jpg",
+    "difficulty": "Easy",
+    "base": "Rum",
+    "flavour": ["Refreshing"],
+    "ingredients": [
+      { "name": "Vodka", "quantity": 15 },
+      { "name": "Rum (white)", "quantity": 15 },
+      { "name": "Elderflower liqueur", "quantity": 15 },
+      { "name": "Jasmine syrup", "quantity": 15 },
+      { "name": "Lime juice", "quantity": 22 },
+      { "name": "Lemonade", "quantity": 50 }
+    ]
+  },
+  {
     "name": "Rhubarb and Custard",
     "image": "RhubarbAndCustard.jpg",
+    "difficulty": "Medium",
+    "base": "Gin",
+    "flavour": ["Botanical"],
     "ingredients": [
       { "name": "Rhubarb and Ginger Gin", "quantity": 50 },
       { "name": "Rhubarb bitters", "quantity": 4, "dashes": true },
@@ -459,6 +591,9 @@
   {
     "name": "Root Beer",
     "image": "RootBeer.jpg",
+    "difficulty": "Easy",
+    "base": "Galliano",
+    "flavour": ["Coke"],
     "ingredients": [
       { "name": "Galliano", "quantity": 30 },
       { "name": "Kahlua", "quantity": 15 },
@@ -469,6 +604,9 @@
   {
     "name": "Sezerac",
     "image": "Sezerac.jpg",
+    "difficulty": "Medium",
+    "base": "Whiskey",
+    "flavour": ["Strong", "Aniseed"],
     "ingredients": [
       { "name": "Absinthe", "quantity": 5 },
       { "name": "Whiskey (rye)", "quantity": 50, "alternative": "Brandy" },
@@ -480,6 +618,9 @@
   {
     "name": "Shirley Temple",
     "image": "ShirleyTemple.jpg",
+    "difficulty": "Easy",
+    "base": "Ginger beer",
+    "flavour": ["Ginger", "Strawberry"],
     "virgin": true,
     "ingredients": [
       { "name": "Grenadine", "quantity": 10 },
@@ -491,6 +632,9 @@
   {
     "name": "Sidecar Mocktail",
     "image": "SidecarMocktail.jpg",
+    "difficulty": "Hard",
+    "base": "Tea",
+    "flavour": ["Tea"],
     "virgin": true,
     "ingredients": [
       { "name": "Lapsang Souchong Tea", "quantity": 50 },
@@ -502,6 +646,9 @@
   {
     "name": "Sidecar",
     "image": "Sidecar.jpg",
+    "difficulty": "Medium",
+    "base": "Cognac",
+    "flavour": ["Strong", "Sweet"],
     "ingredients": [
       { "name": "Cognac", "quantity": 60 },
       { "name": "Cointreau", "quantity": 25 },
@@ -513,6 +660,9 @@
   {
     "name": "Smoking in the sidecar",
     "image": "SmokingInTheSidecar.jpg",
+    "difficulty": "Medium",
+    "base": "Cognac",
+    "flavour": ["Strong", "Sweet", "Smokey"],
     "ingredients": [
       { "name": "Cognac", "quantity": 60 },
       { "name": "Cointreau", "quantity": 25 },
@@ -525,6 +675,9 @@
   {
     "name": "Tahiti Jungle Juice",
     "image": "Tahiti.jpg",
+    "difficulty": "Medium",
+    "base": "Midori",
+    "flavour": ["Strong", "Tropical"],
     "ingredients": [
       { "name": "Vodka", "quantity": 30 },
       { "name": "Malibu", "quantity": 30 },
@@ -537,6 +690,9 @@
   {
     "name": "Tennessee mule",
     "image": "Mule.jpg",
+    "difficulty": "Easy",
+    "base": "Whiskey",
+    "flavour": ["Ginger"],
     "ingredients": [
       { "name": "Whiskey (tennessee)", "quantity": 50 },
       { "name": "Lime", "quantity": 20 },
@@ -546,6 +702,9 @@
   {
     "name": "Trees of Liathaven",
     "image": "TreesOfLiathaven.jpg",
+    "difficulty": "Hard",
+    "base": "Vodka",
+    "flavour": ["Strong", "Tropical"],
     "ingredients": [
       { "name": "Vodka", "quantity": 40 },
       { "name": "Triple sec", "quantity": 20 },
@@ -560,6 +719,9 @@
   {
     "name": "Vanderbilt",
     "image": "Vanderbilt.jpg",
+    "difficulty": "Easy",
+    "base": "Cognac",
+    "flavour": ["Strong", "Cherry"],
     "ingredients": [
       { "name": "Cognac", "quantity": 60 },
       { "name": "Cherry brandy", "quantity": 20 },
@@ -570,6 +732,9 @@
   {
     "name": "Walk in the Garden",
     "image": "WalkInTheGarden.jpg",
+    "difficulty": "Medium",
+    "base": "Gin",
+    "flavour": ["Strong", "Botanical"],
     "ingredients": [
       { "name": "Gin", "quantity": 50 },
       { "name": "Rhubarb liqueuer", "quantity": 30 },
@@ -583,6 +748,9 @@
   {
     "name": "Watermelon Margarita",
     "image": "WatermelonMargarita.jpg",
+    "difficulty": "Medium",
+    "base": "Tequila",
+    "flavour": ["Strong", "Tropical"],
     "ingredients": [
       { "name": "Tequila", "quantity": 40 },
       { "name": "Passoa", "quantity": 30 },
@@ -596,6 +764,9 @@
   {
     "name": "Whisky Smash",
     "image": "WhiskySmash.jpg",
+    "difficulty": "Medium",
+    "base": "Whiskey",
+    "flavour": ["Strong", "Mint"],
     "ingredients": [
       { "name": "Whisky (bourbon)", "quantity": 60 },
       { "name": "Lemon (quarter)", "quantity": 1 },

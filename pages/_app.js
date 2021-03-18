@@ -38,7 +38,6 @@ export default function App ({ Component, pageProps = {} }) {
           height: 100vh;
           min-height: 100%;
           top: 0;
-          background-image: url('./img/background.jpg');
           background-repeat: no-repeat;
           background-size: cover;
           -webkit-background-size: cover;
