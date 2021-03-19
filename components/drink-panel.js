@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import PropTypes from 'prop-types'
+import { joinJsx } from '../utils/array-join-of-length'
 
 export default function DrinkPanel ({ name, image, difficulty, base, flavour, ingredients, instructions }) {
   const [expanded, setExpanded] = useState(false)
@@ -47,9 +48,7 @@ export default function DrinkPanel ({ name, image, difficulty, base, flavour, in
         </div>
 
         <div className='ingredients'>
-          {ingredients && ingredients.map((ing, i) =>
-            `${getIngredientText(ing)} ${(i < ingredients.length - 1) ? '* ' : ''}`
-          )}
+          {ingredients && joinJsx(ingredients.map(getIngredientText), 40, ' • ')}
         </div>
 
         <div className='methodExpander' onClick={() => setExpanded(!expanded)}>
@@ -72,7 +71,7 @@ export default function DrinkPanel ({ name, image, difficulty, base, flavour, in
           display: block;
           background-color: aliceblue;
           margin: 0 5% 20px 4%;
-          height: 300px;
+          height: 320px;
           box-sizing: border-box;
           width: 90%;
           max-width: 600px;
@@ -86,8 +85,8 @@ export default function DrinkPanel ({ name, image, difficulty, base, flavour, in
         }
 
         .drinkPanel.expanded {
-          min-height: 300px;
-          height: 450px;
+          min-height: 320px;
+          height: 520px;
           overflow: visible;
           -webkit-transition: height 0.5s ease-out;
           -moz-transition: height 0.5s ease-out;
@@ -97,7 +96,7 @@ export default function DrinkPanel ({ name, image, difficulty, base, flavour, in
         }
 
         .topPanel {
-          height: 250px;
+          height: 270px;
           position: relative;
         }
         
@@ -151,6 +150,11 @@ export default function DrinkPanel ({ name, image, difficulty, base, flavour, in
           color: grey;
           font-style: italic;
           font-size: 24px;
+        }
+
+        .ingredients {
+          width: 80%;
+          margin: auto;
         }
         
         .instructions {

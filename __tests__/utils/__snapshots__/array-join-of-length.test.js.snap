@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`joinJsx large array returns multiple elements where array items do not fit onto one line 1`] = `
+<React.Fragment>
+  <div>
+    aaabbbb
+  </div>
+  <div>
+    ccccccccc
+  </div>
+  <div>
+    ddd
+  </div>
+</React.Fragment>
+`;
+
+exports[`joinJsx large array uses delimeters if provided 1`] = `
+<React.Fragment>
+  <div>
+    aaa-bbbb
+  </div>
+  <div>
+    ccccccccc
+  </div>
+  <div>
+    ddd
+  </div>
+</React.Fragment>
+`;
+
+exports[`joinJsx small array returns a single element if array items fit onto one line 1`] = `
+<div>
+  <div>
+    ab
+  </div>
+</div>
+`;
+
+exports[`joinJsx small array uses delimeters if provided 1`] = `
+<div>
+  <div>
+    a-b
+  </div>
+</div>
+`;

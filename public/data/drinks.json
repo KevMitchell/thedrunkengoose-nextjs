@@ -681,7 +681,7 @@
     "ingredients": [
       { "name": "Vodka", "quantity": 30 },
       { "name": "Malibu", "quantity": 30 },
-      { "name": "Run (white)", "quantity": 30 },
+      { "name": "Rum (white)", "quantity": 30 },
       { "name": "Midori", "quantity": 30},
       { "name": "Apple juice", "quantity": 60},
       { "name": "Pineapple juice", "quantity": 60}
