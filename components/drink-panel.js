@@ -1,9 +1,15 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { joinJsx } from '../utils/array-join-of-length'
+import { toggleSaved } from '../utils/saved-drinks'
 
 export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredients, instructions }) {
+  const [saved, setSaved] = useState(false)
   const [expanded, setExpanded] = useState(false)
+
+  useEffect(() => {
+    setSaved(localStorage.getItem(name))
+  }, [])
 
   const getIngredientText = (ing) => {
     const alternativeText = ing.alternative ? ` or ${ing.alternative}` : ''
@@ -15,6 +21,11 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
     let text = quantity + ing.name
     if (ing.optional) text += ' (optional)'
     return (text + alternativeText).toUpperCase().replace(/ML/g, 'ml')
+  }
+
+  const toggleSavedState = () => {
+    toggleSaved(name, !saved)
+    setSaved(!saved)
   }
 
   return (
@@ -53,6 +64,10 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
 
         <div className='methodExpander' onClick={() => setExpanded(!expanded)}>
           Method {expanded ? '▲' : '▼'}
+        </div>
+
+        <div className='addToSaved' onClick={() => toggleSavedState()}>
+          {saved ? '♥' : '♡'} Add to saved
         </div>
       </div>
 
@@ -141,6 +156,14 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         .methodExpander {
           position: absolute;
           bottom: 0;
+          cursor: pointer;
+          padding: 5px;
+        }
+
+        .addToSaved {
+          position: absolute;
+          bottom: 0;
+          right: 0;
           cursor: pointer;
           padding: 5px;
         }

@@ -1,5 +1,6 @@
 import { fireEvent, render } from '@testing-library/react'
 import { DrinkPanel } from '../../components/drink-panel'
+import { toggleSaved } from '../../utils/saved-drinks'
 
 const testIngredients = [{
   name: 'ing1', quantity: 10
@@ -21,6 +22,10 @@ const mockDrink = {
   instructions: ['inst1', 'inst2']
 }
 
+jest.mock('../../utils/saved-drinks', () => ({
+  toggleSaved: jest.fn()
+}))
+
 test('renders the supplied drink', () => {
   const { container } = render(
     <DrinkPanel
@@ -40,4 +45,26 @@ test('clicking the method label expands and contracts the panel', () => {
 
   fireEvent.click(methodExpander)
   expect(getByTestId('instructions').className).not.toContain('expanded')
+})
+
+test('clicking the add to saved label toggles the saved state', () => {
+  const { getByText } = render(<DrinkPanel { ...mockDrink } />)
+  const addToSaved = getByText(/Add to saved/)
+
+  fireEvent.click(addToSaved)
+  expect(addToSaved.textContent).toEqual('♥ Add to saved')
+
+  fireEvent.click(addToSaved)
+  expect(addToSaved.textContent).toEqual('♡ Add to saved')
+})
+
+test('clicking the add to saved label records the saved state', () => {
+  const { getByText } = render(<DrinkPanel { ...mockDrink } />)
+  const addToSaved = getByText(/Add to saved/)
+
+  fireEvent.click(addToSaved)
+  expect(toggleSaved).toHaveBeenCalledWith('test-name', true)
+
+  fireEvent.click(addToSaved)
+  expect(toggleSaved).toHaveBeenCalledWith('test-name', false)
 })
