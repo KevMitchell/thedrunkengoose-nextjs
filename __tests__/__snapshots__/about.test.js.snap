@@ -52,19 +52,9 @@ exports[`renders about section 1`] = `
     </div>
   </div>
   <img
-    alt="Drunken Goose Crew"
-    class="jsx-2588275976"
-    src="./img/crew2.jpg"
-  />
-  <img
-    alt="Drunken Goose Crew"
+    alt="Drunken Goose"
     class="jsx-2588275976"
     src="./img/goose2.jpg"
-  />
-  <img
-    alt="Drunken Goose Crew"
-    class="jsx-2588275976"
-    src="./img/goose3.jpg"
   />
   <div
     class="jsx-2588275976 text last"

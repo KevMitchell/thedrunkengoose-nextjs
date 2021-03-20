@@ -19,16 +19,8 @@ export default function About () {
         <div>The staff of The Drunken Goose are part of the Nation of Navarr at Empire events. The Goose can be found in the Navarr woods at the intersection between the main camp path and Murder Alley leading to the Wintermark camp.</div>
       </div>
       <img
-        src='./img/crew2.jpg'
-        alt='Drunken Goose Crew'
-      />
-      <img
         src='./img/goose2.jpg'
-        alt='Drunken Goose Crew'
-      />
-      <img
-        src='./img/goose3.jpg'
-        alt='Drunken Goose Crew'
+        alt='Drunken Goose'
       />
       <div className='text last'>
         <div>For queries we can be contacted at <a href='mailto:contact@thedrunkengoose.com'>contact@thedrunkengoose.com</a></div>
