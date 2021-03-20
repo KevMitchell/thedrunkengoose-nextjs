@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import Head from 'next/head'
 import { TabMenu } from '../components/tab-menu'
+import { Filters } from '../components/filters'
 import { MainTitle } from '../components/main-title'
 import { Footer } from '../components/footer'
 import '../styles.css'
@@ -21,6 +22,7 @@ export default function App ({ Component, pageProps = {} }) {
       <MainTitle />
       <TabMenu />
       <main>
+        <Filters />
         <Component {...pageProps} />
       </main>
       <Footer />
