@@ -18,27 +18,14 @@ export default function App ({ Component, pageProps = {} }) {
         />
         <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1' />
       </Head>
+      <MainTitle />
+      <TabMenu />
       <main>
-        <MainTitle />
-        <TabMenu />
         <Component {...pageProps} />
       </main>
       <Footer />
 
-      <style jsx global>{`
-        body {
-          margin: 0;
-          padding: 0;
-          background-color: black;
-        }
-      `}</style>
-
       <style jsx>{`
-        html {
-          height: 100vh;
-          min-height: 100%;
-        }
-
         main {
           position: relative;
           top: 0;

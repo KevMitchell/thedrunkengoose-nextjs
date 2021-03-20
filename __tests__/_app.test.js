@@ -1,14 +1,18 @@
-import { render } from '@testing-library/react'
+import { render, wait } from '@testing-library/react'
 import App from '../pages/_app'
 
 const component = () => <div />
 
-test('renders navigation', () => {
+test('renders navigation', async () => {
   const { getAllByRole } = render(<App Component={component} />)
-  expect(getAllByRole(/link/)).toMatchSnapshot()
+  await wait(() => {
+    expect(getAllByRole(/link/)).toMatchSnapshot()
+  })
 })
 
-test('renders the footer', () => {
+test('renders the footer', async () => {
   const { getByText } = render(<App Component={component} />)
-  expect(getByText(/Copyright © Kevin Mitchell, 2021. UX Design by Nichola Evans/)).toBeInTheDocument()
+  await wait(() => {
+    expect(getByText(/Copyright © Kevin Mitchell, 2021. UX Design by Nichola Evans/)).toBeInTheDocument()
+  })
 })

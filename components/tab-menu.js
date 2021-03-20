@@ -33,19 +33,26 @@ export function TabMenu () {
         <a className={selection === 2 ? 'selected' : ''} onClick={() => changeSelection(2)}>About us</a>
       </Link>
       <style jsx>{`
+        div {
+          width: 85%;
+          max-width: 800px;
+          margin: auto;
+          text-align: center;
+        }
+
         a {
           display: inline-block;
-          width: 120px;
+          width: 130px;
           height: 30px;
-          margin-bottom: 10px;
+          margin: 0 24px 10px 24px;
           background-repeat: no-repeat;
           text-align: center;
-          padding-top: 14px;
-          font-size: 20px;
+          padding: 14px 0;
+          font-size: 2.2em;
           text-decoration: none;
           cursor: pointer;
-          color: white;
-          border-bottom: 3px solid rgba(1, 1, 1, 0);
+          color: #cab488;
+          border-bottom: 3px solid rgba(202, 180, 136, 0);
           -webkit-transition: border-color 0.2s ease-in-out;
           -moz-transition: border-color 0.2s ease-in-out;
           -o-transition: border-color 0.2s ease-in-out;
@@ -54,7 +61,7 @@ export function TabMenu () {
         }
 
         .selected {
-          border-color: rgba(255, 255, 255, 1);
+          border-color: rgba(202, 180, 136, 1);
           -webkit-transition: border-color 0.2s ease-in-out;
           -moz-transition: border-color 0.2s ease-in-out;
           -o-transition: border-color 0.2s ease-in-out;

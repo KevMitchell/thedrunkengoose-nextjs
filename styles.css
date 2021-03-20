@@ -3,10 +3,28 @@
   src: url('./public/FenwickWoodtype.ttf');
 }
 
+html {
+  height: 100vh;
+  min-height: 100%;
+}
+
 body {
-  width: 98%;
+  width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
   box-sizing: content-box;
+  font-family: 'FenwickWoodtype';
+  color: #310e04;
+  background: url('./public/img/goose-background.jpg');
+  background-repeat: no-repeat;
+  background-position: 0, 0;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+select,
+select * {
   font-family: 'FenwickWoodtype';
   font-size: x-large;
 }

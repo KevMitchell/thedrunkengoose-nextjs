@@ -87,9 +87,9 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           background-color: aliceblue;
           margin: 0 5% 20px 5%;
           height: 320px;
-          box-sizing: border-box;
           width: 90%;
           top: 10px;
+          font-size: 1.5em;
           z-index: -1;
           -webkit-transition: height 0.5s ease-out;
           -moz-transition: height 0.5s ease-out;
