@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the supplied drink 1`] = `
+<div>
+  <div
+    class="jsx-3828525960 drinkPanel "
+    data-testid="drinkPanel"
+  >
+    <div
+      class="jsx-3828525960 title"
+    >
+      test-name
+    </div>
+    <div
+      class="jsx-3828525960 topPanel"
+    >
+      <div
+        class="jsx-3828525960 overview"
+      >
+        <div
+          class="jsx-3828525960 imageContainer"
+        >
+          <img
+            alt="test-name"
+            class="jsx-3828525960 image"
+            src="./img/drinks/test-image"
+          />
+        </div>
+        <div
+          class="jsx-3828525960 overviewText"
+        >
+          <div
+            class="jsx-3828525960 difficulty"
+          >
+            test-difficulty
+          </div>
+          <div
+            class="jsx-3828525960 base"
+          >
+            test-base
+          </div>
+          <div
+            class="jsx-3828525960 flavour"
+          >
+            test1, test2
+          </div>
+        </div>
+      </div>
+      <div
+        class="jsx-3828525960 ingredients"
+      >
+        <div>
+          10ml ING1  •  20ml ING2 OR ING3
+        </div>
+        <div>
+          5ml ING4 (OPTIONAL)
+        </div>
+      </div>
+      <div
+        class="jsx-3828525960 methodExpander"
+      >
+        Method 
+        ▼
+      </div>
+    </div>
+    <div
+      class="jsx-3828525960 instructions "
+      data-testid="instructions"
+    >
+      <div
+        class="jsx-3828525960 instructionLine"
+      >
+        inst1
+      </div>
+      <div
+        class="jsx-3828525960 instructionLine"
+      >
+        inst2
+      </div>
+    </div>
+  </div>
+</div>
+`;

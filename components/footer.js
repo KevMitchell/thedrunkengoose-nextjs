@@ -2,7 +2,7 @@ export default function Footer () {
   return (
     <>
       <footer>
-        Copyright © Kevin Mitchell, 2020
+        Copyright © Kevin Mitchell, 2021
       </footer>
       <style jsx>{`
         footer {

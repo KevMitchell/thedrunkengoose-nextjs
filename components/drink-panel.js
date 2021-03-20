@@ -2,7 +2,7 @@ import { useState } from 'react'
 import PropTypes from 'prop-types'
 import { joinJsx } from '../utils/array-join-of-length'
 
-export default function DrinkPanel ({ name, image, difficulty, base, flavour, ingredients, instructions }) {
+export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredients, instructions }) {
   const [expanded, setExpanded] = useState(false)
 
   const getIngredientText = (ing) => {
@@ -14,7 +14,7 @@ export default function DrinkPanel ({ name, image, difficulty, base, flavour, in
     const quantity = ing.quantity ? ing.quantity + measure : ''
     let text = quantity + ing.name
     if (ing.optional) text += ' (optional)'
-    return (text + alternativeText).toUpperCase()
+    return (text + alternativeText).toUpperCase().replace(/ML/g, 'ml')
   }
 
   return (
@@ -42,13 +42,13 @@ export default function DrinkPanel ({ name, image, difficulty, base, flavour, in
               {base}
             </div>
             <div className='flavour'>
-              {flavour}
+              {flavour.join(', ')}
             </div>
           </div>
         </div>
 
         <div className='ingredients'>
-          {ingredients && joinJsx(ingredients.map(getIngredientText), 40, ' • ')}
+          {ingredients && joinJsx(ingredients.map(getIngredientText), 40, '  •  ')}
         </div>
 
         <div className='methodExpander' onClick={() => setExpanded(!expanded)}>
@@ -56,12 +56,12 @@ export default function DrinkPanel ({ name, image, difficulty, base, flavour, in
         </div>
       </div>
 
-      <div className={`instructions ${expanded ? 'expanded' : ''}`}>
-        {instructions.map(i =>
+      <div data-testid='instructions' className={`instructions ${expanded ? 'expanded' : ''}`}>
+        {instructions.map((inst, index) =>
           <div
-            key={i}
+            key={`${name}-${index}`}
             className='instructionLine'>
-            {i}
+            {inst}
           </div>
         )}
       </div>
@@ -155,6 +155,7 @@ export default function DrinkPanel ({ name, image, difficulty, base, flavour, in
         .ingredients {
           width: 80%;
           margin: auto;
+          letter-spacing: 1px;
         }
         
         .instructions {
@@ -193,7 +194,7 @@ DrinkPanel.propTypes = {
   image: PropTypes.string.isRequired,
   difficulty: PropTypes.string.isRequired,
   base: PropTypes.string.isRequired,
-  flavour: PropTypes.string.isRequired,
+  flavour: PropTypes.arrayOf(PropTypes.string).isRequired,
   ingredients: PropTypes.arrayOf(PropTypes.object).isRequired,
   instructions: PropTypes.arrayOf(PropTypes.string).isRequired
 }

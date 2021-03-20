@@ -10,5 +10,5 @@ test('renders navigation', () => {
 
 test('renders the footer', () => {
   const { getByText } = render(<App Component={component} />)
-  expect(getByText(/Copyright © Kevin Mitchell, 2020/)).toBeInTheDocument()
+  expect(getByText(/Copyright © Kevin Mitchell, 2021/)).toBeInTheDocument()
 })
