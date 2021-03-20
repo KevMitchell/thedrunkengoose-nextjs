@@ -170,8 +170,8 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         
         .title {
           color: grey;
-          font-style: italic;
-          font-size: 24px;
+          font-size: 28px;
+          text-transform: uppercase;
         }
 
         .ingredients {
