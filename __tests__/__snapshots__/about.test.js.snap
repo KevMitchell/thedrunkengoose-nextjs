@@ -3,86 +3,107 @@
 exports[`renders navigation 1`] = `
 <div>
   <div
-    class="jsx-1463981424 about"
+    class="jsx-779943344 main-title"
+  />
+  <div
+    class="jsx-161742716"
+  >
+    <a
+      class="jsx-161742716"
+      href="/"
+    >
+      Recipes
+    </a>
+    <a
+      class="jsx-161742716"
+      href="/saved"
+    >
+      Saved
+    </a>
+    <a
+      class="jsx-161742716"
+      href="/about"
+    >
+      About us
+    </a>
+  </div>
+  <div
+    class="jsx-2588275976 text"
   >
     <div
-      class="jsx-1463981424 text"
+      class="jsx-2588275976"
     >
-      <div
-        class="jsx-1463981424"
-      >
-        The Drunken Goose is a cocktail bar serving the very best in drinks and company.
-      </div>
-      <div
-        class="jsx-1463981424"
-      >
-        We can be found in LARP events around the UK; all are welcome to come sit by the fire, drink, eat, gossip, and sing.
-      </div>
-      <div
-        class="jsx-1463981424"
-      >
-        Private tables are available on request.
-      </div>
+      The Drunken Goose is a cocktail bar serving the very best in drinks and company.
     </div>
-    <img
-      alt="Drunken Goose Crew"
-      class="jsx-1463981424"
-      src="./img/crew1.jpg"
-    />
-    <img
-      alt="Drunken Goose"
-      class="jsx-1463981424"
-      src="./img/goose1.jpg"
-    />
     <div
-      class="jsx-1463981424 text"
+      class="jsx-2588275976"
     >
-      <div
-        class="jsx-1463981424"
-      >
-        <a
-          alt="Profound Decisions: Empire"
-          class="jsx-1463981424"
-          href="https://www.profounddecisions.co.uk/empire"
-        >
-          Profound Decisions: Empire
-        </a>
-      </div>
-      <div
-        class="jsx-1463981424"
-      >
-        The staff of The Drunken Goose are part of the Nation of Navarr at Empire events. The Goose can be found in the Navarr woods at the intersection between the main camp path and Murder Alley leading to the Wintermark camp.
-      </div>
+      We can be found in LARP events around the UK; all are welcome to come sit by the fire, drink, eat, gossip, and sing.
     </div>
-    <img
-      alt="Drunken Goose Crew"
-      class="jsx-1463981424"
-      src="./img/crew2.jpg"
-    />
-    <img
-      alt="Drunken Goose Crew"
-      class="jsx-1463981424"
-      src="./img/goose2.jpg"
-    />
-    <img
-      alt="Drunken Goose Crew"
-      class="jsx-1463981424"
-      src="./img/goose3.jpg"
-    />
     <div
-      class="jsx-1463981424 text last"
+      class="jsx-2588275976"
     >
-      <div
-        class="jsx-1463981424"
+      Private tables are available on request.
+    </div>
+  </div>
+  <img
+    alt="Drunken Goose Crew"
+    class="jsx-2588275976"
+    src="./img/crew1.jpg"
+  />
+  <img
+    alt="Drunken Goose"
+    class="jsx-2588275976"
+    src="./img/goose1.jpg"
+  />
+  <div
+    class="jsx-2588275976 text"
+  >
+    <div
+      class="jsx-2588275976"
+    >
+      <a
+        alt="Profound Decisions: Empire"
+        class="jsx-2588275976"
+        href="https://www.profounddecisions.co.uk/empire"
       >
-        For queries we can be contacted at 
-        <a
-          class="jsx-1463981424"
-          href="mailto:contact@thedrunkengoose.com"
-        >
-          contact@thedrunkengoose.com
-        </a>
-      </div>
+        Profound Decisions: Empire
+      </a>
+    </div>
+    <div
+      class="jsx-2588275976"
+    >
+      The staff of The Drunken Goose are part of the Nation of Navarr at Empire events. The Goose can be found in the Navarr woods at the intersection between the main camp path and Murder Alley leading to the Wintermark camp.
+    </div>
+  </div>
+  <img
+    alt="Drunken Goose Crew"
+    class="jsx-2588275976"
+    src="./img/crew2.jpg"
+  />
+  <img
+    alt="Drunken Goose Crew"
+    class="jsx-2588275976"
+    src="./img/goose2.jpg"
+  />
+  <img
+    alt="Drunken Goose Crew"
+    class="jsx-2588275976"
+    src="./img/goose3.jpg"
+  />
+  <div
+    class="jsx-2588275976 text last"
+  >
+    <div
+      class="jsx-2588275976"
+    >
+      For queries we can be contacted at 
+      <a
+        class="jsx-2588275976"
+        href="mailto:contact@thedrunkengoose.com"
+      >
+        contact@thedrunkengoose.com
+      </a>
     </div>
   </div>
 </div>

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tabMenu renders 1`] = `
+<div>
+  <div
+    class="jsx-161742716"
+  >
+    <a
+      class="jsx-161742716"
+      href="/"
+    >
+      Recipes
+    </a>
+    <a
+      class="jsx-161742716"
+      href="/saved"
+    >
+      Saved
+    </a>
+    <a
+      class="jsx-161742716"
+      href="/about"
+    >
+      About us
+    </a>
+  </div>
+</div>
+`;

@@ -1,11 +1,14 @@
+import { TabMenu } from '../components/tab-menu'
 import { DrinkPanel } from '../components/drink-panel'
 import drinks from '../public/data/drinks.json'
 import instructions from '../public/data/instructions.json'
+import { MainTitle } from '../components/main-title'
 
 export default function Index () {
   return (
     <>
-      <div className='main-title' />
+      <MainTitle />
+      <TabMenu />
       {drinks.map(drink =>
         <DrinkPanel
           name={drink.name}
@@ -18,19 +21,6 @@ export default function Index () {
           instructions={instructions[drink.name]}
         />
       )}
-
-      <style jsx>{`
-        .main-title {
-          max-height: 320px;
-          background-image: url('/img/banner1.jpg');
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 0;
-          padding-top: 30%;
-          margin-bottom: 20px;
-        }
-      `}</style>
     </>
   )
 }
