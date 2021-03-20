@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'FenwickWoodtype';
+  src: url('./public/FenwickWoodtype.ttf');
+}
+
 body {
   width: 98%;
   height: 100%;
   box-sizing: content-box;
-  font-family: 'Aclonica';
+  font-family: 'FenwickWoodtype';
+  font-size: x-large;
 }
