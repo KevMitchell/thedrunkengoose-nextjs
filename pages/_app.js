@@ -34,8 +34,7 @@ export default function App ({ Component, pageProps = {} }) {
           right: 0;
           left: 0;
           text-align: center;
-          width: 85%;
-          max-width: 800px;
+          width: 90%;
           height: 100%;
           margin: 30px auto;
         }

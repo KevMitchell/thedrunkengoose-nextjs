@@ -59,7 +59,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         </div>
 
         <div className='ingredients'>
-          {ingredients && joinJsx(ingredients.map(getIngredientText), 44, '  •  ')}
+          {ingredients && joinJsx(ingredients.map(getIngredientText), 32, '  •  ')}
         </div>
 
         <div className='methodExpander' onClick={() => setExpanded(!expanded)}>
@@ -83,30 +83,35 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
 
       <style jsx>{`
         .drinkPanel {
-          display: block;
-          background-color: aliceblue;
-          margin: 0 5% 20px 5%;
+          display: inline-block;
+          vertical-align: top;
+          background: url('./img/recipecard-short.png');
+          background-repeat: no-repeat;
+          // background-size: cover;
+          margin: 0 5px 20px 5px;
           height: 320px;
-          width: 90%;
+          width: 363px;
           top: 10px;
           font-size: 1.5em;
           z-index: -1;
-          -webkit-transition: height 0.5s ease-out;
-          -moz-transition: height 0.5s ease-out;
-          -o-transition: height 0.5s ease-out;
-          -ms-transition: height 0.5s ease-out;
-          transition: height 0.5s ease-out;
+          overflow: hidden;
+          -webkit-transition: height 0.5s ease-out, background 0s ease-out 0.5s;
+          -moz-transition: height 0.5s ease-out, background 0s ease-out 0.5s;
+          -o-transition: height 0.5s ease-out, background 0s ease-out 0.5s;
+          -ms-transition: height 0.5s ease-out, background 0s ease-out 0.5s;
+          transition: height 0.5s ease-out, background 0s ease-out 0.5s;
         }
 
         .drinkPanel.expanded {
+          background: url('./img/recipecard-long.png');
           min-height: 320px;
-          height: 520px;
+          height: 512px;
           overflow: visible;
-          -webkit-transition: height 0.5s ease-out;
-          -moz-transition: height 0.5s ease-out;
-          -o-transition: height 0.5s ease-out;
-          -ms-transition: height 0.5s ease-out;
-          transition: height 0.5s ease-out;
+          -webkit-transition: height 0.5s ease-out, background 0s ease-out;
+          -moz-transition: height 0.5s ease-out, background 0s ease-out;
+          -o-transition: height 0.5s ease-out, background 0s ease-out;
+          -ms-transition: height 0.5s ease-out, background 0s ease-out;
+          transition: height 0.5s ease-out, background 0s ease-out;
         }
 
         .topPanel {
@@ -115,9 +120,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         }
         
         .title {
-          vertical-align: top;
-          padding: 10px;
-          border-bottom: 1px solid black;
+          margin-top: 23px;
         }
 
         .overview {
@@ -157,7 +160,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           position: absolute;
           bottom: 0;
           cursor: pointer;
-          padding: 5px;
+          padding: 5px 5px 5px 10px;
         }
 
         .addToSaved {
@@ -165,25 +168,24 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           bottom: 0;
           right: 0;
           cursor: pointer;
-          padding: 5px;
+          padding: 5px 10px 5px 0;
         }
         
         .title {
-          color: grey;
           font-size: 28px;
           text-transform: uppercase;
         }
 
         .ingredients {
-          width: 80%;
+          width: 90%;
           margin: auto;
           letter-spacing: 1px;
+          font-size: 0.8em;
         }
         
         .instructions {
           position: relative;
           padding: 20px;
-          max-width: 700px;
           text-align: left;
           opacity: 0;
           -webkit-transition: opacity 0.2s ease-out;
