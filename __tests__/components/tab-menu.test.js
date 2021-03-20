@@ -5,7 +5,7 @@ jest.mock('next/dist/client/router', () => ({
   __esModule: true,
   useRouter: () => ({
     query: {},
-    pathname: '/',
+    pathname: '',
     asPath: '/',
     events: {
       emit: jest.fn(),

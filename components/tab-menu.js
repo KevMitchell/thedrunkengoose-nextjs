@@ -17,6 +17,8 @@ export function TabMenu () {
     changeSelection(1)
   } else if (router?.pathname === '/about') {
     changeSelection(2)
+  } else if (router?.pathname === '/') {
+    changeSelection(0)
   }
 
   return (

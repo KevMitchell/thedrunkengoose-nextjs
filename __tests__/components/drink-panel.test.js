@@ -1,6 +1,6 @@
 import { fireEvent, render } from '@testing-library/react'
 import { DrinkPanel } from '../../components/drink-panel'
-import { toggleSaved } from '../../utils/saved-drinks'
+import { toggleSaved, getSaved } from '../../utils/saved-drinks'
 
 const testIngredients = [{
   name: 'ing1', quantity: 10
@@ -23,17 +23,18 @@ const mockDrink = {
 }
 
 jest.mock('../../utils/saved-drinks', () => ({
-  toggleSaved: jest.fn()
+  toggleSaved: jest.fn(),
+  getSaved: jest.fn()
 }))
 
 test('renders the supplied drink', () => {
-  const { container } = render(
-    <DrinkPanel
-      { ...mockDrink }
-    />
-  )
-
+  const { container } = render(<DrinkPanel { ...mockDrink } />)
   expect(container).toMatchSnapshot()
+})
+
+test('gets the saved drinks after render', () => {
+  render(<DrinkPanel { ...mockDrink } />)
+  expect(getSaved).toHaveBeenCalled()
 })
 
 test('clicking the method label expands and contracts the panel', () => {

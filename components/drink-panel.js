@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { joinJsx } from '../utils/array-join-of-length'
-import { toggleSaved } from '../utils/saved-drinks'
+import { toggleSaved, getSaved } from '../utils/saved-drinks'
 
 export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredients, instructions }) {
   const [saved, setSaved] = useState(false)
   const [expanded, setExpanded] = useState(false)
 
   useEffect(() => {
-    setSaved(localStorage.getItem(name))
+    setSaved(getSaved(name))
   }, [])
 
   const getIngredientText = (ing) => {
