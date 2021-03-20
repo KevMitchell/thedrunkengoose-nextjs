@@ -2,7 +2,7 @@ export function Footer () {
   return (
     <>
       <footer>
-        Copyright © Kevin Mitchell, 2021
+        Copyright © Kevin Mitchell, 2021. UX Design by Nichola Evans
       </footer>
       <style jsx>{`
         footer {
