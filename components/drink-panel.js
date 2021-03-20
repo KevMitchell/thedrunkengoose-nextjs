@@ -48,7 +48,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         </div>
 
         <div className='ingredients'>
-          {ingredients && joinJsx(ingredients.map(getIngredientText), 40, '  •  ')}
+          {ingredients && joinJsx(ingredients.map(getIngredientText), 44, '  •  ')}
         </div>
 
         <div className='methodExpander' onClick={() => setExpanded(!expanded)}>
@@ -70,11 +70,10 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         .drinkPanel {
           display: block;
           background-color: aliceblue;
-          margin: 0 5% 20px 4%;
+          margin: 0 5% 20px 5%;
           height: 320px;
           box-sizing: border-box;
           width: 90%;
-          max-width: 600px;
           top: 10px;
           z-index: -1;
           -webkit-transition: height 0.5s ease-out;

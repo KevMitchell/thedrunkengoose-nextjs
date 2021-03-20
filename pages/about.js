@@ -1,11 +1,6 @@
-import { MainTitle } from '../components/main-title'
-import { TabMenu } from '../components/tab-menu'
-
 export default function About () {
   return (
     <>
-      <MainTitle />
-      <TabMenu />
       <div className='text'>
         <div>The Drunken Goose is a cocktail bar serving the very best in drinks and company.</div>
         <div>We can be found in LARP events around the UK; all are welcome to come sit by the fire, drink, eat, gossip, and sing.</div>

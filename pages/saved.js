@@ -2,7 +2,7 @@ import { DrinkPanel } from '../components/drink-panel'
 import drinks from '../public/data/drinks.json'
 import instructions from '../public/data/instructions.json'
 
-export default function Index () {
+export default function Saved () {
   return (
     <>
       {drinks.map(drink =>

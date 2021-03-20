@@ -1,32 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders navigation 1`] = `
+exports[`renders about section 1`] = `
 <div>
-  <div
-    class="jsx-779943344 main-title"
-  />
-  <div
-    class="jsx-161742716"
-  >
-    <a
-      class="jsx-161742716"
-      href="/"
-    >
-      Recipes
-    </a>
-    <a
-      class="jsx-161742716"
-      href="/saved"
-    >
-      Saved
-    </a>
-    <a
-      class="jsx-161742716"
-      href="/about"
-    >
-      About us
-    </a>
-  </div>
   <div
     class="jsx-2588275976 text"
   >
