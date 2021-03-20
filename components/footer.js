@@ -10,7 +10,7 @@ export function Footer () {
           bottom: 0;
           left: 0;
           opacity: 0.6;
-          font-size: 10px;
+          font-size: 16px;
           margin: 10px;
           color: white;
         }
