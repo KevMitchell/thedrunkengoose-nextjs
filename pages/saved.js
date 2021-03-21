@@ -3,9 +3,31 @@ import { DrinkPanel } from '../components/drink-panel'
 import { getSaved } from '../utils/saved-drinks'
 import drinks from '../public/data/drinks.json'
 import instructions from '../public/data/instructions.json'
+import { Filters } from '../components/filters'
 
 export default function Saved () {
   const [savedDrinks, setSavedDrinks] = useState([])
+  const [currentDrinks, setCurrentDrinks] = useState([])
+  const [typeFilter, setTypeFilter] = useState(null)
+  const [difficultyFilter, setDifficultyFilter] = useState(null)
+  const [baseFilter, setBaseFilter] = useState(null)
+  const [flavourFilter, setFlavourFilter] = useState(null)
+
+  useEffect(() => {
+    const filteredDrinks = savedDrinks
+      .filter(drink => !typeFilter || (!!drink.virgin === (typeFilter !== 'alcoholic')))
+      .filter(drink => !difficultyFilter || drink.difficulty === difficultyFilter)
+      .filter(drink => !baseFilter || drink.base === baseFilter)
+      .filter(drink => !flavourFilter || drink.flavour.includes(flavourFilter))
+      .filter(drink => drink)
+
+    setCurrentDrinks(filteredDrinks)
+  }, [savedDrinks, typeFilter, difficultyFilter, baseFilter, flavourFilter])
+
+  const filterByType = ({ target: { value } }) => setTypeFilter(value === 'all' ? null : value)
+  const filterByDifficulty = ({ target: { value } }) => setDifficultyFilter(value === 'all' ? null : value)
+  const filterByBase = ({ target: { value } }) => setBaseFilter(value === 'all' ? null : value)
+  const filterByFlavour = ({ target: { value } }) => setFlavourFilter(value === 'all' ? null : value)
 
   useEffect(() => {
     const newSavedDrinks = drinks.filter(drink => getSaved(drink.name))
@@ -14,7 +36,13 @@ export default function Saved () {
 
   return (
     <>
-      {savedDrinks.map(drink =>
+      <Filters
+        handleTypeChange={filterByType}
+        handleDifficultyChange={filterByDifficulty}
+        handleBaseChange={filterByBase}
+        handleFlavourChange={filterByFlavour}
+      />
+      {currentDrinks.map(drink =>
         <DrinkPanel
           name={drink.name}
           key={drink.name}

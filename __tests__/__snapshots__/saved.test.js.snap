@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders saved section 1`] = `
+<div>
+  <div
+    class="jsx-1150314341"
+  >
+    <div
+      class="jsx-3084802152 dropdown-container"
+    >
+      <select
+        class="jsx-3084802152"
+        data-testid="type-filter"
+      >
+        <option
+          class="jsx-3084802152"
+          value="all"
+        >
+          All types
+        </option>
+        <option
+          class="jsx-3084802152"
+          value="alcoholic"
+        >
+          Alcoholic
+        </option>
+        <option
+          class="jsx-3084802152"
+          value="virgin"
+        >
+          Virgin
+        </option>
+      </select>
+      <span
+        class="jsx-3084802152 arrow"
+        tabindex="0"
+      />
+    </div>
+    <div
+      class="jsx-3084802152 dropdown-container"
+    >
+      <select
+        class="jsx-3084802152"
+        data-testid="difficulty-filter"
+      >
+        <option
+          class="jsx-3084802152"
+          value="all"
+        >
+          Any effort
+        </option>
+        <option
+          class="jsx-3084802152"
+          value="Easy"
+        >
+          Easy
+        </option>
+        <option
+          class="jsx-3084802152"
+          value="Hard"
+        >
+          Hard
+        </option>
+      </select>
+      <span
+        class="jsx-3084802152 arrow"
+        tabindex="0"
+      />
+    </div>
+    <div
+      class="jsx-3084802152 dropdown-container"
+    >
+      <select
+        class="jsx-3084802152"
+        data-testid="base-filter"
+      >
+        <option
+          class="jsx-3084802152"
+          value="all"
+        >
+          All bases
+        </option>
+        <option
+          class="jsx-3084802152"
+          value="Gin"
+        >
+          Gin
+        </option>
+        <option
+          class="jsx-3084802152"
+          value="Whiskey"
+        >
+          Whiskey
+        </option>
+      </select>
+      <span
+        class="jsx-3084802152 arrow"
+        tabindex="0"
+      />
+    </div>
+    <div
+      class="jsx-3084802152 dropdown-container"
+    >
+      <select
+        class="jsx-3084802152"
+        data-testid="flavour-filter"
+      >
+        <option
+          class="jsx-3084802152"
+          value="all"
+        >
+          All flavour
+        </option>
+        <option
+          class="jsx-3084802152"
+          value="Ginger"
+        >
+          Ginger
+        </option>
+        <option
+          class="jsx-3084802152"
+          value="Lemonade"
+        >
+          Lemonade
+        </option>
+        <option
+          class="jsx-3084802152"
+          value="Strong"
+        >
+          Strong
+        </option>
+      </select>
+      <span
+        class="jsx-3084802152 arrow"
+        tabindex="0"
+      />
+    </div>
+  </div>
+  <div
+    class="jsx-643961952 drinkPanel "
+    data-testid="drinkPanel"
+  >
+    <div
+      class="jsx-643961952 title"
+    >
+      drink2
+    </div>
+    <div
+      class="jsx-643961952 topPanel"
+    >
+      <div
+        class="jsx-643961952 overview"
+      >
+        <div
+          class="jsx-643961952 imageContainer"
+        >
+          <img
+            alt="drink2"
+            class="jsx-643961952 image"
+            src="./img/drinks/drink2.jpg"
+          />
+        </div>
+        <div
+          class="jsx-643961952 overviewText"
+        >
+          <div
+            class="jsx-643961952 difficulty"
+          >
+            Hard
+          </div>
+          <div
+            class="jsx-643961952 base"
+          >
+            Gin
+          </div>
+          <div
+            class="jsx-643961952 flavour"
+          >
+            Lemonade, Ginger
+          </div>
+        </div>
+      </div>
+      <div
+        class="jsx-643961952 ingredients"
+      >
+        <div>
+          50ml LEMONADE
+        </div>
+      </div>
+      <div
+        class="jsx-643961952 methodExpander"
+      >
+        Method 
+        ▼
+      </div>
+      <div
+        class="jsx-643961952 addToSaved"
+      >
+        ♥
+         Add to saved
+      </div>
+    </div>
+    <div
+      class="jsx-643961952 instructions "
+      data-testid="instructions"
+    >
+      <div
+        class="jsx-643961952 instructionLine"
+      >
+        inst3
+      </div>
+      <div
+        class="jsx-643961952 instructionLine"
+      >
+        inst4
+      </div>
+    </div>
+  </div>
+</div>
+`;
