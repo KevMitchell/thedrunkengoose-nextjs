@@ -16,6 +16,7 @@ export function Filters ({
       { name: 'Alcoholic', value: 'alcoholic' },
       { name: 'Virgin', value: 'virgin' }
     ],
+    id: 'type-filter',
     handleSelect: handleTypeChange
   }
 
@@ -28,6 +29,7 @@ export function Filters ({
       { name: 'Any effort', value: 'all' },
       ...difficultyOptions
     ],
+    id: 'difficulty-filter',
     handleSelect: handleDifficultyChange
   }
 
@@ -41,6 +43,7 @@ export function Filters ({
       { name: 'All bases', value: 'all' },
       ...baseOptions
     ],
+    id: 'base-filter',
     handleSelect: handleBaseChange
   }
 
@@ -55,6 +58,7 @@ export function Filters ({
       { name: 'All flavour', value: 'all' },
       ...flavourOptions
     ],
+    id: 'flavour-filter',
     handleSelect: handleFlavourChange
   }
 

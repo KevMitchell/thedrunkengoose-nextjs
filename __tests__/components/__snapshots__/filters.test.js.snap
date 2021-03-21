@@ -10,6 +10,7 @@ exports[`renders correct filters 1`] = `
     >
       <select
         class="jsx-3084802152"
+        data-testid="type-filter"
       >
         <option
           class="jsx-3084802152"
@@ -40,6 +41,7 @@ exports[`renders correct filters 1`] = `
     >
       <select
         class="jsx-3084802152"
+        data-testid="difficulty-filter"
       >
         <option
           class="jsx-3084802152"
@@ -76,6 +78,7 @@ exports[`renders correct filters 1`] = `
     >
       <select
         class="jsx-3084802152"
+        data-testid="base-filter"
       >
         <option
           class="jsx-3084802152"
@@ -196,6 +199,7 @@ exports[`renders correct filters 1`] = `
     >
       <select
         class="jsx-3084802152"
+        data-testid="flavour-filter"
       >
         <option
           class="jsx-3084802152"

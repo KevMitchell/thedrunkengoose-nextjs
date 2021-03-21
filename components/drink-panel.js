@@ -87,7 +87,8 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           vertical-align: top;
           background: url('./img/recipecard-short.png');
           background-repeat: no-repeat;
-          // background-size: cover;
+          font-family: Cambria Math;
+          font-size: 0.8em;
           margin: 0 5px 20px 5px;
           height: 320px;
           width: 363px;
@@ -139,6 +140,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         .overviewText {
           display: inline-block;
           vertical-align: top;
+          font-size: 0.8em;
         }
 
         .difficulty {
@@ -174,6 +176,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         .title {
           font-size: 28px;
           text-transform: uppercase;
+          font-family: 'FenwickWoodtype';
         }
 
         .ingredients {
