@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
 import { joinJsx } from '../utils/array-join-of-length'
 import { toggleSaved, getSaved } from '../utils/saved-drinks'
@@ -6,6 +6,7 @@ import { toggleSaved, getSaved } from '../utils/saved-drinks'
 export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredients, instructions }) {
   const [saved, setSaved] = useState(false)
   const [expanded, setExpanded] = useState(false)
+  const heartRef = useRef(null)
 
   useEffect(() => {
     setSaved(getSaved(name))
@@ -24,8 +25,12 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
   }
 
   const toggleSavedState = () => {
-    toggleSaved(name, !saved)
-    setSaved(!saved)
+    heartRef.current.className = `${heartRef.current.className} pulse`
+    setTimeout(() => {
+      heartRef.current.className = heartRef.current.className.replaceAll('pulse', '')
+      toggleSaved(name, !saved)
+      setSaved(!saved)
+    }, 200)
   }
 
   return (
@@ -67,7 +72,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         </div>
 
         <div className='addToSaved' onClick={() => toggleSavedState()}>
-          {saved ? '♥' : '♡'} Add to saved
+          <div ref={heartRef} className={saved ? 'heart filled' : 'heart'} />Add to saved
         </div>
       </div>
 
@@ -165,12 +170,51 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           padding: 5px 5px 5px 10px;
         }
 
+        .heart {
+          display: inline-block;
+          width: 20px;
+          height: 16px;
+          padding-left: 14px;
+          background: url('./img/heart.svg');
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          transform: scale(1);
+        }
+
+        .heart.filled {
+          background: url('./img/heart-filled.svg');
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+
+        .heart.pulse {
+          transform: scale(1.1);
+          animation: pulse 0.2s 1;
+        }
+
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+          }
+        
+          70% {
+            transform: scale(1.1);
+          }
+        
+          100% {
+            transform: scale(1);
+          }
+        }
+
         .addToSaved {
           position: absolute;
           bottom: 0;
           right: 0;
           cursor: pointer;
           padding: 5px 10px 5px 0;
+          vertical-align: middle;
         }
         
         .title {

@@ -3,51 +3,51 @@
 exports[`renders the supplied drink 1`] = `
 <div>
   <div
-    class="jsx-643961952 drinkPanel "
+    class="jsx-529362755 drinkPanel "
     data-testid="drinkPanel"
   >
     <div
-      class="jsx-643961952 title"
+      class="jsx-529362755 title"
     >
       test-name
     </div>
     <div
-      class="jsx-643961952 topPanel"
+      class="jsx-529362755 topPanel"
     >
       <div
-        class="jsx-643961952 overview"
+        class="jsx-529362755 overview"
       >
         <div
-          class="jsx-643961952 imageContainer"
+          class="jsx-529362755 imageContainer"
         >
           <img
             alt="test-name"
-            class="jsx-643961952 image"
+            class="jsx-529362755 image"
             src="./img/drinks/test-image"
           />
         </div>
         <div
-          class="jsx-643961952 overviewText"
+          class="jsx-529362755 overviewText"
         >
           <div
-            class="jsx-643961952 difficulty"
+            class="jsx-529362755 difficulty"
           >
             test-difficulty
           </div>
           <div
-            class="jsx-643961952 base"
+            class="jsx-529362755 base"
           >
             test-base
           </div>
           <div
-            class="jsx-643961952 flavour"
+            class="jsx-529362755 flavour"
           >
             test1, test2
           </div>
         </div>
       </div>
       <div
-        class="jsx-643961952 ingredients"
+        class="jsx-529362755 ingredients"
       >
         <div>
           10ml ING1  •  20ml ING2 OR ING3
@@ -57,29 +57,31 @@ exports[`renders the supplied drink 1`] = `
         </div>
       </div>
       <div
-        class="jsx-643961952 methodExpander"
+        class="jsx-529362755 methodExpander"
       >
         Method 
         ▼
       </div>
       <div
-        class="jsx-643961952 addToSaved"
+        class="jsx-529362755 addToSaved"
       >
-        ♡
-         Add to saved
+        <div
+          class="jsx-529362755 heart"
+        />
+        Add to saved
       </div>
     </div>
     <div
-      class="jsx-643961952 instructions "
+      class="jsx-529362755 instructions "
       data-testid="instructions"
     >
       <div
-        class="jsx-643961952 instructionLine"
+        class="jsx-529362755 instructionLine"
       >
         inst1
       </div>
       <div
-        class="jsx-643961952 instructionLine"
+        class="jsx-529362755 instructionLine"
       >
         inst2
       </div>
