@@ -60,6 +60,12 @@ export function TabMenu () {
           transition: border-color 0.2s ease-in-out;
         }
 
+        @media (max-width: 640px) {
+          a {
+            margin: 0 12px 10px 12px;
+          }
+        }
+
         .selected {
           border-color: rgba(202, 180, 136, 1);
           -webkit-transition: border-color 0.2s ease-in-out;

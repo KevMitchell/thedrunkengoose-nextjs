@@ -11,14 +11,12 @@ export function MainTitle () {
           position: relative;
           top: 0;
           left: 0;
-          max-width: 300px;
-          max-height: 320px;
           background-image: url('/img/goose-header.svg');
           background-size: contain;
           background-repeat: no-repeat;
-          background-position: center;
-          width: 100%;
-          height: 0;
+          background-position: left center;
+          height: 100px;
+          max-height: 100px;
           padding-top: 10%;
           margin-bottom: 20px;
         }

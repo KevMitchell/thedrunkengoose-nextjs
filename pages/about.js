@@ -60,7 +60,6 @@ export default function About () {
 
         @media (max-width: 780px) {
           div {
-            width: 100%;
             display: inline-block;
           }
 
