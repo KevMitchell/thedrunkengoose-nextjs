@@ -14,7 +14,7 @@ export function MainTitle () {
           background-image: url('/img/goose-header.svg');
           background-size: contain;
           background-repeat: no-repeat;
-          background-position: left center;
+          background-position: center;
           height: 100px;
           max-height: 100px;
           padding-top: 10%;
