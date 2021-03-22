@@ -65,8 +65,7 @@
       { "name": "Rum (overproof)", "quantity": 15 },
       { "name": "Lemon juice", "quantity": 30 },
       { "name": "Pineapple juice", "quantity": 240 },
-      { "name": "Grenadine", "quantity": 15, "optional": true },
-      { "name": "Orange juice", "quantity": 120, "optional": true }
+      { "name": "Grenadine", "quantity": 15, "optional": true }
     ]
   },
   {
@@ -583,9 +582,9 @@
       { "name": "Rhubarb bitters", "quantity": 4, "dashes": true },
       { "name": "Apple juice", "quantity": 100 },
       { "name": "Brandy", "quantity": 20 },
-      { "name": "Vanilla extract", "quantity": 10 },
       { "name": "Lemon juice", "quantity": 15 },
-      { "name": "Grenadine", "quantity": 10 }
+      { "name": "Grenadine", "quantity": 10 },
+      { "name": "Vanilla extract", "quantity": 10 }
     ]
   },
   {
@@ -709,8 +708,8 @@
       { "name": "Vodka", "quantity": 40 },
       { "name": "Triple sec", "quantity": 20 },
       { "name": "Midori", "quantity": 20 },
-      { "name": "Ginger beer", "quantity": 120 },
       { "name": "Grenadine", "quantity": 10 },
+      { "name": "Ginger beer", "quantity": 120 },
       { "name": "Lime slice", "quantity": 1 },
       { "name": "Rum (overproof)", "quantity": 5 },
       { "name": "Blowtorch" }

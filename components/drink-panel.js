@@ -33,12 +33,15 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
     }, 200)
   }
 
+  const drinkPanelClass = instructions.length > 5 ? 'drinkPanel long' : 'drinkPanel'
+  const titleClass = name.length > 18 ? 'title long' : 'title'
+
   return (
     <div
-      className={`drinkPanel ${expanded ? 'expanded' : ''}`}
+      className={`${drinkPanelClass} ${expanded ? 'expanded' : ''}`}
       data-testid='drinkPanel'
     >
-      <div className='title'>{name}</div>
+      <div className={titleClass}>{name}</div>
       <div className='topPanel'>
         <div className='overview'>
           {image && (
@@ -81,7 +84,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           <div
             key={`${name}-${index}`}
             className='instructionLine'>
-            {inst}
+            {`• ${inst}`}
           </div>
         )}
       </div>
@@ -90,12 +93,12 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         .drinkPanel {
           display: inline-block;
           vertical-align: top;
-          background: url('./img/recipecard-short.png');
+          background: url('./img/recipecard-short.jpg');
           background-repeat: no-repeat;
           font-family: Cambria Math;
           font-size: 0.8em;
           margin: 0 5px 20px 5px;
-          height: 320px;
+          height: 348px;
           width: 363px;
           top: 10px;
           font-size: 1.5em;
@@ -108,9 +111,17 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           transition: height 0.5s ease-out, background 0s ease-out 0.5s;
         }
 
+        .drinkPanel.long {
+          -webkit-transition: height 0.5s ease-out, background 0s ease-out 0.6s;
+          -moz-transition: height 0.5s ease-out, background 0s ease-out 0.6s;
+          -o-transition: height 0.5s ease-out, background 0s ease-out 0.6s;
+          -ms-transition: height 0.5s ease-out, background 0s ease-out 0.6s;
+          transition: height 0.5s ease-out, background 0s ease-out 0.6s;
+        }
+
         .drinkPanel.expanded {
-          background: url('./img/recipecard-long.png');
-          min-height: 320px;
+          background: url('./img/recipecard-long.jpg');
+          min-height: 348px;
           height: 512px;
           overflow: visible;
           -webkit-transition: height 0.5s ease-out, background 0s ease-out;
@@ -120,13 +131,24 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           transition: height 0.5s ease-out, background 0s ease-out;
         }
 
+        .drinkPanel.expanded.long {
+          background: url('./img/recipecard-extralong.jpg');
+          min-height: 348px;
+          height: 740px;
+        }
+
         .topPanel {
-          height: 270px;
+          height: 290px;
           position: relative;
         }
         
         .title {
           margin-top: 23px;
+        }
+
+        .title.long {
+          font-size: 0.8em;
+          margin-top: 29px;
         }
 
         .overview {
@@ -227,13 +249,14 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           width: 90%;
           margin: auto;
           letter-spacing: 1px;
-          font-size: 0.8em;
+          font-size: 0.7em;
         }
         
         .instructions {
           position: relative;
           padding: 20px;
           text-align: left;
+          font-size: 0.8em;
           opacity: 0;
           -webkit-transition: opacity 0.2s ease-out;
           -moz-transition: opacity 0.2s ease-out;
