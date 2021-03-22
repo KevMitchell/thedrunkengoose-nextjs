@@ -3,51 +3,63 @@
 exports[`renders the supplied drink 1`] = `
 <div>
   <div
-    class="jsx-2994608941 drinkPanel "
+    class="jsx-252475938 drinkPanel "
     data-testid="drinkPanel"
   >
     <div
-      class="jsx-2994608941 title"
+      class="jsx-252475938 title"
     >
       test-name
     </div>
     <div
-      class="jsx-2994608941 topPanel"
+      class="jsx-252475938 topPanel"
     >
       <div
-        class="jsx-2994608941 overview"
+        class="jsx-252475938 overview"
       >
         <div
-          class="jsx-2994608941 imageContainer"
+          class="jsx-252475938 imageContainer"
         >
           <img
             alt="test-name"
-            class="jsx-2994608941 image"
+            class="jsx-252475938 image"
             src="./img/drinks/test-image"
           />
         </div>
         <div
-          class="jsx-2994608941 overviewText"
+          class="jsx-252475938 overviewText"
         >
           <div
-            class="jsx-2994608941 difficulty"
+            class="jsx-252475938 difficulty"
           >
+            <span
+              class="jsx-252475938 icon difficulty-icon"
+            />
+             
             test-difficulty
           </div>
           <div
-            class="jsx-2994608941 base"
+            class="jsx-252475938 base"
           >
+            <span
+              class="jsx-252475938 icon base-icon"
+            />
+             
             test-base
           </div>
           <div
-            class="jsx-2994608941 flavour"
+            class="jsx-252475938 flavour"
           >
+            <span
+              class="jsx-252475938 icon flavour-icon"
+            />
+             
             test1, test2
           </div>
         </div>
       </div>
       <div
-        class="jsx-2994608941 ingredients"
+        class="jsx-252475938 ingredients"
       >
         <div>
           10ml ING1  •  20ml ING2 OR ING3
@@ -57,31 +69,31 @@ exports[`renders the supplied drink 1`] = `
         </div>
       </div>
       <div
-        class="jsx-2994608941 methodExpander"
+        class="jsx-252475938 methodExpander"
       >
         Method 
         ▼
       </div>
       <div
-        class="jsx-2994608941 addToSaved"
+        class="jsx-252475938 addToSaved"
       >
         <div
-          class="jsx-2994608941 heart"
+          class="jsx-252475938 heart"
         />
         Add to saved
       </div>
     </div>
     <div
-      class="jsx-2994608941 instructions "
+      class="jsx-252475938 instructions "
       data-testid="instructions"
     >
       <div
-        class="jsx-2994608941 instructionLine"
+        class="jsx-252475938 instructionLine"
       >
         • inst1
       </div>
       <div
-        class="jsx-2994608941 instructionLine"
+        class="jsx-252475938 instructionLine"
       >
         • inst2
       </div>

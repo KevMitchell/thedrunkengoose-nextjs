@@ -55,13 +55,13 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           )}
           <div className='overviewText'>
             <div className='difficulty'>
-              {difficulty}
+              <span className='icon difficulty-icon' /> {difficulty}
             </div>
             <div className='base'>
-              {base}
+              <span className='icon base-icon' /> {base}
             </div>
             <div className='flavour'>
-              {flavour.join(', ')}
+              <span className='icon flavour-icon' /> {flavour.join(', ')}
             </div>
           </div>
         </div>
@@ -143,12 +143,13 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         }
         
         .title {
-          margin-top: 23px;
+          height: 33px;
+          padding-top: 22px;
         }
 
         .title.long {
           font-size: 0.8em;
-          margin-top: 29px;
+          line-height: 32px;
         }
 
         .overview {
@@ -173,6 +174,28 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         .difficulty {
           text-align: left;
           padding: 10px 0;
+        }
+
+        .difficulty-icon {
+          background: url('./img/star-icon.svg');
+        }
+
+        .base-icon {
+          background: url('./img/base-icon.svg');
+        }
+
+        .flavour-icon {
+          background: url('./img/flavour-icon.svg');
+        }
+
+        .icon {
+          display: inline-block;
+          width: 18px;
+          height: 18px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          vertical-align: -2px;
         }
 
         .base {
