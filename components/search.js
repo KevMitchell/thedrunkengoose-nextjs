@@ -130,6 +130,16 @@ export function Search ({ updateOnLetterEntry }) {
             width: 406px;
           }
         }
+
+        @media (max-width: 410px) {
+          .search-container.expanded {
+            width: 300px;
+          }
+
+          .search-container.expanded .search-input {
+            width: 300px;
+          }
+        }
       `}</style>
     </div>
   )

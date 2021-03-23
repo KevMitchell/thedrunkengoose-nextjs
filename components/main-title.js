@@ -20,6 +20,16 @@ export function MainTitle () {
           padding-top: 10%;
           margin-bottom: 20px;
         }
+
+        @media (max-width: 410px) {
+          .main-title {
+            height: 80px;
+          }
+
+          .container {
+            padding-left: 10px;
+          }
+        }
       `}</style>
     </div>
   )

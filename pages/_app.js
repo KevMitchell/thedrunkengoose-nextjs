@@ -37,6 +37,7 @@ export default function App ({ Component, pageProps = {} }) {
           width: 90%;
           height: 100%;
           margin: 30px auto;
+          overflow-x: hidden;
         }
 
         .background {
@@ -49,6 +50,12 @@ export default function App ({ Component, pageProps = {} }) {
           background-attachment: fixed;
           background-size: cover;
           z-index: -3;
+        }
+
+        @media (max-width: 410px) {
+          main {
+            width: 100%;
+          }
         }
       `}</style>
     </>

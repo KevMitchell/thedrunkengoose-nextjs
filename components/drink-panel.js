@@ -386,6 +386,11 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         .instruction-line {
           display: list-item;
         }
+
+        @media (max-width: 410px) {
+          .drink-panel {
+            margin: 0 0 30px 0;
+        }
       `}</style>
     </div>
   )

@@ -22,7 +22,7 @@ export function TabMenu () {
   }
 
   return (
-    <div>
+    <div className='container'>
       <Link href={'/'}>
         <a className={selection === 0 ? 'selected' : ''} onClick={() => changeSelection(0)}>Recipes</a>
       </Link>
@@ -33,7 +33,7 @@ export function TabMenu () {
         <a className={selection === 2 ? 'selected' : ''} onClick={() => changeSelection(2)}>About us</a>
       </Link>
       <style jsx>{`
-        div {
+        .container {
           width: 85%;
           max-width: 800px;
           margin: auto;
@@ -63,6 +63,17 @@ export function TabMenu () {
         @media (max-width: 640px) {
           a {
             margin: 0 12px 10px 12px;
+          }
+        }
+
+        @media (max-width: 410px) {
+          .container {
+            width: 95%;
+          }
+
+          a {
+            width: 100px;
+            margin: 0 2px 10px 2px;
           }
         }
 

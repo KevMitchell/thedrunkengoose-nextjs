@@ -6,16 +6,16 @@ exports[`renders saved section 1`] = `
     class="jsx-1150314341"
   >
     <div
-      class="jsx-2036263907 search-box"
+      class="jsx-3190733897 search-box"
     >
       <div
-        class="jsx-2036263907 search-container "
+        class="jsx-3190733897 search-container "
       >
         <div
-          class="jsx-2036263907 search-icon"
+          class="jsx-3190733897 search-icon"
         />
         <input
-          class="jsx-2036263907 search-input"
+          class="jsx-3190733897 search-input"
           data-testid="search"
           title="search-input"
           type="text"
@@ -155,61 +155,61 @@ exports[`renders saved section 1`] = `
     </div>
   </div>
   <div
-    class="jsx-1098781604 drink-panel "
+    class="jsx-819583041 drink-panel "
     data-testid="drinkPanel"
   >
     <div
-      class="jsx-1098781604 standard-image "
+      class="jsx-819583041 standard-image "
     />
     <div
-      class="jsx-1098781604 larger-image "
+      class="jsx-819583041 larger-image "
     />
     <div
-      class="jsx-1098781604 title"
+      class="jsx-819583041 title"
     >
       drink2
     </div>
     <div
-      class="jsx-1098781604 top-panel"
+      class="jsx-819583041 top-panel"
     >
       <div
-        class="jsx-1098781604 overview"
+        class="jsx-819583041 overview"
       >
         <div
-          class="jsx-1098781604 image-container"
+          class="jsx-819583041 image-container"
         >
           <img
             alt="drink2"
-            class="jsx-1098781604 image"
+            class="jsx-819583041 image"
             src="./img/drinks/drink2.jpg"
           />
         </div>
         <div
-          class="jsx-1098781604 overviewText"
+          class="jsx-819583041 overviewText"
         >
           <div
-            class="jsx-1098781604 difficulty"
+            class="jsx-819583041 difficulty"
           >
             <span
-              class="jsx-1098781604 icon difficulty-icon"
+              class="jsx-819583041 icon difficulty-icon"
             />
              
             Hard
           </div>
           <div
-            class="jsx-1098781604 base"
+            class="jsx-819583041 base"
           >
             <span
-              class="jsx-1098781604 icon base-icon"
+              class="jsx-819583041 icon base-icon"
             />
              
             Gin
           </div>
           <div
-            class="jsx-1098781604 flavour"
+            class="jsx-819583041 flavour"
           >
             <span
-              class="jsx-1098781604 icon flavour-icon"
+              class="jsx-819583041 icon flavour-icon"
             />
              
             Lemonade, Ginger
@@ -217,44 +217,44 @@ exports[`renders saved section 1`] = `
         </div>
       </div>
       <div
-        class="jsx-1098781604 ingredients"
+        class="jsx-819583041 ingredients"
       >
         <div>
           50ml LEMONADE
         </div>
       </div>
       <div
-        class="jsx-1098781604 method-expander"
+        class="jsx-819583041 method-expander"
       >
         Method 
         <span
-          class="jsx-1098781604 icon expand-arrow"
+          class="jsx-819583041 icon expand-arrow"
         />
       </div>
       <div
-        class="jsx-1098781604 add-to-saved"
+        class="jsx-819583041 add-to-saved"
       >
         <div
-          class="jsx-1098781604 heart filled"
+          class="jsx-819583041 heart filled"
         />
         <div
-          class="jsx-1098781604 saved-text"
+          class="jsx-819583041 saved-text"
         >
           Saved
         </div>
       </div>
     </div>
     <div
-      class="jsx-1098781604 instructions "
+      class="jsx-819583041 instructions "
       data-testid="instructions"
     >
       <div
-        class="jsx-1098781604 instruction-line"
+        class="jsx-819583041 instruction-line"
       >
         • inst3
       </div>
       <div
-        class="jsx-1098781604 instruction-line"
+        class="jsx-819583041 instruction-line"
       >
         • inst4
       </div>

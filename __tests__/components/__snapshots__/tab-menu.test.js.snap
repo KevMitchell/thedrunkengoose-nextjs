@@ -3,22 +3,22 @@
 exports[`tabMenu renders 1`] = `
 <div>
   <div
-    class="jsx-1408471594"
+    class="jsx-3855969921 container"
   >
     <a
-      class="jsx-1408471594 selected"
+      class="jsx-3855969921 selected"
       href="/"
     >
       Recipes
     </a>
     <a
-      class="jsx-1408471594 "
+      class="jsx-3855969921 "
       href="/saved"
     >
       Saved
     </a>
     <a
-      class="jsx-1408471594 "
+      class="jsx-3855969921 "
       href="/about"
     >
       About us
