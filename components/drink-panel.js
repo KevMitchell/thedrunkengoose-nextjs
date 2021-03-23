@@ -268,6 +268,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           bottom: 0;
           cursor: pointer;
           padding: 5px 5px 5px 35px;
+          font-size: 22px;
         }
 
         .expand-arrow {
@@ -343,7 +344,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           display: inline-block;
           width: 130px;
           text-align: left;
-          font-size: 24px;
+          font-size: 22px;
         }
         
         .title {

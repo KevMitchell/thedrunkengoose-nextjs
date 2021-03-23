@@ -16,6 +16,7 @@ body {
   box-sizing: content-box;
   font-family: 'FenwickWoodtype';
   color: #310e04;
+  overflow-y: scroll;
 }
 
 select,
