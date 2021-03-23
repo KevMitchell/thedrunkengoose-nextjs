@@ -61,12 +61,13 @@ export function Search ({ updateOnLetterEntry }) {
         }
 
         .search-icon {
-          position: absolute;
+          position: relative;
           display: inline-block;
           width: 32px;
           height: 32px;
-          top: 10px;
-          left: 5px;
+          margin-top: 10px;
+          margin-left: 5px;
+          float: left;
           background: url('./img/search-icon.svg');
           background-repeat: no-repeat;
           background-size: contain;
@@ -76,12 +77,11 @@ export function Search ({ updateOnLetterEntry }) {
         .search-input {
           background-color: rgba(0, 0, 0, 0);
           display: inline-block;
-          width: 102px;
+          width: 48px;
           color: #cab488;
           border: none;
           height: 50px;
-          margin-left: 40px;
-          float: left;
+          float: right;
           word-break: break-all;
           -webkit-transition: width 0.2s ease-in;
           -moz-transition: width 0.2s ease-in;
@@ -108,16 +108,12 @@ export function Search ({ updateOnLetterEntry }) {
             width: 100px;
           }
 
-          .search-input {
-            52px;
-          }
-
           .search-container.expanded {
             width: 508px;
           }
 
           .search-container.expanded .search-input {
-            width: 500px;
+            width: 546px;
           }
         }
 
@@ -127,17 +123,17 @@ export function Search ({ updateOnLetterEntry }) {
           }
 
           .search-container.expanded .search-input {
-            width: 406px;
+            width: 352px;
           }
         }
 
-        @media (max-width: 410px) {
+        @media (max-width: 460px) {
           .search-container.expanded {
             width: 300px;
           }
 
           .search-container.expanded .search-input {
-            width: 300px;
+            width: 246px;
           }
         }
       `}</style>

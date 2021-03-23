@@ -6,16 +6,16 @@ exports[`renders recipe section 1`] = `
     class="jsx-1150314341"
   >
     <div
-      class="jsx-3190733897 search-box"
+      class="jsx-3638377401 search-box"
     >
       <div
-        class="jsx-3190733897 search-container "
+        class="jsx-3638377401 search-container "
       >
         <div
-          class="jsx-3190733897 search-icon"
+          class="jsx-3638377401 search-icon"
         />
         <input
-          class="jsx-3190733897 search-input"
+          class="jsx-3638377401 search-input"
           data-testid="search"
           title="search-input"
           type="text"
