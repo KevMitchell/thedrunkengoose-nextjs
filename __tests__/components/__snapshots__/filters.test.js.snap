@@ -6,16 +6,16 @@ exports[`renders correct filters 1`] = `
     class="jsx-1150314341"
   >
     <div
-      class="jsx-1717351303 search-box"
+      class="jsx-2036263907 search-box"
     >
       <div
-        class="jsx-1717351303 search-container "
+        class="jsx-2036263907 search-container "
       >
         <div
-          class="jsx-1717351303 search-icon"
+          class="jsx-2036263907 search-icon"
         />
         <input
-          class="jsx-1717351303 search-input"
+          class="jsx-2036263907 search-input"
           data-testid="search"
           title="search-input"
           type="text"
