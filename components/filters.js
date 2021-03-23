@@ -9,7 +9,8 @@ export function Filters ({
   handleTypeChange,
   handleDifficultyChange,
   handleBaseChange,
-  handleFlavourChange
+  handleFlavourChange,
+  handleSearchChange
 }) {
   const drinkTypes = {
     options: [
@@ -65,7 +66,7 @@ export function Filters ({
 
   return (
     <div>
-      <Search updateOnLetterEntry={() => {}}/>
+      <Search updateOnLetterEntry={handleSearchChange}/>
       <Dropdown {...drinkTypes} />
       <Dropdown {...difficulties} />
       <Dropdown {...bases} />
@@ -96,5 +97,6 @@ Filters.propTypes = {
   handleTypeChange: PropTypes.func,
   handleDifficultyChange: PropTypes.func,
   handleBaseChange: PropTypes.func,
-  handleFlavourChange: PropTypes.func
+  handleFlavourChange: PropTypes.func,
+  handleSearchChange: PropTypes.func
 }
