@@ -34,6 +34,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
   }
 
   const drinkPanelClass = instructions.length > 5 ? 'drinkPanel long' : 'drinkPanel'
+  const largeImageClass = instructions.length > 5 ? 'larger-image long' : 'larger-image'
   const titleClass = name.length > 18 ? 'title long' : 'title'
 
   return (
@@ -41,6 +42,8 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
       className={`${drinkPanelClass} ${expanded ? 'expanded' : ''}`}
       data-testid='drinkPanel'
     >
+      <div className={`standard-image ${expanded ? 'hide' : ''}`} />
+      <div className={`${largeImageClass} ${expanded ? 'show' : ''}`} />
       <div className={titleClass}>{name}</div>
       <div className='topPanel'>
         <div className='overview'>
@@ -71,11 +74,12 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         </div>
 
         <div className='methodExpander' onClick={() => setExpanded(!expanded)}>
-          Method {expanded ? '▲' : '▼'}
+          Method <span className={`icon ${expanded ? 'retract-arrow' : 'expand-arrow'}`} />
         </div>
 
-        <div className='addToSaved' onClick={() => toggleSavedState()}>
-          <div ref={heartRef} className={saved ? 'heart filled' : 'heart'} />Add to saved
+        <div className='add-to-saved' onClick={() => toggleSavedState()}>
+          <div ref={heartRef} className={saved ? 'heart filled' : 'heart'} />
+          <div className='saved-text'>{saved ? 'Saved' : 'Add to saved'}</div>
         </div>
       </div>
 
@@ -91,50 +95,96 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
 
       <style jsx>{`
         .drinkPanel {
+          position: relative;
           display: inline-block;
           vertical-align: top;
-          background: url('./img/recipecard-short.jpg');
-          background-repeat: no-repeat;
           font-family: Cambria Math;
           font-size: 0.8em;
           margin: 0 5px 20px 5px;
-          height: 348px;
+          height: 434px;
           width: 363px;
           top: 10px;
           font-size: 1.5em;
-          z-index: -1;
           overflow: hidden;
-          -webkit-transition: height 0.5s ease-out, background 0s ease-out 0.5s;
-          -moz-transition: height 0.5s ease-out, background 0s ease-out 0.5s;
-          -o-transition: height 0.5s ease-out, background 0s ease-out 0.5s;
-          -ms-transition: height 0.5s ease-out, background 0s ease-out 0.5s;
-          transition: height 0.5s ease-out, background 0s ease-out 0.5s;
+          -webkit-transition: height 0.5s ease-out;
+          -moz-transition: height 0.5s ease-out;
+          -o-transition: height 0.5s ease-out;
+          -ms-transition: height 0.5s ease-out;
+          transition: height 0.5s ease-out;
+        }
+
+        .standard-image {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: url('./img/recipecard-short.png');
+          background-repeat: no-repeat;
+          z-index: -1;
+          opacity: 1;
+          -webkit-transition: opacity 0.2s ease-in;
+          -moz-transition: opacity 0.2s ease-in;
+          -o-transition: opacity 0.2s ease-in;
+          -ms-transition: opacity 0.2s ease-in;
+          transition: opacity 0.2s ease-in;
+        }
+
+        .standard-image.hide {
+          opacity: 0;
+          -webkit-transition: opacity 0.2s ease-in;
+          -moz-transition: opacity 0.2s ease-in;
+          -o-transition: opacity 0.2s ease-in;
+          -ms-transition: opacity 0.2s ease-in;
+          transition: opacity 0.2s ease-in;
+        }
+
+        .larger-image {
+          background: url('./img/recipecard-long.png');
+        }
+
+        .larger-image.long {
+          background: url('./img/recipecard-extralong.png');
+        }
+
+        .larger-image {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-repeat: no-repeat;
+          z-index: -1;
+          opacity: 0;
+          -webkit-transition: opacity 0.5s ease-in 0.2s;
+          -moz-transition: opacity 0.5s ease-in 0.2s;
+          -o-transition: opacity 0.5s ease-in 0.2s;
+          -ms-transition: opacity 0.5s ease-in 0.2s;
+          transition: opacity 0.5s ease-in 0.2s;
+        }
+
+        .larger-image.show {
+          opacity: 1;
+          -webkit-transition: opacity 0s ease-in;
+          -moz-transition: opacity 0s ease-in;
+          -o-transition: opacity 0s ease-in;
+          -ms-transition: opacity 0s ease-in;
+          transition: opacity 0s ease-in;
         }
 
         .drinkPanel.long {
-          -webkit-transition: height 0.5s ease-out, background 0s ease-out 0.6s;
-          -moz-transition: height 0.5s ease-out, background 0s ease-out 0.6s;
-          -o-transition: height 0.5s ease-out, background 0s ease-out 0.6s;
-          -ms-transition: height 0.5s ease-out, background 0s ease-out 0.6s;
-          transition: height 0.5s ease-out, background 0s ease-out 0.6s;
+          -webkit-transition: height 0.5s ease-out;
+          -moz-transition: height 0.5s ease-out;
+          -o-transition: height 0.5s ease-out;
+          -ms-transition: height 0.5s ease-out;
+          transition: height 0.5s ease-out;
         }
 
         .drinkPanel.expanded {
-          background: url('./img/recipecard-long.jpg');
-          min-height: 348px;
-          height: 512px;
+          min-height: 434px;
+          height: 694px;
           overflow: visible;
-          -webkit-transition: height 0.5s ease-out, background 0s ease-out;
-          -moz-transition: height 0.5s ease-out, background 0s ease-out;
-          -o-transition: height 0.5s ease-out, background 0s ease-out;
-          -ms-transition: height 0.5s ease-out, background 0s ease-out;
-          transition: height 0.5s ease-out, background 0s ease-out;
-        }
-
-        .drinkPanel.expanded.long {
-          background: url('./img/recipecard-extralong.jpg');
-          min-height: 348px;
-          height: 740px;
+          -webkit-transition: height 0.5s ease-out;
+          -moz-transition: height 0.5s ease-out;
+          -o-transition: height 0.5s ease-out;
+          -ms-transition: height 0.5s ease-out;
+          transition: height 0.5s ease-out;
         }
 
         .topPanel {
@@ -212,12 +262,39 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           position: absolute;
           bottom: 0;
           cursor: pointer;
-          padding: 5px 5px 5px 10px;
+          padding: 5px 5px 5px 35px;
+        }
+
+        .expand-arrow {
+          background: url('./img/expand-arrow.svg');
+          background-repeat: no-repeat;
+          -moz-transform: scaleY(-1);
+          -o-transform: scaleY(-1);
+          -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+          filter: FlipV;
+          -ms-filter: "FlipV";
+        }
+
+        .retract-arrow {
+          background: url('./img/expand-arrow.svg');
+          background-repeat: no-repeat;
+        }
+
+        .add-to-saved {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          cursor: pointer;
+          padding: 5px 30px 5px 0;
+          vertical-align: middle;
         }
 
         .heart {
           display: inline-block;
-          width: 20px;
+          right: 0;
+          top: 0;
+          width: 16px;
           height: 16px;
           padding-left: 14px;
           background: url('./img/heart.svg');
@@ -225,6 +302,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           background-size: contain;
           background-position: center;
           transform: scale(1);
+          transform-origin: 50% 50%;
         }
 
         .heart.filled {
@@ -232,10 +310,13 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
+          transform-origin: 50% 50%;
+          transform: scale(1);
         }
 
         .heart.pulse {
-          transform: scale(1.1);
+          padding-top: 1px;
+          padding-right: 1px;
           animation: pulse 0.2s 1;
         }
 
@@ -253,13 +334,10 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           }
         }
 
-        .addToSaved {
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          cursor: pointer;
-          padding: 5px 10px 5px 0;
-          vertical-align: middle;
+        .saved-text {
+          display: inline-block;
+          width: 130px;
+          text-align: left;
         }
         
         .title {

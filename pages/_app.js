@@ -16,6 +16,8 @@ export default function App ({ Component, pageProps = {} }) {
           name="description"
           content="The Drunken Goose Website"
         />
+        <link rel='prefetch' href='/img/recipecard-long.png' as='image' />
+        <link rel='prefetch' href='/img/recipecard-extralong.png' as='image' />
         <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1' />
       </Head>
       <MainTitle />

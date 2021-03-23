@@ -3,55 +3,61 @@
 exports[`renders the supplied drink 1`] = `
 <div>
   <div
-    class="jsx-252475938 drinkPanel "
+    class="jsx-2686688099 drinkPanel "
     data-testid="drinkPanel"
   >
     <div
-      class="jsx-252475938 title"
+      class="jsx-2686688099 standard-image "
+    />
+    <div
+      class="jsx-2686688099 larger-image "
+    />
+    <div
+      class="jsx-2686688099 title"
     >
       test-name
     </div>
     <div
-      class="jsx-252475938 topPanel"
+      class="jsx-2686688099 topPanel"
     >
       <div
-        class="jsx-252475938 overview"
+        class="jsx-2686688099 overview"
       >
         <div
-          class="jsx-252475938 imageContainer"
+          class="jsx-2686688099 imageContainer"
         >
           <img
             alt="test-name"
-            class="jsx-252475938 image"
+            class="jsx-2686688099 image"
             src="./img/drinks/test-image"
           />
         </div>
         <div
-          class="jsx-252475938 overviewText"
+          class="jsx-2686688099 overviewText"
         >
           <div
-            class="jsx-252475938 difficulty"
+            class="jsx-2686688099 difficulty"
           >
             <span
-              class="jsx-252475938 icon difficulty-icon"
+              class="jsx-2686688099 icon difficulty-icon"
             />
              
             test-difficulty
           </div>
           <div
-            class="jsx-252475938 base"
+            class="jsx-2686688099 base"
           >
             <span
-              class="jsx-252475938 icon base-icon"
+              class="jsx-2686688099 icon base-icon"
             />
              
             test-base
           </div>
           <div
-            class="jsx-252475938 flavour"
+            class="jsx-2686688099 flavour"
           >
             <span
-              class="jsx-252475938 icon flavour-icon"
+              class="jsx-2686688099 icon flavour-icon"
             />
              
             test1, test2
@@ -59,7 +65,7 @@ exports[`renders the supplied drink 1`] = `
         </div>
       </div>
       <div
-        class="jsx-252475938 ingredients"
+        class="jsx-2686688099 ingredients"
       >
         <div>
           10ml ING1  •  20ml ING2 OR ING3
@@ -69,31 +75,37 @@ exports[`renders the supplied drink 1`] = `
         </div>
       </div>
       <div
-        class="jsx-252475938 methodExpander"
+        class="jsx-2686688099 methodExpander"
       >
         Method 
-        ▼
+        <span
+          class="jsx-2686688099 icon expand-arrow"
+        />
       </div>
       <div
-        class="jsx-252475938 addToSaved"
+        class="jsx-2686688099 add-to-saved"
       >
         <div
-          class="jsx-252475938 heart"
+          class="jsx-2686688099 heart"
         />
-        Add to saved
+        <div
+          class="jsx-2686688099 saved-text"
+        >
+          Add to saved
+        </div>
       </div>
     </div>
     <div
-      class="jsx-252475938 instructions "
+      class="jsx-2686688099 instructions "
       data-testid="instructions"
     >
       <div
-        class="jsx-252475938 instructionLine"
+        class="jsx-2686688099 instructionLine"
       >
         • inst1
       </div>
       <div
-        class="jsx-252475938 instructionLine"
+        class="jsx-2686688099 instructionLine"
       >
         • inst2
       </div>
