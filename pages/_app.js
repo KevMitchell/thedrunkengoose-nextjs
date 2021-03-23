@@ -38,6 +38,18 @@ export default function App ({ Component, pageProps = {} }) {
           height: 100%;
           margin: 30px auto;
         }
+
+        .background {
+          position: fixed;
+          width: 100%;
+          height: 100%;
+          background: url('/img/goose-background.jpg');
+          background-repeat: no-repeat;
+          background-position: 0, 0;
+          background-attachment: fixed;
+          background-size: cover;
+          z-index: -3;
+        }
       `}</style>
     </>
   )

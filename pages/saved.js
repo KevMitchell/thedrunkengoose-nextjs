@@ -56,6 +56,7 @@ export default function Saved () {
           flavour={drink.flavour}
           ingredients={drink.ingredients}
           instructions={instructions[drink.name]}
+          longDescription={drink.longDescription}
         />
       )}
     </>

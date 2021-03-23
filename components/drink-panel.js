@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { joinJsx } from '../utils/array-join-of-length'
 import { toggleSaved, getSaved } from '../utils/saved-drinks'
 
-export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredients, instructions }) {
+export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredients, instructions, longDescription }) {
   const [saved, setSaved] = useState(false)
   const [expanded, setExpanded] = useState(false)
   const heartRef = useRef(null)
@@ -33,8 +33,8 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
     }, 200)
   }
 
-  const drinkPanelClass = instructions.length > 5 ? 'drinkPanel long' : 'drinkPanel'
-  const largeImageClass = instructions.length > 5 ? 'larger-image long' : 'larger-image'
+  const drinkPanelClass = longDescription ? 'drinkPanel long' : 'drinkPanel'
+  const largeImageClass = longDescription ? 'larger-image long' : 'larger-image'
   const titleClass = name.length > 18 ? 'title long' : 'title'
 
   return (
@@ -119,7 +119,6 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           height: 100%;
           background: url('./img/recipecard-short.png');
           background-repeat: no-repeat;
-          z-index: -1;
           opacity: 1;
           -webkit-transition: opacity 0.2s ease-in;
           -moz-transition: opacity 0.2s ease-in;
@@ -150,7 +149,6 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           width: 100%;
           height: 100%;
           background-repeat: no-repeat;
-          z-index: -1;
           opacity: 0;
           -webkit-transition: opacity 0.5s ease-in 0.2s;
           -moz-transition: opacity 0.5s ease-in 0.2s;
@@ -178,7 +176,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
 
         .drinkPanel.expanded {
           min-height: 434px;
-          height: 694px;
+          height: 580px;
           overflow: visible;
           -webkit-transition: height 0.5s ease-out;
           -moz-transition: height 0.5s ease-out;
@@ -187,14 +185,21 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           transition: height 0.5s ease-out;
         }
 
+        .drinkPanel.long.expanded {
+          min-height: 434px;
+          height: 694px;
+        }
+
         .topPanel {
           height: 290px;
           position: relative;
         }
         
         .title {
+          position: relative;
           height: 33px;
           padding-top: 22px;
+          z-index: 2;
         }
 
         .title.long {
@@ -338,6 +343,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           display: inline-block;
           width: 130px;
           text-align: left;
+          font-size: 24px;
         }
         
         .title {
@@ -391,5 +397,6 @@ DrinkPanel.propTypes = {
   base: PropTypes.string.isRequired,
   flavour: PropTypes.arrayOf(PropTypes.string).isRequired,
   ingredients: PropTypes.arrayOf(PropTypes.object).isRequired,
-  instructions: PropTypes.arrayOf(PropTypes.string).isRequired
+  instructions: PropTypes.arrayOf(PropTypes.string).isRequired,
+  longDescription: PropTypes.bool
 }

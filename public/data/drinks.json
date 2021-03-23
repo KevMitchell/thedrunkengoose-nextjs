@@ -31,6 +31,7 @@
     "difficulty": "Medium",
     "base": "Whiskey",
     "flavour": ["Strong", "Smokey"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 30 },
       { "name": "Vermouth (sweet)", "quantity": 30 },
@@ -74,6 +75,7 @@
     "difficulty": "Easy",
     "base": "Gin",
     "flavour": ["Fruity"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Gin", "quantity": 50 },
       { "name": "Lemon juice", "quantity": 25 },
@@ -87,6 +89,7 @@
     "difficulty": "Medium",
     "base": "Brandy",
     "flavour": ["Strong", "Creamy"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Brandy", "quantity": 50 },
       { "name": "Creme de cacao", "quantity": 30 },
@@ -143,6 +146,7 @@
     "base": "Elderflower",
     "flavour": ["Refreshing"],
     "virgin": true,
+    "longDescription": true,
     "ingredients": [
       { "name": "Cucumber", "quantity": 1 },
       { "name": "Elderflower cordial", "quantity": 60 },
@@ -157,6 +161,7 @@
     "difficulty": "Easy",
     "base": "Rum",
     "flavour": ["Strong", "Fruity"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Rum (white)", "quantity": 50 },
       { "name": "Lime", "quantity": 25 },
@@ -221,6 +226,7 @@
     "difficulty": "Easy",
     "base": "Vodka",
     "flavour": ["Coffee"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Vodka", "quantity": 40 },
       { "name": "Kahlua", "quantity": 30 },
@@ -244,6 +250,7 @@
     "difficulty": "Medium",
     "base": "Rum",
     "flavour": ["Strong", "Frozen"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Rum (white)", "quantity": 50 },
       { "name": "Lime", "quantity": 25 },
@@ -294,6 +301,7 @@
     "difficulty": "Medium",
     "base": "Gin",
     "flavour": ["Strong", "Orange"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Gin", "quantity": 50 },
       { "name": "Marmalade", "quantity": 1 },
@@ -308,6 +316,7 @@
     "difficulty": "Hard",
     "base": "Rum",
     "flavour": ["Botanical"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Rum (white)", "quantity": 60 },
       { "name": "Raspberry and Tyme syrup", "quantity": 40 },
@@ -322,6 +331,7 @@
     "difficulty": "Medium",
     "base": "Gin",
     "flavour": ["Strong", "Strong", "Strong"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Gin", "quantity": 30 },
       { "name": "Campari", "quantity": 30 },
@@ -364,6 +374,7 @@
     "difficulty": "Easy",
     "base": "Gin",
     "flavour": ["Strong"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Gin", "quantity": 50 },
       { "name": "Vermouth (dry)", "quantity": 1 }
@@ -403,6 +414,7 @@
     "difficulty": "Medium",
     "base": "Tequila",
     "flavour": ["Strong", "Citrus"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Tequila", "quantity": 50 },
       { "name": "Cointreau", "quantity": 25 },
@@ -466,6 +478,7 @@
     "difficulty": "Medium",
     "base": "Tequila",
     "flavour": ["Strong", "Bitter", "Smokey"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Tequila", "quantity": 40 },
       { "name": "Campari", "quantity": 30 },
@@ -507,6 +520,7 @@
     "difficulty": "Medium",
     "base": "Whiskey",
     "flavour": ["Strong"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
       { "name": "Angostura bitters", "quantity": 2, "dashes": true },
@@ -520,6 +534,7 @@
     "difficulty": "Medium",
     "base": "Tequila",
     "flavour": ["Strong"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Tequila", "quantity": 60 },
       { "name": "Walnut bitters", "quantity": 6, "dashes": true },
@@ -533,6 +548,7 @@
     "difficulty": "Hard",
     "base": "Gin",
     "flavour": ["Fruity"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Gin", "quantity": 40 },
       { "name": "Applejack", "quantity": 20 },
@@ -548,6 +564,7 @@
     "difficulty": "Medium",
     "base": "Whiskey",
     "flavour": ["Strong"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
       { "name": "Angostura bitters", "quantity": 1, "dashes": true },
@@ -562,6 +579,7 @@
     "difficulty": "Easy",
     "base": "Rum",
     "flavour": ["Refreshing"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Vodka", "quantity": 15 },
       { "name": "Rum (white)", "quantity": 15 },
@@ -606,6 +624,7 @@
     "difficulty": "Medium",
     "base": "Whiskey",
     "flavour": ["Strong", "Aniseed"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Absinthe", "quantity": 5 },
       { "name": "Whiskey (rye)", "quantity": 50, "alternative": "Brandy" },
@@ -635,6 +654,7 @@
     "base": "Tea",
     "flavour": ["Tea"],
     "virgin": true,
+    "longDescription": true,
     "ingredients": [
       { "name": "Lapsang Souchong Tea", "quantity": 50 },
       { "name": "Lemon Juice", "quantity": 50 },
@@ -648,6 +668,7 @@
     "difficulty": "Medium",
     "base": "Cognac",
     "flavour": ["Strong", "Sweet"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Cognac", "quantity": 60 },
       { "name": "Cointreau", "quantity": 25 },
@@ -704,6 +725,7 @@
     "difficulty": "Hard",
     "base": "Vodka",
     "flavour": ["Strong", "Tropical"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Vodka", "quantity": 40 },
       { "name": "Triple sec", "quantity": 20 },

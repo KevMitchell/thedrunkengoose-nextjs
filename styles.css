@@ -16,11 +16,6 @@ body {
   box-sizing: content-box;
   font-family: 'FenwickWoodtype';
   color: #310e04;
-  background: url('./public/img/goose-background.jpg');
-  background-repeat: no-repeat;
-  background-position: 0, 0;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 select,

@@ -19,7 +19,8 @@ const mockDrink = {
   base: 'test-base',
   flavour: ['test1', 'test2'],
   ingredients: testIngredients,
-  instructions: ['inst1', 'inst2']
+  instructions: ['inst1', 'inst2'],
+  longDescription: false
 }
 
 jest.mock('../../utils/saved-drinks', () => ({

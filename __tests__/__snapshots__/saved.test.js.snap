@@ -155,61 +155,61 @@ exports[`renders saved section 1`] = `
     </div>
   </div>
   <div
-    class="jsx-2686688099 drinkPanel "
+    class="jsx-3203049414 drinkPanel "
     data-testid="drinkPanel"
   >
     <div
-      class="jsx-2686688099 standard-image "
+      class="jsx-3203049414 standard-image "
     />
     <div
-      class="jsx-2686688099 larger-image "
+      class="jsx-3203049414 larger-image "
     />
     <div
-      class="jsx-2686688099 title"
+      class="jsx-3203049414 title"
     >
       drink2
     </div>
     <div
-      class="jsx-2686688099 topPanel"
+      class="jsx-3203049414 topPanel"
     >
       <div
-        class="jsx-2686688099 overview"
+        class="jsx-3203049414 overview"
       >
         <div
-          class="jsx-2686688099 imageContainer"
+          class="jsx-3203049414 imageContainer"
         >
           <img
             alt="drink2"
-            class="jsx-2686688099 image"
+            class="jsx-3203049414 image"
             src="./img/drinks/drink2.jpg"
           />
         </div>
         <div
-          class="jsx-2686688099 overviewText"
+          class="jsx-3203049414 overviewText"
         >
           <div
-            class="jsx-2686688099 difficulty"
+            class="jsx-3203049414 difficulty"
           >
             <span
-              class="jsx-2686688099 icon difficulty-icon"
+              class="jsx-3203049414 icon difficulty-icon"
             />
              
             Hard
           </div>
           <div
-            class="jsx-2686688099 base"
+            class="jsx-3203049414 base"
           >
             <span
-              class="jsx-2686688099 icon base-icon"
+              class="jsx-3203049414 icon base-icon"
             />
              
             Gin
           </div>
           <div
-            class="jsx-2686688099 flavour"
+            class="jsx-3203049414 flavour"
           >
             <span
-              class="jsx-2686688099 icon flavour-icon"
+              class="jsx-3203049414 icon flavour-icon"
             />
              
             Lemonade, Ginger
@@ -217,44 +217,44 @@ exports[`renders saved section 1`] = `
         </div>
       </div>
       <div
-        class="jsx-2686688099 ingredients"
+        class="jsx-3203049414 ingredients"
       >
         <div>
           50ml LEMONADE
         </div>
       </div>
       <div
-        class="jsx-2686688099 methodExpander"
+        class="jsx-3203049414 methodExpander"
       >
         Method 
         <span
-          class="jsx-2686688099 icon expand-arrow"
+          class="jsx-3203049414 icon expand-arrow"
         />
       </div>
       <div
-        class="jsx-2686688099 add-to-saved"
+        class="jsx-3203049414 add-to-saved"
       >
         <div
-          class="jsx-2686688099 heart filled"
+          class="jsx-3203049414 heart filled"
         />
         <div
-          class="jsx-2686688099 saved-text"
+          class="jsx-3203049414 saved-text"
         >
           Saved
         </div>
       </div>
     </div>
     <div
-      class="jsx-2686688099 instructions "
+      class="jsx-3203049414 instructions "
       data-testid="instructions"
     >
       <div
-        class="jsx-2686688099 instructionLine"
+        class="jsx-3203049414 instructionLine"
       >
         • inst3
       </div>
       <div
-        class="jsx-2686688099 instructionLine"
+        class="jsx-3203049414 instructionLine"
       >
         • inst4
       </div>

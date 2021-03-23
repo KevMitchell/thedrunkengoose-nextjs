@@ -49,6 +49,7 @@ export default function Index () {
           flavour={drink.flavour}
           ingredients={drink.ingredients}
           instructions={instructions[drink.name]}
+          longDescription={drink.longDescription}
         />
       )}
     </>
