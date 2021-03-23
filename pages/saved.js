@@ -12,6 +12,7 @@ export default function Saved () {
   const [difficultyFilter, setDifficultyFilter] = useState(null)
   const [baseFilter, setBaseFilter] = useState(null)
   const [flavourFilter, setFlavourFilter] = useState(null)
+  const [searchFilter, setSearchFilter] = useState(null)
 
   useEffect(() => {
     const filteredDrinks = savedDrinks
@@ -19,15 +20,17 @@ export default function Saved () {
       .filter(drink => !difficultyFilter || drink.difficulty === difficultyFilter)
       .filter(drink => !baseFilter || drink.base === baseFilter)
       .filter(drink => !flavourFilter || drink.flavour.includes(flavourFilter))
+      .filter(drink => !searchFilter || JSON.stringify(drink).toLowerCase().includes(searchFilter))
       .filter(drink => drink)
 
     setCurrentDrinks(filteredDrinks)
-  }, [savedDrinks, typeFilter, difficultyFilter, baseFilter, flavourFilter])
+  }, [savedDrinks, typeFilter, difficultyFilter, baseFilter, flavourFilter, searchFilter])
 
   const filterByType = ({ target: { value } }) => setTypeFilter(value === 'all' ? null : value)
   const filterByDifficulty = ({ target: { value } }) => setDifficultyFilter(value === 'all' ? null : value)
   const filterByBase = ({ target: { value } }) => setBaseFilter(value === 'all' ? null : value)
   const filterByFlavour = ({ target: { value } }) => setFlavourFilter(value === 'all' ? null : value)
+  const filterBySearch = (text) => setSearchFilter(text.length === 0 ? null : text.toLowerCase())
 
   useEffect(() => {
     const newSavedDrinks = drinks.filter(drink => getSaved(drink.name))
@@ -41,6 +44,7 @@ export default function Saved () {
         handleDifficultyChange={filterByDifficulty}
         handleBaseChange={filterByBase}
         handleFlavourChange={filterByFlavour}
+        handleSearchChange={filterBySearch}
       />
       {currentDrinks.map(drink =>
         <DrinkPanel

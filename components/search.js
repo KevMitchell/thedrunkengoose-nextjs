@@ -17,6 +17,7 @@ export function Search ({ updateOnLetterEntry }) {
         <div className='search-icon' />
         <input
           className='search-input'
+          data-testid='search'
           type='text'
           title='search-input'
           value={fieldValue}

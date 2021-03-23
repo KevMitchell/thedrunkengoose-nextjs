@@ -40,7 +40,8 @@ const renderComponent = () => {
     typeFilter: getByTestId('type-filter'),
     difficultyFilter: getByTestId('difficulty-filter'),
     baseFilter: getByTestId('base-filter'),
-    flavourFilter: getByTestId('flavour-filter')
+    flavourFilter: getByTestId('flavour-filter'),
+    searchFilter: getByTestId('search')
   }
 }
 
@@ -97,5 +98,18 @@ test('filters correctly on flavour', () => {
 
   fireEvent.change(flavourFilter, { target: { value: 'Lemonade' } })
   expect(queryByText(/drink1/)).not.toBeInTheDocument()
+  expect(queryByText(/drink2/)).toBeInTheDocument()
+})
+
+test('filters correctly on search term', () => {
+  const { queryByText, searchFilter } = renderComponent()
+
+  fireEvent.change(searchFilter, { target: { value: 'wh' } })
+
+  expect(queryByText(/drink1/)).toBeInTheDocument()
+  expect(queryByText(/drink2/)).not.toBeInTheDocument()
+
+  fireEvent.change(searchFilter, { target: { value: 'gi' } })
+  expect(queryByText(/drink1/)).toBeInTheDocument()
   expect(queryByText(/drink2/)).toBeInTheDocument()
 })

@@ -16,6 +16,7 @@ exports[`renders saved section 1`] = `
         />
         <input
           class="jsx-1717351303 search-input"
+          data-testid="search"
           title="search-input"
           type="text"
           value=""

@@ -94,9 +94,9 @@ export function Filters ({
 }
 
 Filters.propTypes = {
-  handleTypeChange: PropTypes.func,
-  handleDifficultyChange: PropTypes.func,
-  handleBaseChange: PropTypes.func,
-  handleFlavourChange: PropTypes.func,
-  handleSearchChange: PropTypes.func
+  handleTypeChange: PropTypes.func.isRequired,
+  handleDifficultyChange: PropTypes.func.isRequired,
+  handleBaseChange: PropTypes.func.isRequired,
+  handleFlavourChange: PropTypes.func.isRequired,
+  handleSearchChange: PropTypes.func.isRequired
 }
