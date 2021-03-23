@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import { Search } from './search'
 import { Dropdown } from './dropdown'
 import drinks from '../public/data/drinks.json'
 
@@ -64,6 +65,7 @@ export function Filters ({
 
   return (
     <div>
+      <Search updateOnLetterEntry={() => {}}/>
       <Dropdown {...drinkTypes} />
       <Dropdown {...difficulties} />
       <Dropdown {...bases} />

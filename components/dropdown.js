@@ -21,9 +21,10 @@ export function Dropdown ({ options, id, handleSelect }) {
         .dropdown-container {
           position: relative;
           display: inline-block;
-          width: 100px;
+          width: 150px;
           height: 50px;
           border: 1px solid #cab488;
+          background-color: #310e04;
         }
         
         select {
@@ -67,6 +68,12 @@ export function Dropdown ({ options, id, handleSelect }) {
           border-right: var(--size) solid transparent;
           border-top: var(--size) solid rgba(255, 255, 255, 0.5);
           top: 45%;
+        }
+
+        @media (max-width: 860px) {
+          .dropdown-container {
+            width: 100px;
+          }
         }
       `}</style>
     </>

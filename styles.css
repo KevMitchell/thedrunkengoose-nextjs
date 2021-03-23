@@ -24,7 +24,8 @@ body {
 }
 
 select,
-select * {
+select *,
+input {
   font-family: 'FenwickWoodtype';
   font-size: x-large;
 }

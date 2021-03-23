@@ -6,132 +6,149 @@ exports[`renders saved section 1`] = `
     class="jsx-1150314341"
   >
     <div
-      class="jsx-3084802152 dropdown-container"
+      class="jsx-1717351303 search-box"
+    >
+      <div
+        class="jsx-1717351303 search-container "
+      >
+        <div
+          class="jsx-1717351303 search-icon"
+        />
+        <input
+          class="jsx-1717351303 search-input"
+          title="search-input"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="jsx-1813624227 dropdown-container"
     >
       <select
-        class="jsx-3084802152"
+        class="jsx-1813624227"
         data-testid="type-filter"
       >
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="all"
         >
           All types
         </option>
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="alcoholic"
         >
           Alcoholic
         </option>
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="virgin"
         >
           Virgin
         </option>
       </select>
       <span
-        class="jsx-3084802152 arrow"
+        class="jsx-1813624227 arrow"
         tabindex="0"
       />
     </div>
     <div
-      class="jsx-3084802152 dropdown-container"
+      class="jsx-1813624227 dropdown-container"
     >
       <select
-        class="jsx-3084802152"
+        class="jsx-1813624227"
         data-testid="difficulty-filter"
       >
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="all"
         >
           Any effort
         </option>
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="Easy"
         >
           Easy
         </option>
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="Hard"
         >
           Hard
         </option>
       </select>
       <span
-        class="jsx-3084802152 arrow"
+        class="jsx-1813624227 arrow"
         tabindex="0"
       />
     </div>
     <div
-      class="jsx-3084802152 dropdown-container"
+      class="jsx-1813624227 dropdown-container"
     >
       <select
-        class="jsx-3084802152"
+        class="jsx-1813624227"
         data-testid="base-filter"
       >
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="all"
         >
           All bases
         </option>
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="Gin"
         >
           Gin
         </option>
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="Whiskey"
         >
           Whiskey
         </option>
       </select>
       <span
-        class="jsx-3084802152 arrow"
+        class="jsx-1813624227 arrow"
         tabindex="0"
       />
     </div>
     <div
-      class="jsx-3084802152 dropdown-container"
+      class="jsx-1813624227 dropdown-container"
     >
       <select
-        class="jsx-3084802152"
+        class="jsx-1813624227"
         data-testid="flavour-filter"
       >
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="all"
         >
           All flavour
         </option>
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="Ginger"
         >
           Ginger
         </option>
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="Lemonade"
         >
           Lemonade
         </option>
         <option
-          class="jsx-3084802152"
+          class="jsx-1813624227"
           value="Strong"
         >
           Strong
         </option>
       </select>
       <span
-        class="jsx-3084802152 arrow"
+        class="jsx-1813624227 arrow"
         tabindex="0"
       />
     </div>
