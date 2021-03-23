@@ -33,7 +33,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
     }, 200)
   }
 
-  const drinkPanelClass = longDescription ? 'drinkPanel long' : 'drinkPanel'
+  const drinkPanelClass = longDescription ? 'drink-panel long' : 'drink-panel'
   const largeImageClass = longDescription ? 'larger-image long' : 'larger-image'
   const titleClass = name.length > 18 ? 'title long' : 'title'
 
@@ -45,10 +45,10 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
       <div className={`standard-image ${expanded ? 'hide' : ''}`} />
       <div className={`${largeImageClass} ${expanded ? 'show' : ''}`} />
       <div className={titleClass}>{name}</div>
-      <div className='topPanel'>
+      <div className='top-panel'>
         <div className='overview'>
           {image && (
-            <div className='imageContainer'>
+            <div className='image-container'>
               <img
                 className='image'
                 src={`./img/drinks/${image}`}
@@ -73,7 +73,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           {ingredients && joinJsx(ingredients.map(getIngredientText), 32, '  •  ')}
         </div>
 
-        <div className='methodExpander' onClick={() => setExpanded(!expanded)}>
+        <div className='method-expander' onClick={() => setExpanded(!expanded)}>
           Method <span className={`icon ${expanded ? 'retract-arrow' : 'expand-arrow'}`} />
         </div>
 
@@ -87,14 +87,14 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         {instructions.map((inst, index) =>
           <div
             key={`${name}-${index}`}
-            className='instructionLine'>
+            className='instruction-line'>
             {`• ${inst}`}
           </div>
         )}
       </div>
 
       <style jsx>{`
-        .drinkPanel {
+        .drink-panel {
           position: relative;
           display: inline-block;
           vertical-align: top;
@@ -166,7 +166,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           transition: opacity 0s ease-in;
         }
 
-        .drinkPanel.long {
+        .drink-panel.long {
           -webkit-transition: height 0.5s ease-out;
           -moz-transition: height 0.5s ease-out;
           -o-transition: height 0.5s ease-out;
@@ -174,7 +174,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           transition: height 0.5s ease-out;
         }
 
-        .drinkPanel.expanded {
+        .drink-panel.expanded {
           min-height: 434px;
           height: 580px;
           overflow: visible;
@@ -185,13 +185,13 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           transition: height 0.5s ease-out;
         }
 
-        .drinkPanel.long.expanded {
+        .drink-panel.long.expanded {
           min-height: 434px;
           height: 694px;
         }
 
-        .topPanel {
-          height: 290px;
+        .top-panel {
+          height: 300px;
           position: relative;
         }
         
@@ -211,7 +211,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           padding: 10px;
         }
         
-        .imageContainer {
+        .image-container {
           display: inline-block;
           margin-right: 20px;
         }
@@ -263,7 +263,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           padding-bottom: 10px;
         }
 
-        .methodExpander {
+        .method-expander {
           position: absolute;
           bottom: 0;
           cursor: pointer;
@@ -357,7 +357,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           width: 90%;
           margin: auto;
           letter-spacing: 1px;
-          font-size: 0.7em;
+          font-size: 16px;
         }
         
         .instructions {
@@ -383,7 +383,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           transition-delay: 300ms;
         }
         
-        .instructionLine {
+        .instruction-line {
           display: list-item;
         }
       `}</style>
