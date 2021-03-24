@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import Head from 'next/head'
 import { TabMenu } from '../components/tab-menu'
 import { MainTitle } from '../components/main-title'
+import { BackToTop } from '../components/back-to-top'
 import { Footer } from '../components/footer'
 import '../styles.css'
 
@@ -25,6 +26,7 @@ export default function App ({ Component, pageProps = {} }) {
       <main>
         <Component {...pageProps} />
       </main>
+      <BackToTop />
       <Footer />
 
       <style jsx>{`
