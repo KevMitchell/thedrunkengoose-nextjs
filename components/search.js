@@ -1,10 +1,13 @@
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
+import useOnClickOutside from '../utils/on-click-outside-hook'
 import PropTypes from 'prop-types'
 
 export function Search ({ updateOnLetterEntry }) {
+  const ref = useRef()
   const [fieldValue, setFieldValue] = useState('')
   const [expanded, setExpanded] = useState(false)
+  useOnClickOutside(ref, () => setExpanded(false))
 
   const onChange = (event) => {
     setFieldValue(event.target.value)
@@ -13,7 +16,11 @@ export function Search ({ updateOnLetterEntry }) {
 
   return (
     <div className='search-box'>
-      <div className={`search-container ${expanded ? 'expanded' : ''}`}>
+      <div
+        ref={ref}
+        className={`search-container ${expanded ? 'expanded' : ''}`}
+        onClick={(e) => setExpanded(true)}
+      >
         <div className='search-icon' />
         <input
           className='search-input'
@@ -22,8 +29,6 @@ export function Search ({ updateOnLetterEntry }) {
           title='search-input'
           value={fieldValue}
           onChange={onChange}
-          onClick={() => setExpanded(true)}
-          onBlur={() => setExpanded(false)}
         />
       </div>
 
@@ -63,7 +68,7 @@ export function Search ({ updateOnLetterEntry }) {
         .search-icon {
           position: relative;
           display: inline-block;
-          width: 32px;
+          width: 28px;
           height: 32px;
           margin-top: 10px;
           margin-left: 5px;
@@ -77,12 +82,13 @@ export function Search ({ updateOnLetterEntry }) {
         .search-input {
           background-color: rgba(0, 0, 0, 0);
           display: inline-block;
-          width: 48px;
+          width: 98px;
           color: #cab488;
+          height: 46px;
           border: none;
-          height: 50px;
           float: right;
           word-break: break-all;
+          padding: 0;
           -webkit-transition: width 0.2s ease-in;
           -moz-transition: width 0.2s ease-in;
           -o-transition: width 0.2s ease-in;
@@ -91,7 +97,7 @@ export function Search ({ updateOnLetterEntry }) {
         }
 
         .search-container.expanded .search-input {
-          width: 758px;
+          width: 708px;
           -webkit-transition: width 0.2s ease-in;
           -moz-transition: width 0.2s ease-in;
           -o-transition: width 0.2s ease-in;
@@ -113,13 +119,17 @@ export function Search ({ updateOnLetterEntry }) {
           }
 
           .search-container.expanded .search-input {
-            width: 546px;
+            width: 466px;
           }
         }
 
         @media (max-width: 572px) {
           .search-container.expanded {
             width: 406px;
+          }
+
+          .search-input {
+            width: 48px;
           }
 
           .search-container.expanded .search-input {

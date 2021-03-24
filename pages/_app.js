@@ -46,12 +46,26 @@ export default function App ({ Component, pageProps = {} }) {
           position: fixed;
           width: 100%;
           height: 100%;
+          z-index: -3;
+        }
+
+        @media (max-height: 768px) {
+          .background {
+            top: 0; 
+            left: 0; 
+            min-width: 100%;
+            min-height: 100%;
+            background: url('/img/goose-background.jpg');
+            background-attachment: local;
+          }
+        }
+
+        @media (min-height: 769px) {
           background: url('/img/goose-background.jpg');
           background-repeat: no-repeat;
           background-position: 0, 0;
           background-attachment: fixed;
           background-size: cover;
-          z-index: -3;
         }
 
         @media (max-width: 410px) {

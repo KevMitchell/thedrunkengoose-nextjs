@@ -46,6 +46,7 @@
     "base": "Iced tea",
     "flavour": ["Tea", "Sweet"],
     "virgin": true,
+    "longDescription": true,
     "ingredients": [
       { "name": "Iced tea", "quantity": 180 },
       { "name": "Lemonade", "quantity": 90 },
@@ -59,6 +60,7 @@
     "difficulty": "Medium",
     "base": "Rum",
     "flavour": ["Tropical"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Kahlua", "quantity": 15 },
       { "name": "Rum (dark)", "quantity": 30 },
@@ -187,6 +189,7 @@
     "difficulty": "Medium",
     "base": "Whiskey",
     "flavour": ["Strong", "Smokey"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
       { "name": "Sugar syrup (JD)", "quantity": 10 },
