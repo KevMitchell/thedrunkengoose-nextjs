@@ -290,19 +290,17 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
         .add-to-saved {
           position: absolute;
           bottom: 0;
-          right: 0;
+          right: 30px;
           cursor: pointer;
-          padding: 5px 30px 5px 0;
+          padding: 5px 0 5px 0;
           vertical-align: middle;
         }
 
         .heart {
           display: inline-block;
-          right: 0;
-          top: 0;
-          width: 16px;
-          height: 16px;
-          padding-left: 14px;
+          width: 14px;
+          height: 14px;
+          padding-left: 12px;
           background: url('./img/heart.svg');
           background-repeat: no-repeat;
           background-size: contain;
