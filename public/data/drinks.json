@@ -187,21 +187,6 @@
     ]
   },
   {
-    "name": "Dragon's Breath",
-    "image": "DragonsBreath.jpg",
-    "difficulty": "Medium",
-    "base": "Whiskey",
-    "flavour": ["Strong", "Smokey"],
-    "longDescription": true,
-    "ingredients": [
-      { "name": "Whiskey (bourbon)", "quantity": 50 },
-      { "name": "Sugar syrup (JD)", "quantity": 10 },
-      { "name": "Cointreau", "quantity": 10 },
-      { "name": "St Germain", "quantity": 10 },
-      { "name": "Smoke machine" }
-    ]
-  },
-  {
     "name": "Dr Pepper",
     "image": "DrPepper.jpg",
     "difficulty": "Easy",
@@ -701,6 +686,21 @@
       { "name": "Sugar syrup", "quantity": 10},
       { "name": "Smoke machine" },
       { "name": "Sugar" }
+    ]
+  },
+  {
+    "name": "Steading's Welcome",
+    "image": "DragonsBreath.jpg",
+    "difficulty": "Medium",
+    "base": "Whiskey",
+    "flavour": ["Strong", "Smokey"],
+    "longDescription": true,
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 50 },
+      { "name": "Sugar syrup (JD)", "quantity": 10 },
+      { "name": "Cointreau", "quantity": 10 },
+      { "name": "St Germain", "quantity": 10 },
+      { "name": "Smoke machine" }
     ]
   },
   {

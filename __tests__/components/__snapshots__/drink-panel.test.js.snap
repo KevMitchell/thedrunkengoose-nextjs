@@ -102,12 +102,12 @@ exports[`renders the supplied drink 1`] = `
       <div
         class="jsx-4223513666 instruction-line"
       >
-        • inst1
+        1. inst1
       </div>
       <div
         class="jsx-4223513666 instruction-line"
       >
-        • inst2
+        2. inst2
       </div>
     </div>
   </div>

@@ -259,12 +259,12 @@ exports[`renders recipe section 1`] = `
       <div
         class="jsx-4223513666 instruction-line"
       >
-        • inst1
+        1. inst1
       </div>
       <div
         class="jsx-4223513666 instruction-line"
       >
-        • inst2
+        2. inst2
       </div>
     </div>
   </div>
@@ -365,12 +365,12 @@ exports[`renders recipe section 1`] = `
       <div
         class="jsx-4223513666 instruction-line"
       >
-        • inst3
+        1. inst3
       </div>
       <div
         class="jsx-4223513666 instruction-line"
       >
-        • inst4
+        2. inst4
       </div>
     </div>
   </div>

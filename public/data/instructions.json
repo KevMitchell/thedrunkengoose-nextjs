@@ -71,10 +71,10 @@
     "Top up with soda water"
   ],
   "Daiquiri": [
+    "Variations: The Daiquiri lends itself well to variations by adding fruit of your choice to the cocktail shaker and muddling it before shaking with ice. Be careful not to overdo it- the aim is to add a fruity flavour to the drink, not turn it into an alcoholic fruit juice.",
     "Put the ingredients into a shaker",
     "Shake with ice",
-    "Strain into a chilled martini glass",
-    "Variations: The Daiquiri lends itself well to variations by adding fruit of your choice to the cocktail shaker and muddling it before shaking with ice. Be careful not to overdo it- the aim is to add a fruity flavour to the drink, not turn it into an alcoholic fruit juice."
+    "Strain into a chilled martini glass"
   ],
   "Dark and Stormy": [
     "Pour ginger beer over ice",
@@ -83,14 +83,6 @@
     "Drop some bitters in there if ya wish",
     "Put a lime slice on it to make it look all posh like",
     "Let your face sink when the bastard stirs it all up and it doesn't look sexy anymore"
-  ],
-  "Dragon's Breath": [
-    "Fill a shaker with ingredients. Recommend sugar syrup first to help mix it in without leftovers",
-    "Shake with ice",
-    "Fill container with smoke",
-    "Strain cocktail into the smoke container",
-    "Swill around cocktail/smoke for around 20-30 seconds",
-    "Pour into chilled glass. Ice optional"
   ],
   "Dr Pepper": [
     "Build all ingredients except coke in a glass",
@@ -110,10 +102,10 @@
     "If you're trying to impress someone, put three coffee beans on top of the foam"
   ],
   "Frozen Daiquiri": [
+    "Variations: The Daiquiri lends itself well to variations by adding fruit (frozen or otherwise) of your choice to the cocktail shaker and muddling it before shaking with ice. Don't overdo it- add a fruity flavour to the drink, don't turn it into an alcoholic fruit juice. If you use frozen fruit it will become a thicker slush.",
     "Put the ingredients into a blender with ice",
     "Blend to desired consistency",
-    "Pour into a chilled martini glass",
-    "Variations: The Daiquiri lends itself well to variations by adding fruit (frozen or otherwise) of your choice to the cocktail shaker and muddling it before shaking with ice. Don't overdo it- add a fruity flavour to the drink, don't turn it into an alcoholic fruit juice. If you use frozen fruit it will become a thicker slush."
+    "Pour into a chilled martini glass"
   ],
   "French Connection": [
     "Build the ingredients into an Old Fashioned glass with ice",
@@ -333,6 +325,14 @@
     "Shake",
     "Smoke the cocktail",
     "Strain into the chilled glass"
+  ],
+  "Steading's Welcome": [
+    "Fill a shaker with ingredients. Recommend sugar syrup first to help mix it in without leftovers",
+    "Shake with ice",
+    "Fill container with smoke",
+    "Strain cocktail into the smoke container",
+    "Swill around cocktail/smoke for around 20-30 seconds",
+    "Pour into chilled glass. Ice optional"
   ],
   "Tahiti Jungle Juice": [
     "Put the liquer into a shaker with ice",

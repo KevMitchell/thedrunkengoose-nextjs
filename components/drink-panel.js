@@ -88,7 +88,7 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           <div
             key={`${name}-${index}`}
             className='instruction-line'>
-            {`• ${inst}`}
+            {`${index + 1}. ${inst}`}
           </div>
         )}
       </div>
