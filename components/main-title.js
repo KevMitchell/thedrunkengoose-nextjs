@@ -2,6 +2,7 @@ export function MainTitle () {
   return (
     <div className='container'>
       <div className='main-title' />
+      <div className='main-title__text'>The home of delicious cocktail recipes</div>
       <style jsx>{`
         .container {
           padding: 40px 0 0 30px;
@@ -15,10 +16,18 @@ export function MainTitle () {
           background-size: contain;
           background-repeat: no-repeat;
           background-position: center;
-          height: 100px;
-          max-height: 100px;
+          height: 90px;
+          max-height: 90px;
           padding-top: 10%;
           margin-bottom: 20px;
+        }
+
+        .main-title__text {
+          text-align: center;
+          color: #ba8e36;
+          font-size: 32px;
+          margin-top: 14px;
+          margin-bottom: 60px;
         }
 
         @media (max-width: 410px) {

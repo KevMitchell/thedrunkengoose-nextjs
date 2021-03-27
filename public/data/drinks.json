@@ -105,6 +105,7 @@
     "difficulty": "Medium",
     "base": "Whiskey",
     "flavour": ["Cherry", "Coke"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 60 },
       { "name": "Cherry brandy", "quantity": 30 },
@@ -119,6 +120,7 @@
     "difficulty": "Medium",
     "base": "Whiskey",
     "flavour": ["Strong", "Orange"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 50 },
       { "name": "Soda water", "quantity": 35 },
@@ -176,6 +178,7 @@
     "difficulty": "Easy",
     "base": "Rum",
     "flavour": ["Ginger"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Ginger beer", "quantity": 80 },
       { "name": "Rum (dark)", "quantity": 50 },
@@ -389,6 +392,7 @@
     "difficulty": "Easy",
     "base": "Rum",
     "flavour": ["Strong", "Orange"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Rum (white)", "quantity": 40 },
       { "name": "Rum (dark)", "quantity": 20 },
@@ -403,6 +407,7 @@
     "difficulty": "Easy",
     "base": "Whiskey",
     "flavour": ["Strong", "Orange"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Whiskey (bourbon)", "quantity": 60 },
       { "name": "Cointreau", "quantity": 30 },
@@ -468,6 +473,7 @@
     "difficulty": "Easy",
     "base": "Gin",
     "flavour": ["Strong", "Bitter"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Gin", "quantity": 40 },
       { "name": "Campari", "quantity": 30 },
@@ -509,6 +515,7 @@
     "difficulty": "Medium",
     "base": "Gin",
     "flavour": ["Strong", "Mint"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Rum (white)", "quantity": 40 },
       { "name": "Sloe gin", "quantity": 20 },
@@ -597,7 +604,7 @@
     "image": "RhubarbAndCustard.jpg",
     "difficulty": "Medium",
     "base": "Gin",
-    "flavour": ["Botanical"],
+    "flavour": ["Botanical", "Fruity"],
     "ingredients": [
       { "name": "Rhubarb and Ginger Gin", "quantity": 50 },
       { "name": "Rhubarb bitters", "quantity": 4, "dashes": true },
@@ -686,6 +693,7 @@
     "difficulty": "Medium",
     "base": "Cognac",
     "flavour": ["Strong", "Sweet", "Smokey"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Cognac", "quantity": 60 },
       { "name": "Cointreau", "quantity": 25 },
@@ -716,6 +724,7 @@
     "difficulty": "Easy",
     "base": "Whiskey",
     "flavour": ["Ginger"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Whiskey (tennessee)", "quantity": 50 },
       { "name": "Lime", "quantity": 20 },
@@ -759,6 +768,7 @@
     "difficulty": "Medium",
     "base": "Gin",
     "flavour": ["Strong", "Botanical"],
+    "longDescription": true,
     "ingredients": [
       { "name": "Gin", "quantity": 50 },
       { "name": "Rhubarb liqueuer", "quantity": 30 },

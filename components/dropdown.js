@@ -7,6 +7,7 @@ export function Dropdown ({ options, id, label, handleSelect }) {
         <select
           data-testid={id}
           aria-label={label}
+          onLoad={handleSelect}
           onChange={handleSelect}
         >
           {options.map(({ name, value, disabled = false }, index) => (
