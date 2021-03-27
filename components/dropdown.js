@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types'
 
-export function Dropdown ({ options, id, handleSelect }) {
+export function Dropdown ({ options, id, label, handleSelect }) {
   return (
     <>
       <div className='dropdown-container'>
         <select
           data-testid={id}
+          aria-label={label}
           onChange={handleSelect}
         >
           {options.map(({ name, value, disabled = false }, index) => (
@@ -84,5 +85,6 @@ export function Dropdown ({ options, id, handleSelect }) {
 Dropdown.propTypes = {
   options: PropTypes.array.isRequired,
   id: PropTypes.string,
+  label: PropTypes.string,
   handleSelect: PropTypes.func
 }

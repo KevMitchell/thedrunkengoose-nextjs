@@ -27,6 +27,7 @@ export function Search ({ updateOnLetterEntry }) {
           data-testid='search'
           type='text'
           title='search-input'
+          aria-label='Search field'
           value={fieldValue}
           onChange={onChange}
         />

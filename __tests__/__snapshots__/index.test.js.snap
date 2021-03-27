@@ -15,6 +15,7 @@ exports[`renders recipe section 1`] = `
           class="jsx-2581370727 search-icon"
         />
         <input
+          aria-label="Search field"
           class="jsx-2581370727 search-input"
           data-testid="search"
           title="search-input"
@@ -27,6 +28,7 @@ exports[`renders recipe section 1`] = `
       class="jsx-2854589536 dropdown-container"
     >
       <select
+        aria-label="Type filter"
         class="jsx-2854589536"
         data-testid="type-filter"
       >
@@ -58,6 +60,7 @@ exports[`renders recipe section 1`] = `
       class="jsx-2854589536 dropdown-container"
     >
       <select
+        aria-label="Difficulty filter"
         class="jsx-2854589536"
         data-testid="difficulty-filter"
       >
@@ -89,6 +92,7 @@ exports[`renders recipe section 1`] = `
       class="jsx-2854589536 dropdown-container"
     >
       <select
+        aria-label="Base filter"
         class="jsx-2854589536"
         data-testid="base-filter"
       >
@@ -120,6 +124,7 @@ exports[`renders recipe section 1`] = `
       class="jsx-2854589536 dropdown-container"
     >
       <select
+        aria-label="Flavour filter"
         class="jsx-2854589536"
         data-testid="flavour-filter"
       >

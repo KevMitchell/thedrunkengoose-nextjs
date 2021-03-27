@@ -19,6 +19,7 @@ export function Filters ({
       { name: 'Virgin', value: 'virgin' }
     ],
     id: 'type-filter',
+    label: 'Type filter',
     handleSelect: handleTypeChange
   }
 
@@ -32,6 +33,7 @@ export function Filters ({
       ...difficultyOptions
     ],
     id: 'difficulty-filter',
+    label: 'Difficulty filter',
     handleSelect: handleDifficultyChange
   }
 
@@ -46,6 +48,7 @@ export function Filters ({
       ...baseOptions
     ],
     id: 'base-filter',
+    label: 'Base filter',
     handleSelect: handleBaseChange
   }
 
@@ -61,6 +64,7 @@ export function Filters ({
       ...flavourOptions
     ],
     id: 'flavour-filter',
+    label: 'Flavour filter',
     handleSelect: handleFlavourChange
   }
 
