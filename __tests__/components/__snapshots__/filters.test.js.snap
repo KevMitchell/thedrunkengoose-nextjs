@@ -24,360 +24,360 @@ exports[`renders correct filters 1`] = `
       </div>
     </div>
     <div
-      class="jsx-1813624227 dropdown-container"
+      class="jsx-2854589536 dropdown-container"
     >
       <select
-        class="jsx-1813624227"
+        class="jsx-2854589536"
         data-testid="type-filter"
       >
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="all"
         >
           All types
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="alcoholic"
         >
           Alcoholic
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="virgin"
         >
           Virgin
         </option>
       </select>
       <span
-        class="jsx-1813624227 arrow"
+        class="jsx-2854589536 arrow"
         tabindex="0"
       />
     </div>
     <div
-      class="jsx-1813624227 dropdown-container"
+      class="jsx-2854589536 dropdown-container"
     >
       <select
-        class="jsx-1813624227"
+        class="jsx-2854589536"
         data-testid="difficulty-filter"
       >
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="all"
         >
           Any effort
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Easy"
         >
           Easy
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Medium"
         >
           Medium
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Hard"
         >
           Hard
         </option>
       </select>
       <span
-        class="jsx-1813624227 arrow"
+        class="jsx-2854589536 arrow"
         tabindex="0"
       />
     </div>
     <div
-      class="jsx-1813624227 dropdown-container"
+      class="jsx-2854589536 dropdown-container"
     >
       <select
-        class="jsx-1813624227"
+        class="jsx-2854589536"
         data-testid="base-filter"
       >
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="all"
         >
           All bases
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Baileys"
         >
           Baileys
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Brandy"
         >
           Brandy
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Cherry brandy"
         >
           Cherry brandy
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Coconut liqueur"
         >
           Coconut liqueur
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Cognac"
         >
           Cognac
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Creme de menthe"
         >
           Creme de menthe
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Elderflower"
         >
           Elderflower
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Galliano"
         >
           Galliano
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Gin"
         >
           Gin
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Ginger beer"
         >
           Ginger beer
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Iced tea"
         >
           Iced tea
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Midori"
         >
           Midori
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Rum"
         >
           Rum
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Tea"
         >
           Tea
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Tequila"
         >
           Tequila
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Vodka"
         >
           Vodka
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Whiskey"
         >
           Whiskey
         </option>
       </select>
       <span
-        class="jsx-1813624227 arrow"
+        class="jsx-2854589536 arrow"
         tabindex="0"
       />
     </div>
     <div
-      class="jsx-1813624227 dropdown-container"
+      class="jsx-2854589536 dropdown-container"
     >
       <select
-        class="jsx-1813624227"
+        class="jsx-2854589536"
         data-testid="flavour-filter"
       >
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="all"
         >
           All flavour
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Aniseed"
         >
           Aniseed
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Apple"
         >
           Apple
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Bitter"
         >
           Bitter
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Botanical"
         >
           Botanical
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Cherry"
         >
           Cherry
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Citrus"
         >
           Citrus
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Coconut"
         >
           Coconut
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Coffee"
         >
           Coffee
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Coke"
         >
           Coke
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Creamy"
         >
           Creamy
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Frozen"
         >
           Frozen
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Fruity"
         >
           Fruity
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Ginger"
         >
           Ginger
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Ice cream"
         >
           Ice cream
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Menthe"
         >
           Menthe
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Mint"
         >
           Mint
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Orange"
         >
           Orange
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Refreshing"
         >
           Refreshing
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Smokey"
         >
           Smokey
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Sour"
         >
           Sour
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Strawberry"
         >
           Strawberry
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Strong"
         >
           Strong
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Sweet"
         >
           Sweet
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Tea"
         >
           Tea
         </option>
         <option
-          class="jsx-1813624227"
+          class="jsx-2854589536"
           value="Tropical"
         >
           Tropical
         </option>
       </select>
       <span
-        class="jsx-1813624227 arrow"
+        class="jsx-2854589536 arrow"
         tabindex="0"
       />
     </div>

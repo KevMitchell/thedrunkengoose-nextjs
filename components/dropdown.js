@@ -41,8 +41,9 @@ export function Dropdown ({ options, id, handleSelect }) {
           padding: 5px;
         }
         
-        .option {
+        option {
           display: block;
+          color: black;
         }
         
         .arrow {
