@@ -10,6 +10,8 @@ export default function App ({ Component, pageProps = {} }) {
   return (
     <>
       <div className='background'></div>
+      <div className='background-left'></div>
+      <div className='background-right'></div>
       <Head>
         <title>The Drunken Goose</title>
         <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'></link>
@@ -46,7 +48,35 @@ export default function App ({ Component, pageProps = {} }) {
           position: fixed;
           width: 100%;
           height: 100%;
+          z-index: -4;
+          background: url('/img/goose-background.jpg');
+        }
+
+        .background-left {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
           z-index: -3;
+          background: url('/img/background-left.png');
+          background-position: fixed;
+          background-repeat: no-repeat;
+          background-size: 50% auto;
+        }
+
+        .background-right {
+          position: fixed;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -3;
+          background: url('/img/background-right.png');
+          background-position: fixed;
+          background-repeat: no-repeat;
+          background-size: 40% auto;
+          background-position: right top;
         }
 
         @media (max-height: 768px) {
@@ -55,17 +85,34 @@ export default function App ({ Component, pageProps = {} }) {
             left: 0; 
             min-width: 100%;
             min-height: 100%;
-            background: url('/img/goose-background.jpg');
+            background-attachment: local;
+          }
+
+          .background-left {
+            top: 0; 
+            left: 0; 
+            background-attachment: local;
+          }
+
+          .background-right {
+            top: 0; 
+            left: 0; 
             background-attachment: local;
           }
         }
 
         @media (min-height: 769px) {
-          background: url('/img/goose-background.jpg');
-          background-repeat: no-repeat;
-          background-position: 0, 0;
-          background-attachment: fixed;
-          background-size: cover;
+          .background {
+            background-repeat: no-repeat;
+            background-position: 0, 0;
+            background-attachment: fixed;
+            background-size: cover;
+          }
+
+          .background-left, .background-right {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+          }
         }
 
         @media (max-width: 410px) {
