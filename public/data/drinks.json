@@ -270,7 +270,7 @@
     "base": "Whiskey",
     "flavour": ["Strong"],
     "ingredients": [
-      { "name": "Whiskey (bourbon)", "quantity": 50 },
+      { "name": "Whiskey (bourbon)", "quantity": 25 },
       { "name": "Almond liqueur", "quantity": 25 }
     ]
   },
