@@ -331,6 +331,18 @@
     ]
   },
   {
+    "name": "Japanese Slipper",
+    "image": "JapaneseSlipper.jpg",
+    "difficulty": "Easy",
+    "base": "Midori",
+    "flavour": ["Melon", "Fruity"],
+    "ingredients": [
+      { "name": "Midori", "quantity": 30 },
+      { "name": "Cointreau", "quantity": 30 },
+      { "name": "Lemon juice", "quantity": 30 }
+    ]
+  },
+  {
     "name": "Kentucky mule",
     "image": "Mule.jpg",
     "difficulty": "Easy",

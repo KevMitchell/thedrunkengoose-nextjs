@@ -316,6 +316,12 @@ exports[`renders correct filters 1`] = `
         </option>
         <option
           class="jsx-2854589536"
+          value="Melon"
+        >
+          Melon
+        </option>
+        <option
+          class="jsx-2854589536"
           value="Menthe"
         >
           Menthe
