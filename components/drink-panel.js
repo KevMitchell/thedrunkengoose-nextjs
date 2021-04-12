@@ -380,10 +380,6 @@ export function DrinkPanel ({ name, image, difficulty, base, flavour, ingredient
           transition: opacity 0.5s ease-out;
           transition-delay: 300ms;
         }
-        
-        .instruction-line {
-          display: list-item;
-        }
 
         @media (max-width: 410px) {
           .drink-panel {
