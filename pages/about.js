@@ -3,23 +3,22 @@ export default function About () {
     <>
       <div className='text'>
         <div>The Drunken Goose is a cocktail bar serving the very best in drinks and company.</div>
-        <div>We can be found in LARP events around the UK; all are welcome to come sit by the fire, drink, eat, gossip, and sing.</div>
-        <div>Private tables are available on request.</div>
+        <div>We can be found serving beside the campfires in campsites and gardens around the UK.</div>
       </div>
       <img
-        src='./img/crew1.jpg'
+        src='./img/goose1.jpg'
         alt='Drunken Goose Crew'
       />
       <img
-        src='./img/goose1.jpg'
+        src='./img/goose2.jpg'
         alt='Drunken Goose'
       />
-      <div className='text'>
-        <div><a href='https://www.profounddecisions.co.uk/empire' alt='Profound Decisions: Empire'>Profound Decisions: Empire</a></div>
-        <div>The staff of The Drunken Goose are part of the Nation of Navarr at Empire events. The Goose can be found in the Navarr woods at the intersection between the main camp path and Murder Alley leading to the Wintermark camp.</div>
-      </div>
       <img
-        src='./img/goose2.jpg'
+        src='./img/goose3.jpg'
+        alt='Drunken Goose'
+      />
+      <img
+        src='./img/goose4.jpg'
         alt='Drunken Goose'
       />
       <div className='text last'>

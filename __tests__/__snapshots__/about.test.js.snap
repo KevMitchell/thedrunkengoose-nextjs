@@ -13,48 +13,28 @@ exports[`renders about section 1`] = `
     <div
       class="jsx-487659404"
     >
-      We can be found in LARP events around the UK; all are welcome to come sit by the fire, drink, eat, gossip, and sing.
-    </div>
-    <div
-      class="jsx-487659404"
-    >
-      Private tables are available on request.
+      We can be found serving beside the campfires in campsites and gardens around the UK.
     </div>
   </div>
   <img
     alt="Drunken Goose Crew"
     class="jsx-487659404"
-    src="./img/crew1.jpg"
-  />
-  <img
-    alt="Drunken Goose"
-    class="jsx-487659404"
     src="./img/goose1.jpg"
   />
-  <div
-    class="jsx-487659404 text"
-  >
-    <div
-      class="jsx-487659404"
-    >
-      <a
-        alt="Profound Decisions: Empire"
-        class="jsx-487659404"
-        href="https://www.profounddecisions.co.uk/empire"
-      >
-        Profound Decisions: Empire
-      </a>
-    </div>
-    <div
-      class="jsx-487659404"
-    >
-      The staff of The Drunken Goose are part of the Nation of Navarr at Empire events. The Goose can be found in the Navarr woods at the intersection between the main camp path and Murder Alley leading to the Wintermark camp.
-    </div>
-  </div>
   <img
     alt="Drunken Goose"
     class="jsx-487659404"
     src="./img/goose2.jpg"
+  />
+  <img
+    alt="Drunken Goose"
+    class="jsx-487659404"
+    src="./img/goose3.jpg"
+  />
+  <img
+    alt="Drunken Goose"
+    class="jsx-487659404"
+    src="./img/goose4.jpg"
   />
   <div
     class="jsx-487659404 text last"
