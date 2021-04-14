@@ -30,7 +30,7 @@ test('tabMenu renders', async () => {
 test('tabMenu changes the selection when clicked', async () => {
   const { getByText } = render(<TabMenu />)
 
-  const selection1 = getByText(/About us/)
+  const selection1 = getByText(/Saved/)
   await wait(() => {
     selection1.click()
     expect(selection1.className).toContain('selected')

@@ -29,9 +29,6 @@ export function TabMenu () {
       <Link href={'/saved'}>
         <a className={selection === 1 ? 'selected' : ''} onClick={() => changeSelection(1)}>Saved</a>
       </Link>
-      <Link href={'/about'}>
-        <a className={selection === 2 ? 'selected' : ''} onClick={() => changeSelection(2)}>About us</a>
-      </Link>
       <style jsx>{`
         .container {
           width: 85%;

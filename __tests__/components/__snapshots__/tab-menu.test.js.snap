@@ -17,12 +17,6 @@ exports[`tabMenu renders 1`] = `
     >
       Saved
     </a>
-    <a
-      class="jsx-3855969921 "
-      href="/about"
-    >
-      About us
-    </a>
   </div>
 </div>
 `;
