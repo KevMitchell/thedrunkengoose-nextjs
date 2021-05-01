@@ -122,6 +122,12 @@ exports[`renders correct filters 1`] = `
         </option>
         <option
           class="jsx-2854589536"
+          value="Chambord"
+        >
+          Chambord
+        </option>
+        <option
+          class="jsx-2854589536"
           value="Cherry brandy"
         >
           Cherry brandy

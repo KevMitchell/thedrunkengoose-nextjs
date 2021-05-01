@@ -187,6 +187,21 @@
     ]
   },
   {
+    "name": "Dragon's Breath",
+    "image": "DragonsBreath.jpg",
+    "difficulty": "Medium",
+    "base": "Whiskey",
+    "flavour": ["Strong", "Smokey"],
+    "longDescription": true,
+    "ingredients": [
+      { "name": "Whiskey (bourbon)", "quantity": 50 },
+      { "name": "Sugar syrup (JD)", "quantity": 10 },
+      { "name": "Cointreau", "quantity": 10 },
+      { "name": "St Germain", "quantity": 10 },
+      { "name": "Smoke machine" }
+    ]
+  },
+  {
     "name": "Dr Pepper",
     "image": "DrPepper.jpg",
     "difficulty": "Easy",
@@ -440,6 +455,20 @@
     ]
   },
   {
+    "name": "Monkey Brew",
+    "image": "MonkeyBrew.jpg",
+    "difficulty": "Medium",
+    "base": "Rum",
+    "flavour": ["Tropical"],
+    "ingredients": [
+      { "name": "Rum (white)", "quantity": 20 },
+      { "name": "Malibu", "quantity": 20 },
+      { "name": "Pineapple juice", "quantity": 45 },
+      { "name": "Frozen bananas", "quantity": 10 },
+      { "name": "Lager", "quantity": 40 }
+    ]
+  },
+  {
     "name": "Moscow mule",
     "image": "Mule.jpg",
     "difficulty": "Easy",
@@ -519,6 +548,18 @@
       { "name": "Lemon juice", "quantity": 20 },
       { "name": "Sugar syrup", "quantity": 5 },
       { "name": "Mint leaves" }
+    ]
+  },
+  {
+    "name": "Nuts and Berries",
+    "image": "NutsAndBerries.jpg",
+    "difficulty": "Easy",
+    "base": "Chambord",
+    "flavour": ["Strawberry", "Cherry"],
+    "ingredients": [
+      { "name": "Chambord", "quantity": 20 },
+      { "name": "Amaretto liqueuer", "quantity": 20 },
+      { "name": "Milk/cream", "quantity": 30 }
     ]
   },
   {
@@ -701,18 +742,19 @@
     ]
   },
   {
-    "name": "Steading's Welcome",
-    "image": "DragonsBreath.jpg",
-    "difficulty": "Medium",
-    "base": "Whiskey",
-    "flavour": ["Strong", "Smokey"],
+    "name": "Sweet Citrus",
+    "image": "SweetCitrus.jpg",
+    "difficulty": "Hard",
+    "base": "Vodka",
+    "flavour": ["Sweet", "Citrus"],
     "longDescription": true,
     "ingredients": [
-      { "name": "Whiskey (bourbon)", "quantity": 50 },
-      { "name": "Sugar syrup (JD)", "quantity": 10 },
-      { "name": "Cointreau", "quantity": 10 },
-      { "name": "St Germain", "quantity": 10 },
-      { "name": "Smoke machine" }
+      { "name": "Vodka", "quantity": 30 },
+      { "name": "Sake", "quantity": 20 },
+      { "name": "Lemon juice", "quantity": 10 },
+      { "name": "Yuzu syrup", "quantity": 20},
+      { "name": "Elderflower liqueur", "quantity": 25 },
+      { "name": "Ginger beer" }
     ]
   },
   {

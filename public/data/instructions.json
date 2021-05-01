@@ -84,6 +84,14 @@
     "Put a lime slice on it to make it look all posh like",
     "Let your face sink when the bastard stirs it all up and it doesn't look sexy anymore"
   ],
+  "Dragon's Breath": [
+    "Fill a shaker with ingredients. Recommend sugar syrup first to help mix it in without leftovers",
+    "Shake with ice",
+    "Fill container with smoke",
+    "Strain cocktail into the smoke container",
+    "Swill around cocktail/smoke for around 20-30 seconds",
+    "Pour into chilled glass. Ice optional"
+  ],
   "Dr Pepper": [
     "Build all ingredients except coke in a glass",
     "Add ice",
@@ -211,6 +219,11 @@
     "Strain into the glass",
     "Garnish with cherry"
   ],
+  "Monkey Brew": [
+    "Blend the rum and malibu with ice and a handful of frozen bananas",
+    "Pour into a glass",
+    "Add the beer to taste and stir"
+  ],
   "Moscow mule": [
     "Put the liquer in a highball glass with ice",
     "Pour in the ginger beer",
@@ -246,6 +259,11 @@
     "Shake well and strain into a glass",
     "Strain out into a martini glass",
     "Garnish with a mint sprig to serve"
+  ],
+  "Nuts and Berries": [
+    "Build the chambord and amaretto in a glass",
+    "Add the milk (or cream if you're not watching your weight)",
+    "Stir and add ice"
   ],
   "Old Fashioned": [
     "Add sugar syrup, soda water, and bitters to an Old Fashioned glass",
@@ -332,13 +350,13 @@
     "Smoke the cocktail with hickory chips",
     "Strain into the chilled glass"
   ],
-  "Steading's Welcome": [
-    "Fill a shaker with ingredients. Recommend sugar syrup first to help mix it in without leftovers",
-    "Shake with ice",
-    "Fill container with smoke",
-    "Strain cocktail into the smoke container",
-    "Swill around cocktail/smoke for around 20-30 seconds",
-    "Pour into chilled glass. Ice optional"
+  "Sweet Citrus": [
+    "Put a tumbler in the freezer to chill",
+    "Combine all ingredients except the ginger beer in a cocktail glass with ice",
+    "Shake",
+    "Strain into the chilled tumber",
+    "Top with ginger beer. Don't use too much, it is a top not a mixer",
+    "Garnish with a lemon slice"
   ],
   "Tahiti Jungle Juice": [
     "Put the liquer into a shaker with ice",
